@@ -1,0 +1,96 @@
+[ERROR 2020-05-18 15:40:34]This is error
+[ERROR 2020-05-18 15:41:15]This is error
+[ERROR 2020-05-19 16:40:18]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-19 16:50:30]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-19 16:54:17]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-20 15:28:29]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-21 10:49:13]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-21 11:10:00]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-21 17:30:26]获取参数失败
+[ERROR 2020-05-25 16:06:52]获取参数失败
+[ERROR 2020-05-25 16:06:58]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-25 16:11:38]获取参数失败
+[ERROR 2020-05-25 16:11:41]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-25 16:29:25]获取参数失败
+[ERROR 2020-05-25 16:29:27]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-25 17:17:12]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-25 17:20:07]获取参数失败
+[ERROR 2020-05-25 17:20:09]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-25 17:29:11]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-25 17:34:33]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-27 10:03:29]获取参数失败
+[ERROR 2020-05-27 10:03:38]获取参数失败
+[ERROR 2020-05-27 10:03:39]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-27 10:35:19]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-27 10:40:55]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-27 11:24:53]Response body msg != expected_msg, expected_msg is 继续操作前请注册或者登录., body_msg is code:0
+[ERROR 2020-05-27 11:25:05]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-27 11:40:07]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-27 11:41:54]Response body Does not contain expected_msg, expected_msg is code:0
+[ERROR 2020-05-27 11:41:55]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-27 13:58:56]Response body Does not contain expected_msg, expected_msg is code:0
+[ERROR 2020-05-27 13:58:58]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-27 14:04:32]Response body Does not contain expected_msg, expected_msg is code': 0
+[ERROR 2020-05-27 14:08:34]Response body Does not contain expected_msg, expected_msg is code': 0
+[ERROR 2020-05-27 14:09:00]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-27 14:13:09]Response time > expected_time, expected_time is 100, time is 223.698
+[ERROR 2020-05-27 14:13:10]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-27 14:19:59]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-27 14:30:31]邮件发送失败，请检查邮件配置
+[ERROR 2020-05-27 14:43:21]This is error
+[ERROR 2020-06-03 15:19:27]Response body Does not contain expected_msg, expected_msg is code":1
+[ERROR 2020-06-03 15:25:57]Response body Does not contain expected_msg, expected_msg is code":0
+[ERROR 2020-06-03 15:25:57]Response body Does not contain expected_msg, expected_msg is code":0
+[ERROR 2020-06-03 15:25:58]Response body Does not contain expected_msg, expected_msg is code":0
+[ERROR 2020-06-03 15:25:58]Response body Does not contain expected_msg, expected_msg is code":0
+[ERROR 2020-06-03 15:27:47]Response body Does not contain expected_msg, expected_msg is code":0
+[ERROR 2020-06-03 15:27:47]Response body Does not contain expected_msg, expected_msg is code":0
+[ERROR 2020-06-03 15:27:47]Response body Does not contain expected_msg, expected_msg is code":0
+[ERROR 2020-06-03 15:27:47]Response body Does not contain expected_msg, expected_msg is code":0
+[ERROR 2020-06-03 15:30:07]Response body Does not contain expected_msg, expected_msg is code":917
+[ERROR 2020-06-03 15:34:09]Response body Does not contain expected_msg, expected_msg is code":0
+[ERROR 2020-06-10 18:06:40]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:06:40]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:06:40]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:06:41]Response body Does not contain expected_msg, expected_msg is 登录成功
+[ERROR 2020-06-10 18:11:27]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:11:27]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:11:27]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:11:28]Response body Does not contain expected_msg, expected_msg is 登录成功
+[ERROR 2020-06-10 18:14:35]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-06-10 18:14:36]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-06-10 18:14:36]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:14:36]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:14:37]Response body Does not contain expected_msg, expected_msg is 登录成功
+[ERROR 2020-06-10 18:38:28]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-06-10 18:41:23]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:41:23]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:41:24]Response body Does not contain expected_msg, expected_msg is 登录成功
+[ERROR 2020-06-10 19:12:25]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 19:14:44]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 19:14:45]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 20:57:50]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 20:57:50]Response body Does not contain expected_msg, expected_msg is 登录成功
+[ERROR 2020-06-10 20:58:37]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 21:01:54]Response body Does not contain expected_msg, expected_msg is 登录成功
+[ERROR 2020-06-10 21:09:40]Response body Does not contain expected_msg, expected_msg is 系统异常
+[ERROR 2020-06-10 21:09:41]Response body Does not contain expected_msg, expected_msg is 验证码不正确
+[ERROR 2020-06-10 21:09:48]Response body Does not contain expected_msg, expected_msg is 登录成功
+[ERROR 2020-06-10 21:10:40]Response body Does not contain expected_msg, expected_msg is 系统异常
+[ERROR 2020-06-10 21:10:40]Response body Does not contain expected_msg, expected_msg is 验证码不正确
+[ERROR 2020-06-10 21:10:41]Response body Does not contain expected_msg, expected_msg is 登录成功
+[ERROR 2020-06-10 21:12:51]Response body Does not contain expected_msg, expected_msg is 系统异常
+[ERROR 2020-06-10 21:16:45]Response body Does not contain expected_msg, expected_msg is 登录成功
+[ERROR 2020-06-11 09:53:16]This is error
+[ERROR 2020-06-11 10:05:52]Response body Does not contain expected_msg, expected_msg is accessToken':
+[ERROR 2020-06-11 11:02:26]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-06-11 11:02:26]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-06-11 16:29:21]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-06-11 16:35:47]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-06-11 16:35:48]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-06-11 16:35:48]Response body Does not contain expected_msg, expected_msg is 验证码不正确
+[ERROR 2020-06-11 16:35:49]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-06-11 16:38:51]Response body Does not contain expected_msg, expected_msg is 验证码不正确
+[ERROR 2020-06-11 17:39:12]Response time > expected_time, expected_time is 800, time is 904.18
+[ERROR 2020-06-15 14:01:45]执行用例失败，请检查环境配置
+[ERROR 2020-06-15 14:05:17]执行用例失败，请检查环境配置

@@ -1,0 +1,121 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Log",
+    "children" : [ {
+      "name" : "Get_Verifycode",
+      "children" : [ {
+        "name" : "test_login_01_get_verifycode[case0]",
+        "uid" : "b036d41f9dca9d2a",
+        "parentUid" : "07a0e2d5efeee3689ca17ea8faaf9295",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592210246434,
+          "stop" : 1592210246647,
+          "duration" : 213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'ID': '0001', 'envir': 'ysy_test', 'feature': 'Log', 'severity': 'critical', 'story': 'get_verifycode', 'module': 'login_01_get_verifycode', 'case_description': '获取验证码时无手机号', 'case_url': '/api/v1/verifycode/getVerifyCode?', 'case_method': 'get', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '请求参数错误', 'Comment': ''}" ]
+      }, {
+        "name" : "test_login_01_get_verifycode[case1]",
+        "uid" : "935c2ecda0ecd833",
+        "parentUid" : "07a0e2d5efeee3689ca17ea8faaf9295",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592210246651,
+          "stop" : 1592210247839,
+          "duration" : 1188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'ID': '0002', 'envir': 'ysy_test', 'feature': 'Log', 'severity': 'critical', 'story': 'get_verifycode', 'module': 'login_01_get_verifycode', 'case_description': '获取验证码时手机号为空', 'case_url': '/api/v1/verifycode/getVerifyCode?mobile=', 'case_method': 'get', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '手机号不能为空', 'Comment': ''}" ]
+      }, {
+        "name" : "test_login_01_get_verifycode[case2]",
+        "uid" : "6f6d8a8484add38",
+        "parentUid" : "07a0e2d5efeee3689ca17ea8faaf9295",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592210247844,
+          "stop" : 1592210248253,
+          "duration" : 409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'ID': '0003', 'envir': 'ysy_test', 'feature': 'Log', 'severity': 'blocker', 'story': 'get_verifycode', 'module': 'login_01_get_verifycode', 'case_description': '正常获取验证码', 'case_url': '/api/v1/verifycode/getVerifyCode?mobile=c::tester_debug', 'case_method': 'get', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': 'data/verifyCode', 'case_preset': '', 'case_params': '', 'case_expect': 'code\": 0', 'Comment': ''}" ]
+      }, {
+        "name" : "test_login_01_get_verifycode[case3]",
+        "uid" : "80e0a33f3bdd3b2c",
+        "parentUid" : "07a0e2d5efeee3689ca17ea8faaf9295",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592210248257,
+          "stop" : 1592210248474,
+          "duration" : 217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'ID': '0004', 'envir': 'ysy_test', 'feature': 'Log', 'severity': 'minor', 'story': 'get_verifycode', 'module': 'login_01_get_verifycode', 'case_description': '正常获取验证码-一分钟内重复获取验证码', 'case_url': '/api/v1/verifycode/getVerifyCode?mobile=c::tester_debug', 'case_method': 'get', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '验证码一分钟内不能重复获取', 'Comment': ''}" ]
+      } ],
+      "uid" : "07a0e2d5efeee3689ca17ea8faaf9295"
+    }, {
+      "name" : "Log in",
+      "children" : [ {
+        "name" : "test_login_02_log_in[case0]",
+        "uid" : "cfc949c70282dde1",
+        "parentUid" : "68dd72bfcff237fba1216cdd8cf5ce12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592210248478,
+          "stop" : 1592210248664,
+          "duration" : 186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'ID': '0005', 'envir': 'ysy_test', 'feature': 'Log', 'severity': 'minor', 'story': 'log_in', 'module': 'login_02_log_in', 'case_description': '登陆--无手机号', 'case_url': '/api/v1/user/login', 'case_method': 'post', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"verifyCode\":\"j::verifyCode\"}', 'case_expect': '手机号不能为空', 'Comment': ''}" ]
+      }, {
+        "name" : "test_login_02_log_in[case1]",
+        "uid" : "c3fc58743364d192",
+        "parentUid" : "68dd72bfcff237fba1216cdd8cf5ce12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592210248669,
+          "stop" : 1592210248859,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'ID': '0006', 'envir': 'ysy_test', 'feature': 'Log', 'severity': 'minor', 'story': 'log_in', 'module': 'login_02_log_in', 'case_description': '登陆--无验证码', 'case_url': '/api/v1/user/login', 'case_method': 'post', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"mobile\":\"c::tester_debug\"}', 'case_expect': '验证码不能为空', 'Comment': ''}" ]
+      }, {
+        "name" : "test_login_02_log_in[case2]",
+        "uid" : "beecb6002fae974",
+        "parentUid" : "68dd72bfcff237fba1216cdd8cf5ce12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592210248864,
+          "stop" : 1592210249074,
+          "duration" : 210
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'ID': '0007', 'envir': 'ysy_test', 'feature': 'Log', 'severity': 'critical', 'story': 'log_in', 'module': 'login_02_log_in', 'case_description': '登陆--过期验证码', 'case_url': '/api/v1/user/login', 'case_method': 'post', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"mobile\":\"c::tester_debug\",\"verifyCode\":\"1111\"}', 'case_expect': '验证码不正确', 'Comment': ''}" ]
+      }, {
+        "name" : "test_login_02_log_in[case3]",
+        "uid" : "51ba2b27371f98a3",
+        "parentUid" : "68dd72bfcff237fba1216cdd8cf5ce12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592210249078,
+          "stop" : 1592210251218,
+          "duration" : 2140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'ID': '0008', 'envir': 'ysy_test', 'feature': 'Log', 'severity': 'blocker', 'story': 'log_in', 'module': 'login_02_log_in', 'case_description': '登陆--正确验证码', 'case_url': '/api/v1/user/login', 'case_method': 'post', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': \"verifyCode$$SELECT IFNULL(vc.verify_code,'Get code error') FROM verify_code vc WHERE vc.mobile={0} ORDER BY vc.create_time DESC LIMIT 1format(c::tester_debug)\", 'case_params': '{\"mobile\":\"c::tester_debug\",\"verifyCode\":\"j::verifyCode\"}', 'case_expect': 'accessToken', 'Comment': ''}" ]
+      } ],
+      "uid" : "68dd72bfcff237fba1216cdd8cf5ce12"
+    } ],
+    "uid" : "e4dfe5e7713ec1a2e0cc00b505b1e46d"
+  } ]
+}

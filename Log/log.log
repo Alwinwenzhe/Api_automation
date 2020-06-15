@@ -1,0 +1,681 @@
+[DEBUG 2020-05-18 15:40:34]This is debug message
+[INFO 2020-05-18 15:40:34]This is info message
+[WARNING 2020-05-18 15:40:34]This is warning message
+[ERROR 2020-05-18 15:40:34]This is error
+[CRITICAL 2020-05-18 15:40:34]This is critical message
+[DEBUG 2020-05-18 15:41:15]This is debug message
+[INFO 2020-05-18 15:41:15]This is info message
+[WARNING 2020-05-18 15:41:15]This is warning message
+[ERROR 2020-05-18 15:41:15]This is error
+[CRITICAL 2020-05-18 15:41:15]This is critical message
+[INFO 2020-05-19 16:40:04]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-19 16:40:07]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-19 16:40:07]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-19 16:40:07]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-19 16:40:18]邮件发送失败，请检查邮件配置
+[INFO 2020-05-19 16:50:27]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-19 16:50:28]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-19 16:50:28]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-19 16:50:28]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-19 16:50:30]邮件发送失败，请检查邮件配置
+[INFO 2020-05-19 16:54:14]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-19 16:54:15]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-19 16:54:15]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-19 16:54:15]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-19 16:54:17]邮件发送失败，请检查邮件配置
+[INFO 2020-05-20 15:28:17]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-20 15:28:18]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-20 15:28:18]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-20 15:28:18]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-20 15:28:29]邮件发送失败，请检查邮件配置
+[INFO 2020-05-21 10:49:02]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-21 10:49:07]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-21 10:49:07]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-21 10:49:07]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-21 10:49:13]邮件发送失败，请检查邮件配置
+[INFO 2020-05-21 11:09:55]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-21 11:09:56]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-21 11:09:56]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-21 11:09:56]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-21 11:10:00]邮件发送失败，请检查邮件配置
+[DEBUG 2020-05-21 15:50:35]cookies: {}
+[ERROR 2020-05-21 17:30:26]获取参数失败
+[INFO 2020-05-25 16:06:47]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-25 16:06:50]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-25 16:06:50]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-25 16:06:50]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-25 16:06:52]获取参数失败
+[ERROR 2020-05-25 16:06:58]邮件发送失败，请检查邮件配置
+[INFO 2020-05-25 16:11:16]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-25 16:11:17]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-25 16:11:17]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-25 16:11:17]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-25 16:11:38]获取参数失败
+[ERROR 2020-05-25 16:11:41]邮件发送失败，请检查邮件配置
+[INFO 2020-05-25 16:11:59]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-25 16:12:00]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-25 16:12:00]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-25 16:12:00]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-25 16:12:57]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-25 16:12:58]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-25 16:12:58]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-25 16:12:58]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-25 16:15:02]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-25 16:15:03]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-25 16:15:03]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-25 16:15:03]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-25 16:28:46]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-25 16:28:47]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-25 16:28:47]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-25 16:28:47]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-25 16:29:20]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-25 16:29:21]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-25 16:29:21]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-25 16:29:21]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-25 16:29:25]获取参数失败
+[ERROR 2020-05-25 16:29:27]邮件发送失败，请检查邮件配置
+[INFO 2020-05-25 16:29:43]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-25 16:29:44]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-25 16:29:44]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-25 16:29:44]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-25 16:34:04]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-25 16:34:05]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-25 16:34:05]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-25 16:34:05]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-25 17:16:55]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-25 17:16:56]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-25 17:16:56]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-25 17:16:56]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-25 17:17:12]邮件发送失败，请检查邮件配置
+[INFO 2020-05-25 17:19:06]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-25 17:19:07]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-25 17:19:07]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-25 17:19:07]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-25 17:20:05]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-25 17:20:06]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-25 17:20:06]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-25 17:20:06]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-25 17:20:07]获取参数失败
+[ERROR 2020-05-25 17:20:09]邮件发送失败，请检查邮件配置
+[INFO 2020-05-25 17:20:21]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-25 17:20:22]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-25 17:20:22]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-25 17:20:22]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-25 17:29:11]邮件发送失败，请检查邮件配置
+[INFO 2020-05-25 17:29:31]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-25 17:29:32]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-25 17:29:32]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-25 17:29:32]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-25 17:30:57]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-25 17:30:58]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-25 17:30:58]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-25 17:30:58]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-25 17:32:08]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-25 17:32:09]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-25 17:32:09]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-25 17:32:09]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-25 17:33:09]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-25 17:33:10]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-25 17:33:10]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-25 17:33:10]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-25 17:34:33]邮件发送失败，请检查邮件配置
+[INFO 2020-05-27 09:54:08]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 09:54:12]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 09:54:12]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 09:54:12]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-27 09:55:17]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 09:55:18]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 09:55:18]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 09:55:18]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-27 10:01:10]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 10:01:11]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 10:01:11]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 10:01:11]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-27 10:02:44]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 10:02:45]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 10:02:45]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 10:02:45]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-27 10:03:28]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 10:03:29]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 10:03:29]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 10:03:29]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-27 10:03:29]获取参数失败
+[INFO 2020-05-27 10:03:36]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 10:03:37]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 10:03:37]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 10:03:37]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-27 10:03:38]获取参数失败
+[ERROR 2020-05-27 10:03:39]邮件发送失败，请检查邮件配置
+[INFO 2020-05-27 10:32:13]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 10:32:14]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 10:32:14]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 10:32:14]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-27 10:35:15]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 10:35:16]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 10:35:16]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 10:35:16]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-27 10:35:19]邮件发送失败，请检查邮件配置
+[INFO 2020-05-27 10:40:53]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 10:40:54]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 10:40:54]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 10:40:54]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-27 10:40:55]邮件发送失败，请检查邮件配置
+[INFO 2020-05-27 10:41:32]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 10:41:33]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 10:41:33]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 10:41:33]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-27 11:19:28]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 11:19:29]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 11:19:29]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 11:19:29]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-27 11:24:53]Response body msg != expected_msg, expected_msg is 继续操作前请注册或者登录., body_msg is code:0
+[ERROR 2020-05-27 11:25:05]邮件发送失败，请检查邮件配置
+[INFO 2020-05-27 11:40:05]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 11:40:05]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 11:40:06]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 11:40:06]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-27 11:40:07]邮件发送失败，请检查邮件配置
+[INFO 2020-05-27 11:41:52]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 11:41:53]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 11:41:53]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 11:41:53]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-27 11:41:54]Response body Does not contain expected_msg, expected_msg is code:0
+[ERROR 2020-05-27 11:41:55]邮件发送失败，请检查邮件配置
+[INFO 2020-05-27 13:58:55]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 13:58:55]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 13:58:55]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 13:58:55]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-27 13:58:56]Response body Does not contain expected_msg, expected_msg is code:0
+[ERROR 2020-05-27 13:58:58]邮件发送失败，请检查邮件配置
+[INFO 2020-05-27 14:02:16]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 14:02:17]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 14:02:17]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 14:02:17]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-27 14:04:25]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 14:04:25]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 14:04:26]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 14:04:26]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-27 14:04:32]Response body Does not contain expected_msg, expected_msg is code': 0
+[INFO 2020-05-27 14:05:55]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 14:05:56]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 14:05:56]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 14:05:56]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-27 14:08:34]Response body Does not contain expected_msg, expected_msg is code': 0
+[ERROR 2020-05-27 14:09:00]邮件发送失败，请检查邮件配置
+[INFO 2020-05-27 14:10:51]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 14:10:52]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 14:10:52]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 14:10:52]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-27 14:13:08]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 14:13:08]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 14:13:08]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 14:13:08]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-27 14:13:09]Response time > expected_time, expected_time is 100, time is 223.698
+[ERROR 2020-05-27 14:13:10]邮件发送失败，请检查邮件配置
+[INFO 2020-05-27 14:18:49]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 14:18:50]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 14:18:50]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 14:18:50]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-27 14:19:59]邮件发送失败，请检查邮件配置
+[INFO 2020-05-27 14:25:38]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 14:26:49]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 14:26:49]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 14:26:50]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-27 14:29:56]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 14:29:57]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 14:29:57]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 14:29:57]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-05-27 14:30:31]邮件发送失败，请检查邮件配置
+[DEBUG 2020-05-27 14:43:21]This is debug message
+[INFO 2020-05-27 14:43:21]This is info message
+[WARNING 2020-05-27 14:43:21]This is warning message
+[ERROR 2020-05-27 14:43:21]This is error
+[CRITICAL 2020-05-27 14:43:21]This is critical message
+[INFO 2020-05-27 15:16:18]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 15:16:19]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 15:16:19]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 15:16:19]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-27 15:22:46]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 15:22:47]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Basic.yaml
+[INFO 2020-05-27 15:23:54]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 15:23:55]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-05-27 15:23:55]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 15:23:55]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-27 16:01:42]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 16:01:46]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-05-27 16:01:46]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 16:01:46]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-27 16:05:15]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 16:05:16]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-05-27 16:05:16]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 16:05:16]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-27 16:11:50]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 16:11:50]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-05-27 16:11:50]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 16:11:50]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-27 16:22:20]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-27 16:22:21]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-05-27 16:22:21]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-27 16:22:21]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-28 15:11:09]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:11:11]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-05-28 15:11:31]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:11:34]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-05-28 15:12:12]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:14:33]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:16:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:17:27]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:18:11]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:19:00]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:20:30]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:23:26]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:25:24]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:26:09]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:29:58]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:30:21]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:31:11]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:32:26]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:34:11]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:35:09]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:45:15]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 15:47:01]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 16:00:35]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 16:03:30]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 16:06:53]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 16:13:28]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 16:13:29]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-05-28 16:15:39]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 16:15:40]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-05-28 16:16:54]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 16:16:55]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-05-28 16:17:11]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-28 16:17:11]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-28 16:25:01]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-28 16:25:02]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-05-28 16:25:14]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-28 16:25:14]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-05-29 15:58:26]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-05-29 15:58:36]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-05-29 15:58:36]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-05-29 15:58:37]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-02 09:46:36]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-02 09:46:39]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-02 09:46:40]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-02 09:46:40]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-02 10:24:41]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-02 10:24:43]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-02 10:24:43]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-02 10:24:43]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 10:07:41]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 10:07:46]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 10:07:46]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 10:07:47]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 10:12:35]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 10:12:37]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 10:12:37]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 10:12:37]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 10:17:23]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 10:17:24]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 10:17:24]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 10:17:24]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 10:17:58]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 10:17:59]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 10:17:59]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 10:17:59]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 10:22:31]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 10:22:32]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 10:22:32]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 10:22:32]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 10:27:27]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 10:27:29]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 10:27:29]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 10:27:29]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 10:30:47]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 10:30:48]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 10:30:48]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 10:30:48]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 10:51:32]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 10:51:33]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 10:51:33]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 10:51:33]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 10:51:49]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 10:51:51]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 10:51:51]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 10:51:51]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 10:52:26]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 10:52:27]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 10:52:27]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 10:52:27]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 14:03:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 14:03:50]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 14:03:50]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 14:03:50]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 15:00:37]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 15:00:39]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 15:00:39]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 15:00:39]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 15:18:46]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 15:18:48]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 15:18:48]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 15:18:48]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 15:19:07]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 15:19:08]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 15:19:08]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 15:19:08]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-06-03 15:19:27]Response body Does not contain expected_msg, expected_msg is code":1
+[INFO 2020-06-03 15:25:56]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 15:25:57]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 15:25:57]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 15:25:57]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-06-03 15:25:57]Response body Does not contain expected_msg, expected_msg is code":0
+[ERROR 2020-06-03 15:25:57]Response body Does not contain expected_msg, expected_msg is code":0
+[ERROR 2020-06-03 15:25:58]Response body Does not contain expected_msg, expected_msg is code":0
+[ERROR 2020-06-03 15:25:58]Response body Does not contain expected_msg, expected_msg is code":0
+[INFO 2020-06-03 15:27:45]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 15:27:47]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 15:27:47]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 15:27:47]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-06-03 15:27:47]Response body Does not contain expected_msg, expected_msg is code":0
+[ERROR 2020-06-03 15:27:47]Response body Does not contain expected_msg, expected_msg is code":0
+[ERROR 2020-06-03 15:27:47]Response body Does not contain expected_msg, expected_msg is code":0
+[ERROR 2020-06-03 15:27:47]Response body Does not contain expected_msg, expected_msg is code":0
+[INFO 2020-06-03 15:28:30]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 15:28:31]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 15:28:31]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 15:28:31]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 15:28:56]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 15:28:58]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 15:28:58]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 15:28:58]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 15:29:52]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 15:29:53]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 15:29:53]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 15:29:53]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-06-03 15:30:07]Response body Does not contain expected_msg, expected_msg is code":917
+[INFO 2020-06-03 15:30:34]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 15:30:35]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 15:30:35]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 15:30:35]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 15:32:02]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 15:32:04]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 15:32:04]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 15:32:04]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 15:33:50]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 15:33:52]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 15:33:52]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 15:33:52]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[ERROR 2020-06-03 15:34:09]Response body Does not contain expected_msg, expected_msg is code":0
+[INFO 2020-06-03 15:42:09]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 15:42:10]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 15:42:10]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 15:42:10]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 15:44:07]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 15:44:08]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 15:44:08]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 15:44:08]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-03 15:47:45]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-03 15:47:47]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Get_Verifycode.yaml
+[INFO 2020-06-03 15:47:47]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Collections.yaml
+[INFO 2020-06-03 15:47:47]解析yaml, Path:D:\Job\python\Script\Api_automation/Params/Param/Personal.yaml
+[INFO 2020-06-08 09:59:53]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-08 10:57:59]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-08 11:15:37]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-08 11:16:01]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-08 11:23:34]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-08 11:24:11]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-08 11:24:43]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-08 11:25:03]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-08 11:25:26]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-08 11:25:44]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-08 11:27:50]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-08 11:28:05]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-08 13:42:22]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-08 13:43:22]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-08 13:46:29]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-09 09:37:23]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-09 09:38:34]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-09 09:47:12]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-09 14:25:09]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-09 14:27:37]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-09 14:35:42]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-09 14:55:49]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-09 17:17:33]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-09 20:03:51]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-09 20:12:12]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-09 20:22:13]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 09:53:49]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 09:54:29]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 09:54:53]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 09:56:40]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 09:57:15]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 09:57:58]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 10:04:17]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 10:09:27]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 10:09:52]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 10:10:33]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 10:14:34]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 10:25:07]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 10:30:46]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 10:32:37]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 10:43:09]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 10:44:41]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 10:45:38]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 10:50:22]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 10:55:38]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 11:25:16]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 11:26:01]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 11:29:19]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 11:32:22]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 11:35:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 11:40:49]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 11:44:05]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 11:44:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 14:07:53]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 14:08:16]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 14:14:47]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 14:16:02]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 14:18:42]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 14:25:32]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 14:28:49]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 14:30:09]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 14:34:56]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 14:36:03]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 14:38:29]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 14:38:46]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 14:39:46]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 16:19:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 16:20:47]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 16:29:15]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 16:30:41]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 16:31:17]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 16:56:07]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 16:56:55]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 16:57:26]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 18:01:14]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 18:01:37]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 18:06:38]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-10 18:06:40]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:06:40]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:06:40]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:06:41]Response body Does not contain expected_msg, expected_msg is 登录成功
+[INFO 2020-06-10 18:11:25]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-10 18:11:27]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:11:27]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:11:27]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:11:28]Response body Does not contain expected_msg, expected_msg is 登录成功
+[INFO 2020-06-10 18:14:34]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-10 18:14:35]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-06-10 18:14:36]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-06-10 18:14:36]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:14:36]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:14:37]Response body Does not contain expected_msg, expected_msg is 登录成功
+[ERROR 2020-06-10 18:38:28]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[INFO 2020-06-10 18:41:21]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-10 18:41:23]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:41:23]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 18:41:24]Response body Does not contain expected_msg, expected_msg is 登录成功
+[INFO 2020-06-10 18:46:37]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 18:47:03]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 18:47:54]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 18:50:26]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 18:53:10]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 18:54:33]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 19:02:09]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 19:02:46]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 19:04:18]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 19:05:09]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 19:06:34]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 19:07:43]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 19:08:34]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 19:09:27]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 19:11:12]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-10 19:12:25]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[INFO 2020-06-10 19:14:42]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-10 19:14:44]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 19:14:45]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[INFO 2020-06-10 19:19:22]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 19:21:45]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:19:54]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:22:35]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:22:46]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:26:53]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:30:04]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:30:26]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:31:13]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:37:31]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:37:39]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:38:07]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:39:01]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:40:18]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:42:13]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:45:42]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:52:05]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:54:08]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:54:35]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 20:57:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-10 20:57:50]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[ERROR 2020-06-10 20:57:50]Response body Does not contain expected_msg, expected_msg is 登录成功
+[INFO 2020-06-10 20:58:06]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-10 20:58:37]Response body Does not contain expected_msg, expected_msg is 验证码已过期
+[INFO 2020-06-10 21:01:51]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-10 21:01:54]Response body Does not contain expected_msg, expected_msg is 登录成功
+[INFO 2020-06-10 21:03:53]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 21:04:13]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 21:07:57]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-10 21:09:38]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-10 21:09:40]Response body Does not contain expected_msg, expected_msg is 系统异常
+[ERROR 2020-06-10 21:09:41]Response body Does not contain expected_msg, expected_msg is 验证码不正确
+[ERROR 2020-06-10 21:09:48]Response body Does not contain expected_msg, expected_msg is 登录成功
+[INFO 2020-06-10 21:10:38]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-10 21:10:40]Response body Does not contain expected_msg, expected_msg is 系统异常
+[ERROR 2020-06-10 21:10:40]Response body Does not contain expected_msg, expected_msg is 验证码不正确
+[ERROR 2020-06-10 21:10:41]Response body Does not contain expected_msg, expected_msg is 登录成功
+[INFO 2020-06-10 21:10:56]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-10 21:12:51]Response body Does not contain expected_msg, expected_msg is 系统异常
+[INFO 2020-06-10 21:16:41]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-10 21:16:45]Response body Does not contain expected_msg, expected_msg is 登录成功
+[DEBUG 2020-06-11 09:53:16]This is debug message
+[INFO 2020-06-11 09:53:16]This is info message
+[WARNING 2020-06-11 09:53:16]This is warning message
+[ERROR 2020-06-11 09:53:16]This is error
+[CRITICAL 2020-06-11 09:53:16]This is critical message
+[INFO 2020-06-11 10:05:38]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-11 10:05:52]Response body Does not contain expected_msg, expected_msg is accessToken':
+[INFO 2020-06-11 10:37:03]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 10:58:12]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 11:02:24]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-11 11:02:26]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-06-11 11:02:26]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[INFO 2020-06-11 14:26:55]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 14:29:31]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 14:38:41]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 14:39:55]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 14:41:07]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 14:41:36]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 14:43:21]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 14:58:02]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 14:59:29]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 15:28:55]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 15:30:19]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 15:31:06]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 15:37:05]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 15:39:54]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 15:40:47]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 15:42:38]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 15:44:12]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 15:48:27]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 15:49:49]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 15:51:31]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 15:53:09]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 15:56:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 15:57:18]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 15:58:08]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 15:59:57]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:01:07]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:07:20]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:11:06]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:12:16]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:13:42]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:14:16]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:15:02]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:16:20]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:16:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:18:56]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:19:16]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:22:31]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:22:53]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:23:47]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:24:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:25:23]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:26:02]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:27:27]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:29:19]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-11 16:29:21]Response body Does not contain expected_msg, expected_msg is accessToken
+[INFO 2020-06-11 16:29:51]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:35:45]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-11 16:35:47]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-06-11 16:35:48]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-06-11 16:35:48]Response body Does not contain expected_msg, expected_msg is 验证码不正确
+[ERROR 2020-06-11 16:35:49]Response body Does not contain expected_msg, expected_msg is accessToken
+[INFO 2020-06-11 16:38:03]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-11 16:38:51]Response body Does not contain expected_msg, expected_msg is 验证码不正确
+[INFO 2020-06-11 16:40:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:46:14]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:46:52]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:47:04]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:48:55]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:49:24]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 16:53:56]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 17:27:05]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 17:27:46]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 17:29:15]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 17:30:26]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 17:31:09]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-11 17:39:07]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-11 17:39:12]Response time > expected_time, expected_time is 800, time is 904.18
+[INFO 2020-06-12 14:04:40]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 09:51:53]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 10:35:57]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 10:36:53]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 14:01:24]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-15 14:01:45]执行用例失败，请检查环境配置
+[INFO 2020-06-15 14:05:05]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-06-15 14:05:17]执行用例失败，请检查环境配置
+[INFO 2020-06-15 14:31:04]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 14:32:44]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 14:36:23]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 14:58:34]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 14:59:25]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 15:01:37]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 15:02:15]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 15:04:54]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 15:12:32]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 15:12:57]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 15:16:40]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 15:59:28]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 16:08:37]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 16:09:16]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 16:12:39]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 16:13:45]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 16:14:57]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-06-15 16:37:25]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
