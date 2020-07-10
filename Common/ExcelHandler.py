@@ -17,8 +17,6 @@ class ExcelHandler(object):
         '''
         # 获取到book对象
         book = xlrd.open_workbook(Config.TEST_CASE_PATH)
-        # print(book)
-        # 获取sheet对象
         sheet = book.sheet_by_index(0)
         # sheet = book.sheet_by_name('接口自动化用例')
         # sheets = book.sheets()  # 获取所有的sheet对象

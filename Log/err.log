@@ -94,3 +94,16 @@
 [ERROR 2020-06-11 17:39:12]Response time > expected_time, expected_time is 800, time is 904.18
 [ERROR 2020-06-15 14:01:45]执行用例失败，请检查环境配置
 [ERROR 2020-06-15 14:05:17]执行用例失败，请检查环境配置
+[ERROR 2020-07-07 17:29:35]Response body Does not contain expected_msg, expected_msg is code":0
+[ERROR 2020-07-07 17:29:36]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-07-07 17:33:57]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-07-08 17:06:32]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-07-08 17:25:21]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-07-08 17:31:08]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-07-08 17:31:09]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-07-09 21:16:14]Response body Does not contain expected_msg, expected_msg is 用户ID参数为空
+[ERROR 2020-07-09 21:39:50]Response body Does not contain expected_msg, expected_msg is 用户ID参数为空
+[ERROR 2020-07-09 21:41:25]Response body Does not contain expected_msg, expected_msg is 用户ID参数为空
+[ERROR 2020-07-09 21:42:33]Response body Does not contain expected_msg, expected_msg is code': 0
+[ERROR 2020-07-10 09:42:10]Response body Does not contain expected_msg, expected_msg is select IFNULL(mhr.id_family_house,'check is error') from user u LEFT JOIN member_house_relationship mhr ON u.id = mhr.id_user 
+where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_debug)

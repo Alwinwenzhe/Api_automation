@@ -19,18 +19,25 @@ class Config:
     TITLE_EMAIL = "mail"
 
     # values:
-    # [debug\release]
-    VALUE_TESTER = "tester"
-    VALUE_ENVIRONMENT = "environment"
-    VALUE_VERSION_CODE = "versionCode"
-    VALUE_HOST = "host"
-    VALUE_LOGIN_HOST = "loginHost"
-    VALUE_LOGIN_INFO = "loginInfo"
-    VALUE_DB_HOST = "sql_dbhost"
-    VALUE_DB_PORT = "sql_dbport"
-    VALUE_DB_NAME = "sql_dbname"
-    VALUE_DB_USER = "sql_user"
-    VALUE_DB_PWD = "sql_pwd"
+    # [debug]
+    YSY_TESTER = "tester"
+    YSY_TEST_ENVIRONMENT = "environment"
+    YSY_TEST_HOST = "ysy_host"
+    YSY_TEST_DB_HOST = "sql_dbhost"
+    YSY_TEST_DB_PORT = "sql_dbport"
+    YSY_TEST_DB_NAME = "sql_dbname"
+    YSY_TEST_DB_USER = "sql_user"
+    YSY_TEST_DB_PWD = "sql_pwd"
+
+    # [release] 下列数据中对应的值是没有的
+    YSY_REALSER = "releaser"
+    YSY_REALSE_ENVIRONMENT = "release_environment"
+    YSY_REALSE_HOST = "release_host"
+    YSY_REALSE_DB_HOST = "release_sql_dbhost"
+    YSY_REALSE_DB_PORT = "release_sql_dbport"
+    YSY_REALSE_DB_NAME = "release_sql_dbname"
+    YSY_REALSE_DB_USER = "release_sql_user"
+    YSY_REALSE_DB_PWD = "release_sql_pwd"
 
     # [mail]
     VALUE_SMTP_SERVER = "smtpserver"
@@ -58,29 +65,23 @@ class Config:
         self.config.read(self.conf_path, encoding='utf-8')
 
         # 分别获取三个配置模块中的内容
-        self.tester_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_TESTER)
-        self.environment_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_ENVIRONMENT)
-        self.versionCode_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_VERSION_CODE)
-        self.host_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_HOST)
-        self.loginHost_debug = self.host_debug + self.get_conf(Config.TITLE_DEBUG, Config.VALUE_LOGIN_HOST)
-        self.loginInfo_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_LOGIN_INFO)
-        self.db_host_ysy_debug = self.get_conf(Config.TITLE_DEBUG,Config.VALUE_DB_HOST)
-        self.db_port_ysy_debug = self.get_conf(Config.TITLE_DEBUG,Config.VALUE_DB_PORT)
-        self.db_name_ysy_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_DB_NAME)
-        self.db_user_ysy_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_DB_USER)
-        self.db_pwd_ysy_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_DB_PWD)
+        self.tester_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TESTER)
+        self.environment_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TEST_ENVIRONMENT)
+        self.host_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TEST_HOST)
+        self.db_host_ysy_debug = self.get_conf(Config.TITLE_DEBUG,Config.YSY_TEST_DB_HOST)
+        self.db_port_ysy_debug = self.get_conf(Config.TITLE_DEBUG,Config.YSY_TEST_DB_PORT)
+        self.db_name_ysy_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TEST_DB_NAME)
+        self.db_user_ysy_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TEST_DB_USER)
+        self.db_pwd_ysy_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TEST_DB_PWD)
 
-        self.tester_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_TESTER)
-        self.environment_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_ENVIRONMENT)
-        self.versionCode_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_VERSION_CODE)
-        self.host_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_HOST)
-        self.loginHost_release = self.host_release + self.get_conf(Config.TITLE_RELEASE, Config.VALUE_LOGIN_HOST)
-        self.loginInfo_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_LOGIN_INFO)
-        self.db_host_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_DB_HOST)
-        self.db_port_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_DB_PORT)
-        self.db_name_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_DB_NAME)
-        self.db_user_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_DB_USER)
-        self.db_pwd_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_DB_PWD)
+        self.tester_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSER)
+        self.environment_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_ENVIRONMENT)
+        self.host_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_HOST)
+        self.db_host_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_DB_HOST)
+        self.db_port_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_DB_PORT)
+        self.db_name_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_DB_NAME)
+        self.db_user_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_DB_USER)
+        self.db_pwd_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_DB_PWD)
 
         self.smtpserver = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_SMTP_SERVER)
         self.sender = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_SENDER)

@@ -14,6 +14,7 @@ import requests
 import Common.Consts
 from Common import Session
 from requests_toolbelt import MultipartEncoder
+from Common import new_tool_a
 
 
 class ReqReload(object):
@@ -27,7 +28,7 @@ class ReqReload(object):
     #     # self.get_session = self.session.get_session(env)
     #     self.get_session = self.session.get_session('debug')
 
-    def req(self,api_method,api_url, params, headers):
+    def req(self,api_method,api_url, params, headers, global_var):
         '''
         封装请求方法
         :param api_method:

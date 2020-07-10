@@ -22,11 +22,14 @@ class New_Tool_A(object):
         :param case:
         :return:
         '''
+
         envir = case['envir']
-        api_method = case['case_method']
         expect = case['case_expect']
+        if expect:
+            expect = self.multiple_data(envir,expect)
         preset_data = case['case_preset']
         urls = case['case_url']
+        global_var = case['case_global_var']
         if preset_data:
             self.multiple_data(envir, preset_data)
         req_url = self.conf.host_debug
@@ -35,7 +38,7 @@ class New_Tool_A(object):
         headers = json.loads(case['case_header'])
         params = case['case_params']
         params = self.multiple_data(envir, params)  # params格式有问题
-        return api_method, expect, api_url, headers, params
+        return expect, api_url, headers, params, global_var
 
     def get_path(self, key, res):
         list_comma = key.split(',')
@@ -52,33 +55,38 @@ class New_Tool_A(object):
             except Exception as e:
                 self.log.error('get param fail')
                 raise
-        return list_last,res_value
+            self.oper_j.write_json_value(list_last, res_value)
 
     def response_write_to_json(self,path,response):
-        key, value = self.get_path(path, response)
-        self.oper_j.write_json_value(key, value)
+        '''
+        写入json文件
+        :param path:
+        :param response:
+        :return:
+        '''
+        self.get_path(path, response)
+
 
     def multiple_data(self,envir,data):
         '''
-        对多个数据进行拆分组装，并还原
+        对多个数据进行拆分组装，并还原;注意这里是处理了单个数据多种情况，未对多个数据多种情况进行处理---建议将三个方法拆开，合并调用
         数据如：如多个sql，或body是多个：'{"mobile":"c::","verifyCode":"j::verifyCode"}'
         :param envir:
         :param data:
         :return:
         '''
-
-        if data.startswith('{'):     #针对dict中多个内容
-            data = json.loads(data)               # 函数是将字符串转化为json格式字典
-            for key,value in data.items():
-                data[key]=self.while_split_data(envir,value)
+        oper_s = operate_sql_al.OperateSqlAl(envir)
+        if data.startswith('{'):  # 针对dict中多个内容
+            data = json.loads(data)  # 函数是将字符串转化为json格式字典
+            for key, value in data.items():
+                data[key] = self.while_split_data(envir, value)
             return data
-        elif ';' in data:     # 针对有多个sql
+        if ';' in data:     # 针对有多个sql
             mul_data = []
             split_data = data.split(',')
             for i in split_data:
                 mul_data.append(self.while_split_data(envir,i))
-            return mul_data
-        elif 'format' in data:
+        if 'format' in data:
             p1 = re.compile(r"[(](.*?)[')]", re.S)  # 非贪心匹配
             split_str = data.split('format')
             var_1 = re.findall(p1, split_str[1])
@@ -86,7 +94,7 @@ class New_Tool_A(object):
             var_1 = self.while_split_data(envir,var_1)
             # 注意这里只传递了第一个格式化值进来
             sql_resutl = split_str[0].format(*var_1)    # *var_1 将列表中所有元素拆成单个
-            sql_resutl = self.while_split_data(envir, sql_resutl)
+            sql_resutl = oper_s.execute_sql(sql_resutl)
             return sql_resutl
         else:
             var = self.while_split_data(envir,data)
@@ -103,7 +111,6 @@ class New_Tool_A(object):
         if isinstance(data, str):
             while 'j::' in data or 'c::' in data or 's::' in data or '$$' in data:
                 data = self.split_data(envir,data)
-                return data
             else:
                 return data
         elif isinstance(data, list):

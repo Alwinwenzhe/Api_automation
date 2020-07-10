@@ -679,3 +679,82 @@
 [INFO 2020-06-15 16:13:45]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
 [INFO 2020-06-15 16:14:57]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
 [INFO 2020-06-15 16:37:25]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-07 17:09:00]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-07 17:09:35]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-07 17:11:08]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-07 17:26:17]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-07 17:29:34]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-07-07 17:29:35]Response body Does not contain expected_msg, expected_msg is code":0
+[ERROR 2020-07-07 17:29:36]Response body Does not contain expected_msg, expected_msg is accessToken
+[INFO 2020-07-07 17:33:54]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-07-07 17:33:57]Response body Does not contain expected_msg, expected_msg is accessToken
+[INFO 2020-07-08 17:06:20]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-07-08 17:06:32]Response body Does not contain expected_msg, expected_msg is accessToken
+[INFO 2020-07-08 17:23:34]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-08 17:24:24]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-08 17:24:59]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-08 17:25:20]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-07-08 17:25:21]Response body Does not contain expected_msg, expected_msg is accessToken
+[INFO 2020-07-08 17:31:07]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-07-08 17:31:08]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-07-08 17:31:09]Response body Does not contain expected_msg, expected_msg is accessToken
+[INFO 2020-07-08 17:35:52]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-08 17:37:12]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-08 17:38:22]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-08 17:40:15]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-08 17:41:14]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 17:05:33]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 17:08:07]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 19:23:38]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 20:44:01]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 20:45:11]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 20:50:30]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 20:50:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 20:51:58]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 20:52:29]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 20:52:42]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 20:54:49]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 20:56:03]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 20:56:26]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:04:57]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:07:30]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:08:17]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:10:30]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:10:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:13:21]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:14:05]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:16:11]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-07-09 21:16:14]Response body Does not contain expected_msg, expected_msg is 用户ID参数为空
+[INFO 2020-07-09 21:17:04]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:25:08]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:26:08]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:29:26]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:29:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:30:41]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:32:03]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:32:31]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:32:55]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:33:50]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:35:35]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:37:33]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:38:04]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-09 21:39:47]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-07-09 21:39:50]Response body Does not contain expected_msg, expected_msg is 用户ID参数为空
+[INFO 2020-07-09 21:41:22]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-07-09 21:41:25]Response body Does not contain expected_msg, expected_msg is 用户ID参数为空
+[INFO 2020-07-09 21:42:30]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-07-09 21:42:33]Response body Does not contain expected_msg, expected_msg is code': 0
+[INFO 2020-07-09 21:43:36]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-10 09:30:43]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-10 09:32:45]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-10 09:33:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-10 09:37:44]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-10 09:39:07]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-10 09:39:32]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-10 09:41:11]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-10 09:41:42]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-10 09:42:08]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-07-10 09:42:10]Response body Does not contain expected_msg, expected_msg is select IFNULL(mhr.id_family_house,'check is error') from user u LEFT JOIN member_house_relationship mhr ON u.id = mhr.id_user 
+where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_debug)
+[INFO 2020-07-10 09:43:21]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-10 09:56:25]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
