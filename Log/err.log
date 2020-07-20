@@ -107,3 +107,22 @@
 [ERROR 2020-07-09 21:42:33]Response body Does not contain expected_msg, expected_msg is code': 0
 [ERROR 2020-07-10 09:42:10]Response body Does not contain expected_msg, expected_msg is select IFNULL(mhr.id_family_house,'check is error') from user u LEFT JOIN member_house_relationship mhr ON u.id = mhr.id_user 
 where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_debug)
+[ERROR 2020-07-10 11:44:31]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-07-10 11:44:31]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-07-10 11:50:49]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-07-10 11:50:55]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-07-10 12:06:30]Response body Does not contain expected_msg, expected_msg is 用户ID参数为空
+[ERROR 2020-07-10 12:06:32]Response body Does not contain expected_msg, expected_msg is 用户ID参数为空
+[ERROR 2020-07-10 12:43:31]Response body Does not contain expected_msg, expected_msg is 用户ID参数为空
+[ERROR 2020-07-10 12:43:33]Response body Does not contain expected_msg, expected_msg is 用户ID参数为空
+[ERROR 2020-07-10 12:46:56]Response body Does not contain expected_msg, expected_msg is totalCount":0
+[ERROR 2020-07-10 12:46:58]Response body Does not contain expected_msg, expected_msg is totalCount":0
+[ERROR 2020-07-20 14:03:51]Response body Does not contain expected_msg, expected_msg is e2c090afead5817871558fd585bc2c01
+[ERROR 2020-07-20 14:06:15]Response body Does not contain expected_msg, expected_msg is e2c090afead5817871558fd585bc2c01
+[ERROR 2020-07-20 14:13:39]Response body Does not contain expected_msg, expected_msg is e2c090afead5817871558fd585bc2c01
+[ERROR 2020-07-20 14:20:43]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-07-20 14:20:43]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-07-20 14:20:43]get param fail
+[ERROR 2020-07-20 14:20:43]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-07-20 14:20:55]Response body Does not contain expected_msg, expected_msg is e2c090afead5817871558fd585bc2c01
+[ERROR 2020-07-20 14:39:53]Response body Does not contain expected_msg, expected_msg is isSupport":"

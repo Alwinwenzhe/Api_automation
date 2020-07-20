@@ -34,11 +34,11 @@ class New_Tool_A(object):
             self.multiple_data(envir, preset_data)
         req_url = self.conf.host_debug
         api_url = req_url + urls
-        api_url = self.multiple_data(envir, api_url)
+        api_url = self.multiple_data(envir, api_url)[0]
         headers = json.loads(case['case_header'])
         params = case['case_params']
         params = self.multiple_data(envir, params)  # params格式有问题
-        return expect, api_url, headers, params, global_var
+        return expect[0], api_url, headers, params, global_var          # 只验证第一个expect值即可
 
     def get_path(self, key, res):
         list_comma = key.split(',')
@@ -73,33 +73,106 @@ class New_Tool_A(object):
         数据如：如多个sql，或body是多个：'{"mobile":"c::","verifyCode":"j::verifyCode"}'
         :param envir:
         :param data:
+        :return:list
+        '''
+        temp = []
+        if data.startswith('{'):                # dict
+            result = self.brackets_data(data,envir)
+            return result
+        elif ';' in data:                       # sql后都需要跟上";"
+            split_data = data.split(';')
+            for i in split_data:
+                if len(i) > 0:
+                    result = self.single_sql_data_deal(envir, i)
+                    if result:
+                        temp.append(result)
+            return temp
+        else:                                   # 这里是实际结果，不需要任何处理的
+            temp.append(self.while_split_data(envir, data))
+            return temp
+
+    # def single_data_deal(self,data, envir):
+    #     '''
+    #     这里是对单个数据中可能出现$$或“format”进行处理
+    #     :param data:
+    #     :param envir:
+    #     :return:
+    #     '''
+    #     oper_s = operate_sql_al.OperateSqlAl(envir)
+    #     result = data
+    #     exit_flag = True
+    #     while exit_flag:
+    #         if 'format' in result:
+    #             result = self.format_data(result, envir)
+    #             exit_flag = False
+    #             return result
+    #         elif '$$' in result:
+    #             split_data = result.split("$$")
+    #             sql_resutl = oper_s.execute_sql(split_data[1])
+    #             self.oper_j.write_json_value(split_data[0], sql_resutl)
+    #             exit_flag = False
+
+    def single_sql_data_deal(self,envir,data):
+        '''
+        单个sql结构拆分
+        :param data:
+        :param envir:
         :return:
         '''
         oper_s = operate_sql_al.OperateSqlAl(envir)
-        if data.startswith('{'):  # 针对dict中多个内容
-            data = json.loads(data)  # 函数是将字符串转化为json格式字典
-            for key, value in data.items():
-                data[key] = self.while_split_data(envir, value)
-            return data
-        if ';' in data:     # 针对有多个sql
-            mul_data = []
-            split_data = data.split(',')
-            for i in split_data:
-                mul_data.append(self.while_split_data(envir,i))
+        if '$$' in data:
+            # 将$$识别为即将执行sql并写入json
+            symbol_data = data.split('$$')
+            symbol_data[1] = self.format_data(envir,symbol_data[1])
+            val = oper_s.execute_sql(symbol_data[1])
+            self.oper_j.write_json_value(symbol_data[0], val)
+            return None
+        else:
+            val = self.format_data(envir,data)
+            val = oper_s.execute_sql(val)
+            return val
+
+    def brackets_data(self,data, envir):
+        '''
+         处理通过“{”来输入的多个数据，比如dict， 针对dict中多个内容
+        :param data:
+        :param envir:
+        :return:
+        '''
+        data = json.loads(data)  # 函数是将字符串转化为json格式字典
+        for key, value in data.items():
+            data[key] = self.while_split_data(envir, value)
+        return data
+
+    # def quotation_data(self,data,envir):
+    #     '''
+    #     处理通过“；”来输入的多个数据，比如: SQL语句
+    #     :param data:
+    #     :return: list
+    #     '''
+    #     mul_data = []
+    #     split_data = data.split(';')
+    #     for i in split_data:
+    #         mul_data.append(self.while_split_data(envir, i))
+    #     return mul_data
+
+    def format_data(self,envir,data):
+        '''
+        处理数据中包含formate的待处理数据
+        :param data:
+        :return:
+        '''
         if 'format' in data:
+            oper_s = operate_sql_al.OperateSqlAl(envir)
             p1 = re.compile(r"[(](.*?)[')]", re.S)  # 非贪心匹配
             split_str = data.split('format')
             var_1 = re.findall(p1, split_str[1])
             # 这里会对list中每个值进行判断
-            var_1 = self.while_split_data(envir,var_1)
-            # 注意这里只传递了第一个格式化值进来
-            sql_resutl = split_str[0].format(*var_1)    # *var_1 将列表中所有元素拆成单个
-            sql_resutl = oper_s.execute_sql(sql_resutl)
-            return sql_resutl
+            var_1 = self.while_split_data(envir, var_1)
+            resutl = split_str[0].format(*var_1)        # 重组sql
         else:
-            var = self.while_split_data(envir,data)
-            if var:
-                return var
+            resutl = self.while_split_data(envir, data)
+        return resutl
 
     def while_split_data(self,envir,data):
         '''
@@ -109,17 +182,14 @@ class New_Tool_A(object):
         :return:
         '''
         if isinstance(data, str):
-            while 'j::' in data or 'c::' in data or 's::' in data or '$$' in data:
-                data = self.split_data(envir,data)
-            else:
-                return data
+            data = self.split_data(envir,data)
         elif isinstance(data, list):
             new_data = []
             for i in data:
-                while 'j::' in i or 'c::' in i or 's::' in i or '$$' in i:
-                    i = self.split_data(envir, i)
-                    new_data.append(i)
+                i = self.split_data(envir, i)
+                new_data.append(i)
             return new_data
+        return  data
 
     # def typeof(self,envir,data):
     #     '''
@@ -142,30 +212,27 @@ class New_Tool_A(object):
         :return:
         '''
         oper_s = operate_sql_al.OperateSqlAl(envir)
-        if 'j::' in data:
-            # data = json.loads(data)  # 函数是将字符串转化为json格式字典
-            # for key, value in data.items():
-            #     value = value.split('j::')
-            #     data[key] = self.oper_j.get_json_value(value[1])
-            # return data
-            symbol_data = data.split('j::')     # 这里有可能是body中的某个值传入，如：'j::verifyCode'
-            con_data = self.oper_j.get_json_value(symbol_data[1])
-            data = symbol_data[0] + con_data
-        elif 'c::' in data:
-            symbol_data = data.split('c::')
-            con_data = self.con_var(symbol_data[1])
-            data = symbol_data[0] + con_data
-        elif 's::' in data:
-            symbol_data = data.split('s::')
-            con_data = oper_s.sql_main(symbol_data[1])     #這裡不能調用con_var方法
-            data = con_data
-        elif '$$' in data:
-            # 将$$识别为即将执行sql并写入json
-            symbol_data = data.split('$$')
-            val = oper_s.execute_sql(symbol_data[1])
-            self.oper_j.write_json_value(symbol_data[0],val)
-            data = val
-        return data
+        while 'j::' in data or 'c::' in data or 's::' in data:
+            if 'j::' in data:
+                symbol_data = data.split('j::')     # 这里有可能是body中的某个值传入，如：'j::verifyCode'
+                con_data = self.oper_j.get_json_value(symbol_data[1])
+                data = symbol_data[0] + con_data
+                return data
+            elif 'c::' in data:
+                symbol_data = data.split('c::')
+                con_data = self.con_var(symbol_data[1])
+                data = symbol_data[0] + con_data
+                return data
+            elif 's::' in data:
+                symbol_data = data.split('s::')
+                con_data = oper_s.sql_main(symbol_data[1])     #這裡不能調用con_var方法
+                data = con_data
+                return data
+            else:
+                return data
+                break
+        else:
+            return data
 
     def con_var(self,var):
         if var == 'tester_debug':
