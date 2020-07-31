@@ -9,12 +9,13 @@ from Common import Assert
 
 class New_Tool_A(object):
 
-    log = Log.MyLog()
-    oper_j = operate_json.OperateJson()
-    conf = Config.Config()
-    excel = ExcelHandler.ExcelHandler()
-    reqe = req_reload.ReqReload()
-    test = Assert.Assertions()
+    def __init__(self):
+        self.log = Log.MyLog()
+        self.oper_j = operate_json.OperateJson()
+        self.conf = Config.Config()
+        self.excel = ExcelHandler.ExcelHandler()
+        self.reqe = req_reload.ReqReload()
+        self.test = Assert.Assertions()
 
     def param_get_deal(self,case):
         '''
@@ -35,6 +36,7 @@ class New_Tool_A(object):
         req_url = self.conf.host_debug
         api_url = req_url + urls
         api_url = self.multiple_data(envir, api_url)[0]
+        # api_url = self.multiple_data(envir, api_url)[0]  # 这里返回的url不该是list
         headers = json.loads(case['case_header'])
         params = case['case_params']
         params = self.multiple_data(envir, params)  # params格式有问题
@@ -76,7 +78,9 @@ class New_Tool_A(object):
         :return:list
         '''
         temp = []
-        if data.startswith('{'):                # dict
+        if data == '':              # 识别空param
+            return data
+        elif data.startswith('{'):                # dict
             result = self.brackets_data(data,envir)
             return result
         elif ';' in data:                       # sql后都需要跟上";"
@@ -91,45 +95,32 @@ class New_Tool_A(object):
             temp.append(self.while_split_data(envir, data))
             return temp
 
-    # def single_data_deal(self,data, envir):
-    #     '''
-    #     这里是对单个数据中可能出现$$或“format”进行处理
-    #     :param data:
-    #     :param envir:
-    #     :return:
-    #     '''
-    #     oper_s = operate_sql_al.OperateSqlAl(envir)
-    #     result = data
-    #     exit_flag = True
-    #     while exit_flag:
-    #         if 'format' in result:
-    #             result = self.format_data(result, envir)
-    #             exit_flag = False
-    #             return result
-    #         elif '$$' in result:
-    #             split_data = result.split("$$")
-    #             sql_resutl = oper_s.execute_sql(split_data[1])
-    #             self.oper_j.write_json_value(split_data[0], sql_resutl)
-    #             exit_flag = False
-
     def single_sql_data_deal(self,envir,data):
         '''
-        单个sql结构拆分
+        首先判断'$$'，其次判断'formate',最后判断干净sql
         :param data:
         :param envir:
         :return:
         '''
         oper_s = operate_sql_al.OperateSqlAl(envir)
-        if '$$' in data:
+        if '$$' in data and 'formate' in data:
             # 将$$识别为即将执行sql并写入json
             symbol_data = data.split('$$')
             symbol_data[1] = self.format_data(envir,symbol_data[1])
             val = oper_s.execute_sql(symbol_data[1])
             self.oper_j.write_json_value(symbol_data[0], val)
             return None
-        else:
+        elif "$$" in data and 'formate' not in data:
+            symbol_data = data.split('$$')
+            val = oper_s.execute_sql(symbol_data[1])
+            self.oper_j.write_json_value(symbol_data[0], val)
+            return None
+        elif 'formate' in data:
             val = self.format_data(envir,data)
             val = oper_s.execute_sql(val)
+            return val
+        else:
+            val = oper_s.execute_sql(data)
             return val
 
     def brackets_data(self,data, envir):
@@ -144,34 +135,18 @@ class New_Tool_A(object):
             data[key] = self.while_split_data(envir, value)
         return data
 
-    # def quotation_data(self,data,envir):
-    #     '''
-    #     处理通过“；”来输入的多个数据，比如: SQL语句
-    #     :param data:
-    #     :return: list
-    #     '''
-    #     mul_data = []
-    #     split_data = data.split(';')
-    #     for i in split_data:
-    #         mul_data.append(self.while_split_data(envir, i))
-    #     return mul_data
-
     def format_data(self,envir,data):
         '''
         处理数据中包含formate的待处理数据
         :param data:
         :return:
         '''
-        if 'format' in data:
-            oper_s = operate_sql_al.OperateSqlAl(envir)
-            p1 = re.compile(r"[(](.*?)[')]", re.S)  # 非贪心匹配
-            split_str = data.split('format')
-            var_1 = re.findall(p1, split_str[1])
-            # 这里会对list中每个值进行判断
-            var_1 = self.while_split_data(envir, var_1)
-            resutl = split_str[0].format(*var_1)        # 重组sql
-        else:
-            resutl = self.while_split_data(envir, data)
+        p1 = re.compile(r"[(](.*?)[')]", re.S)  # 非贪心匹配
+        split_str = data.split('format')
+        var_1 = re.findall(p1, split_str[1])
+        # 这里会对list中每个值进行判断
+        var_1 = self.while_split_data(envir, var_1)
+        resutl = split_str[0].format(*var_1)        # 重组sql
         return resutl
 
     def while_split_data(self,envir,data):
@@ -191,23 +166,28 @@ class New_Tool_A(object):
             return new_data
         return  data
 
-    # def typeof(self,envir,data):
-    #     '''
-    #     判断元素类型，做不同类型处理
-    #     :param data:
-    #     :return:
-    #     '''
-    #     if isinstance(data, str):
-    #         self.while_split_data(envir,data)
-    #     elif isinstance(data, list):
-    #         for i in data:
-    #             self.while_split_data(envir, data)
-
     def split_data(self,envir,data):
         '''
         所有数据进行分解并找到对应的分解方法，将最终结果返回
         注意这里并未对多个sql进行解析，需要单独进行处理
         还是需要处理多个数据，
+        :param data:
+        :return:
+        '''
+        if '&' in data:
+            data = self.split_dollar(envir,data)
+        elif isinstance(data,str):
+            data = self.while_data(envir,data)
+        elif isinstance(data,list):
+            for i in data:
+                x = 0
+                data[x] = self.while_data(envir,data)
+                x += 1
+        return data
+
+    def while_data(self,envir,data):
+        '''
+        处理传入data中包含多个变量
         :param data:
         :return:
         '''
@@ -231,6 +211,24 @@ class New_Tool_A(object):
             else:
                 return data
                 break
+        else:
+            return data
+
+    def split_dollar(self,envir,data):
+        '''
+        处理data中包含$分隔符，比如URL中包含：/api/v1/area/repair/favoriteAndTypes?userId=j::userId&biotopeId=j::biotopeId
+        :param data:
+        :return:
+        '''
+        if '&' in data:
+            data = data.split("&")
+            result = []
+            for i in data:
+                i = self.while_data(envir,i)
+                result.append(i)
+            temp = '&'
+            data = temp.join(result)
+            return data
         else:
             return data
 
