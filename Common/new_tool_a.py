@@ -145,7 +145,8 @@ class New_Tool_A(object):
         split_str = data.split('format')
         var_1 = re.findall(p1, split_str[1])
         # 这里会对list中每个值进行判断
-        var_1 = self.while_split_data(envir, var_1)
+        # var_1 = self.while_split_data(envir, var_1)  #这里怎么会传入list？
+        var_1 = self.while_data(envir, var_1)
         resutl = split_str[0].format(*var_1)        # 重组sql
         return resutl
 
@@ -168,26 +169,26 @@ class New_Tool_A(object):
 
     def split_data(self,envir,data):
         '''
-        所有数据进行分解并找到对应的分解方法，将最终结果返回
-        注意这里并未对多个sql进行解析，需要单独进行处理
-        还是需要处理多个数据，
+        区分str中是否带有’&‘标识：有：首先split变量,
         :param data:
         :return:
         '''
         if '&' in data:
-            data = self.split_dollar(envir,data)
-        elif isinstance(data,str):
-            data = self.while_data(envir,data)
-        elif isinstance(data,list):
+            data = data.split("&")
+            result = []
             for i in data:
-                x = 0
-                data[x] = self.while_data(envir,data)
-                x += 1
+                i = self.while_data(envir,i)
+                result.append(i)
+            temp = '&'
+            data = temp.join(result)
+        else:
+            data = self.while_data(envir,data)
         return data
+
 
     def while_data(self,envir,data):
         '''
-        处理传入data中包含多个变量
+        持续判断data中是否包含以下几种类型变量，如果有，则对每种情况处理一次
         :param data:
         :return:
         '''
@@ -220,17 +221,17 @@ class New_Tool_A(object):
         :param data:
         :return:
         '''
-        if '&' in data:
-            data = data.split("&")
-            result = []
-            for i in data:
-                i = self.while_data(envir,i)
-                result.append(i)
-            temp = '&'
-            data = temp.join(result)
-            return data
-        else:
-            return data
+        # if '&' in data:
+        #     data = data.split("&")
+        #     result = []
+        #     for i in data:
+        #         i = self.while_data(envir,i)
+        #         result.append(i)
+        #     temp = '&'
+        #     data = temp.join(result)
+        #     return data
+        # else:
+        #     return data
 
     def con_var(self,var):
         if var == 'tester_debug':

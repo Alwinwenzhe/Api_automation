@@ -898,3 +898,5 @@ where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_d
 [INFO 2020-07-31 14:49:23]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
 [INFO 2020-07-31 14:50:08]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
 [INFO 2020-07-31 14:51:51]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-31 15:04:30]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-07-31 15:09:11]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini

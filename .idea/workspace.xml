@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a56e6a0-e9b7-4504-ab07-8128346c4873" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Common/Email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/operate_sql_al.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/req_reload.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conf/接口示例.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/test_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Common/new_tool_a.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/new_tool_a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conf/temp_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Conf/temp_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conf/接口示例.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Conf/接口示例.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/log.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +31,7 @@
     <SUITE FILE_PATH="coverage/Api_automation$Operate_json.coverage" NAME="Operate_json Coverage Results" MODIFIED="1590048401713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/Api_automation$ExcelHandler.coverage" NAME="ExcelHandler Coverage Results" MODIFIED="1592210238777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/Api_automation$Operate_sql.coverage" NAME="Operate_sql Coverage Results" MODIFIED="1591691034376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/Api_automation$run.coverage" NAME="run Coverage Results" MODIFIED="1596178310940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Api_automation$run.coverage" NAME="run Coverage Results" MODIFIED="1596179350670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Api_automation$Assert.coverage" NAME="Assert Coverage Results" MODIFIED="1589787671797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/Api_automation$new_tool_a.coverage" NAME="new_tool_a Coverage Results" MODIFIED="1591864153554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/Api_automation$debug_demo.coverage" NAME="debug_demo Coverage Results" MODIFIED="1596176335117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
@@ -80,19 +72,7 @@
         <entry file="file://$PROJECT_DIR$/TestCase/test_003_repair.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="353">
-              <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/req_reload.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
-              <folding>
-                <element signature="e#121#136#0" expanded="true" />
-              </folding>
+              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -106,20 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCase/debug2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Common/new_tool_a.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="253" column="21" lean-forward="true" selection-start-line="253" selection-start-column="21" selection-end-line="253" selection-end-column="21" />
+            <state relative-caret-position="123">
+              <caret line="147" column="68" selection-start-line="147" selection-start-column="68" selection-end-line="147" selection-end-column="68" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -182,6 +153,7 @@
       <find>single_sql_data_deal</find>
       <find>oper_s</find>
       <find>oper_j</find>
+      <find>while_split_data</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Job\python\Script\Api_automation\Report\xml</dir>
@@ -516,7 +488,7 @@
       <workItem from="1595812404384" duration="4229000" />
       <workItem from="1595898871999" duration="8982000" />
       <workItem from="1596071374965" duration="3453000" />
-      <workItem from="1596158328236" duration="7930000" />
+      <workItem from="1596158328236" duration="8863000" />
     </task>
     <task id="LOCAL-00001" summary="增加了期望值中的sql处理&#10;增加了访客邀请的到访户号接口用例">
       <created>1594347544082</created>
@@ -532,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595231661358</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="梳理了数据流处理逻辑，优化了冗余代码">
+      <created>1596178521539</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596178521539</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -568,7 +547,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336279000" />
+    <option name="totallyTimeSpent" value="337212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="43" width="1806" height="1052" extended-state="0" />
@@ -603,7 +582,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加了期望值中的sql处理&#10;增加了访客邀请的到访户号接口用例" />
     <MESSAGE value="调整了数据处理的多个函数&#10;调试通过了访客邀请-二维码邀请功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整了数据处理的多个函数&#10;调试通过了访客邀请-二维码邀请功能" />
+    <MESSAGE value="梳理了数据流处理逻辑，优化了冗余代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="梳理了数据流处理逻辑，优化了冗余代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -675,7 +655,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Common/new_tool_a.py</url>
-          <line>223</line>
+          <line>224</line>
           <option name="timeStamp" value="150" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -998,13 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/test_001_log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1032,20 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_003_repair.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/debug2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1063,10 +1022,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/debug2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_003_repair.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Common/new_tool_a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="253" column="21" lean-forward="true" selection-start-line="253" selection-start-column="21" selection-end-line="253" selection-end-column="21" />
+        <state relative-caret-position="123">
+          <caret line="147" column="68" selection-start-line="147" selection-start-column="68" selection-end-line="147" selection-end-column="68" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
