@@ -110,19 +110,20 @@ class New_Tool_A(object):
         :return:
         '''
         oper_s = operate_sql_al.OperateSqlAl(envir)
-        if '$$' in data and 'formate' in data:
+        if '$$' in data and 'format' in data:
             # 将$$识别为即将执行sql并写入json
             symbol_data = data.split('$$')
-            symbol_data[1] = self.format_data(envir,symbol_data[1])
-            val = oper_s.execute_sql(symbol_data[1])
+            sql_str = self.format_data(envir,symbol_data[1])
+            val = oper_s.execute_sql(sql_str)
             self.oper_j.write_json_value(symbol_data[0], val)
             return None
-        elif "$$" in data and 'formate' not in data:
+        elif "$$" in data and 'format' not in data:
             symbol_data = data.split('$$')
-            val = oper_s.execute_sql(symbol_data[1])
+            sql_str = self.while_data(envir,symbol_data[1])
+            val = oper_s.execute_sql(sql_str)
             self.oper_j.write_json_value(symbol_data[0], val)
             return None
-        elif 'formate' in data:
+        elif 'format' in data:
             val = self.format_data(envir,data)
             val = oper_s.execute_sql(val)
             return val
@@ -161,11 +162,11 @@ class New_Tool_A(object):
         '''
         p1 = re.compile(r"[(](.*?)[')]", re.S)  # 非贪心匹配
         split_str = data.split('format')
-        var_1 = re.findall(p1, split_str[1])
+        var_1 = re.findall(p1, split_str[1])    # 利用正则：去掉括号
         # 这里会对list中每个值进行判断
         # var_1 = self.while_split_data(envir, var_1)  #这里怎么会传入list？
-        var_1 = self.while_data(envir, var_1)
-        resutl = split_str[0].format(*var_1)        # 重组sql
+        var_1 = self.while_data(envir, var_1[0])        #这里存在format多数据暂未处理
+        resutl = split_str[0].format(var_1)        # 重组sql
         return resutl
 
     def while_split_data(self,envir,data):

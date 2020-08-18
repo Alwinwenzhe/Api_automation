@@ -11,7 +11,7 @@ from Common import req_reload
 from Common import Assert
 
 
-class TestLog:
+class TestYsy001Login:
     '''
     # BLOCKER = 'blocker'　　阻塞缺陷
     # CRITICAL = 'critical'　严重缺陷
