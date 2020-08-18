@@ -126,3 +126,5 @@ where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_d
 [ERROR 2020-07-20 14:20:43]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
 [ERROR 2020-07-20 14:20:55]Response body Does not contain expected_msg, expected_msg is e2c090afead5817871558fd585bc2c01
 [ERROR 2020-07-20 14:39:53]Response body Does not contain expected_msg, expected_msg is isSupport":"
+[ERROR 2020-08-13 10:12:58]Response body Does not contain expected_msg, expected_msg is status": 200
+[ERROR 2020-08-13 10:24:31]Response body Does not contain expected_msg, expected_msg is status": 200

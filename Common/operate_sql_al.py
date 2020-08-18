@@ -25,6 +25,12 @@ class OperateSqlAl(object):
             self.dbname = self.con.db_name_ysy_release
             self.db_user = self.con.db_user_ysy_release
             self.pwd = self.con.db_user_ysy_release
+        elif 'yhz_test' == envir:
+            self.dbhost = self.con.yhz_host
+            self.dbport = int(self.con.db_port_ysy_release)
+            self.dbname = self.con.db_name_ysy_release
+            self.db_user = self.con.db_user_ysy_release
+            self.pwd = self.con.db_user_ysy_release
 
     def re_sql(self,var_str):
         """

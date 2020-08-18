@@ -66,10 +66,7 @@ class ReqReload(object):
         #     else:
         #         response = requests.get(url=url, params=data, headers=header, cookies=self.get_session)
         try:
-            if data is '':
-                response = requests.get(url=url, headers=header)
-            else:
-                response = requests.get(url=url, params=data, headers=header)
+            response = requests.get(url, params=data, headers=header)
         except requests.RequestException as e:
             print('%s%s' % ('RequestException url: ', url))
             print(e)
@@ -113,9 +110,6 @@ class ReqReload(object):
         #     print(url)
 
         try:
-            if data is '':
-                response = requests.post(url=url, headers=header)
-            else:
                 response = requests.post(url=url, data=json.dumps(data), headers=header)
         # try:
         #     if data is '':

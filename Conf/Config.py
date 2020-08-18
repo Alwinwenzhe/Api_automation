@@ -28,6 +28,8 @@ class Config:
     YSY_TEST_DB_NAME = "sql_dbname"
     YSY_TEST_DB_USER = "sql_user"
     YSY_TEST_DB_PWD = "sql_pwd"
+    YHZ_HOST = "yhz_host"
+    YHZ_DB_NAME = "yhz_dbname"
 
     # [release] 下列数据中对应的值是没有的
     YSY_REALSER = "releaser"
@@ -73,6 +75,9 @@ class Config:
         self.db_name_ysy_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TEST_DB_NAME)
         self.db_user_ysy_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TEST_DB_USER)
         self.db_pwd_ysy_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TEST_DB_PWD)
+        self.yhz_host = self.get_conf(Config.TITLE_DEBUG,Config.YHZ_HOST)
+        self.yhz_db_name = self.get_conf(Config.TITLE_DEBUG,Config.YHZ_DB_NAME)
+
 
         self.tester_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSER)
         self.environment_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_ENVIRONMENT)

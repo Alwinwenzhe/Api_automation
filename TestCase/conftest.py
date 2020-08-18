@@ -12,20 +12,20 @@
 import allure
 import pytest
 
-from Conf.Config import Config
-from Common import Consts
+#from Conf.Config import Config
+#from Common import Consts
 
 
-@pytest.fixture()
-def action():
+#@pytest.fixture()
+#def action():
     # 定义环境
-    env = Consts.API_ENVIRONMENT_RELEASE
+    #env = Consts.API_ENVIRONMENT_RELEASE
     # 定义报告中environment
-    conf = Config()
-    host = conf.host_release
-    tester = conf.tester_release
+    # conf = Config()
+    #host = conf.host_release
+    # tester = conf.tester_release
     # 目前allure2暂不支持allure.environment(host=‘127.0.0.1’)这种方法设置环境注解
     # allure.environment(environment=env)
     # allure.environment(hostname=host)
     # allure.environment(tester=tester)
-    return env
+    # return env

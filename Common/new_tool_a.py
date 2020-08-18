@@ -23,7 +23,6 @@ class New_Tool_A(object):
         :param case:
         :return:
         '''
-
         envir = case['envir']
         expect = case['case_expect']
         if expect:
@@ -33,11 +32,15 @@ class New_Tool_A(object):
         global_var = case['case_global_var']
         if preset_data:
             self.multiple_data(envir, preset_data)
-        req_url = self.conf.host_debug
+        if envir =='ysy_test':
+            req_url = self.conf.host_debug
+        elif envir == 'yhz_test':
+            req_url = self.conf.yhz_host
         api_url = req_url + urls
         api_url = self.multiple_data(envir, api_url)[0]
         # api_url = self.multiple_data(envir, api_url)[0]  # 这里返回的url不该是list
         headers = json.loads(case['case_header'])
+        headers = self.multiple_data(envir,headers)
         params = case['case_params']
         params = self.multiple_data(envir, params)  # params格式有问题
         return expect[0], api_url, headers, params, global_var          # 只验证第一个expect值即可
@@ -78,22 +81,26 @@ class New_Tool_A(object):
         :return:list
         '''
         temp = []
-        if data == '':              # 识别空param
-            return data
-        elif data.startswith('{'):                # dict
-            result = self.brackets_data(data,envir)
+        if isinstance(data,str):
+            if data == '':              # 识别空param
+                return data
+            elif data.startswith('{'):                # dict
+                result = self.brackets_data(data,envir)
+                return result
+            elif ';' in data:  # sql后都需要跟上";"
+                split_data = data.split(';')
+                for i in split_data:
+                    if len(i) > 0:
+                        result = self.single_sql_data_deal(envir, i)
+                        if result:
+                            temp.append(result)
+                return temp
+            else:  # 这里是实际结果，不需要任何处理的
+                temp.append(self.while_split_data(envir, data))
+                return temp
+        elif isinstance(data,dict):
+            result = self.brackets_dict_data(data, envir)
             return result
-        elif ';' in data:                       # sql后都需要跟上";"
-            split_data = data.split(';')
-            for i in split_data:
-                if len(i) > 0:
-                    result = self.single_sql_data_deal(envir, i)
-                    if result:
-                        temp.append(result)
-            return temp
-        else:                                   # 这里是实际结果，不需要任何处理的
-            temp.append(self.while_split_data(envir, data))
-            return temp
 
     def single_sql_data_deal(self,envir,data):
         '''
@@ -131,6 +138,17 @@ class New_Tool_A(object):
         :return:
         '''
         data = json.loads(data)  # 函数是将字符串转化为json格式字典
+        for key, value in data.items():
+            data[key] = self.while_split_data(envir, value)
+        return data
+
+    def brackets_dict_data(self,data, envir):
+        '''
+         处理通过dict来输入的多个数据，比如dict， 针对dict中多个内容
+        :param data:
+        :param envir:
+        :return:
+        '''
         for key, value in data.items():
             data[key] = self.while_split_data(envir, value)
         return data

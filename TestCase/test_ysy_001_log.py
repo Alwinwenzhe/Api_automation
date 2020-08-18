@@ -3,7 +3,7 @@
 # @Author  : WangJuan
 # @File    : Test_Basic.py
 
-import allure, pytest
+import allure, pytest, os, sys
 from Common import Consts
 from Common import new_tool_a
 from Common import ExcelHandler
@@ -26,7 +26,7 @@ class TestLog:
     test = Assert.Assertions()
 
     @allure.feature('Log')  # @allure.feature 用于定义被测试的功能，被测产品的需求点
-    @allure.severity('blocker')  # allure.story  用于定义被测功能的用例等级，blocker--测试主流程 blocker级别；
+    @allure.severity('blocker')  # allure.severity 用于定义被测功能的用例等级，blocker--测试主流程 blocker级别；
     # 详细测试 critical级别；修改个人信息-修改不是本人的用户信息，无权限操作 这个是针对接口的功能点详细测试 critical级别
     @allure.story('Get_Verifycode')  # allure.story  用于定义被测功能的用户场景，即子功能点
     @pytest.mark.parametrize('case', excel.get_excel_data('login_01_get_verifycode'))

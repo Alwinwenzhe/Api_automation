@@ -13,14 +13,19 @@
 
 """
 
-import pytest,allure
+import pytest, sys, os
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
 
 from Common import Log
 from Common import Shell
 from Conf import Config
-from Common import Email
+
 
 if __name__ == '__main__':
+
+
     conf = Config.Config()
     log = Log.MyLog()
     log.info('初始化配置文件, path=' + conf.conf_path)
