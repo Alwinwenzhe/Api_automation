@@ -5,7 +5,7 @@ from Common import ExcelHandler
 from Common import req_reload
 from Common import Assert
 
-@allure.feature('Invitation')  # @allure.feature 用于定义被测试的功能，被测产品的需求点
+
 class TestYsy004Health:
     '''
     # BLOCKER = 'blocker'　　阻塞缺陷
@@ -20,13 +20,13 @@ class TestYsy004Health:
     reqe = req_reload.ReqReload()
     test = Assert.Assertions()
 
-
+    @allure.feature('ysy_health')  # @allure.feature 用于定义被测试的功能，被测产品的需求点
     @allure.severity('critical')  # allure.story  用于定义被测功能的用例等级，blocker--测试主流程 blocker级别；
     @allure.story('health')  # allure.story  用于定义被测功能的用户场景，即子功能点
     @pytest.mark.parametrize('case', excel.get_excel_data('health_001_addMenberStep'))
-    def test_invitation_01_bind_house(self,case):
+    def test_invitation_001_addMenberStep(self,case):
         """
-            用例描述：获取验证码，该用例数据源来自excel
+            用例描述：添加成员步数，该用例数据源来自excel
         """
         expect,api_url, headers,params, global_var= self.new.param_get_deal(case)
         response = self.reqe.req('post',api_url, params, headers, global_var)              # 响应有问题，需要查看日志

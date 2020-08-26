@@ -96,7 +96,7 @@ class New_Tool_A(object):
                             temp.append(result)
                 return temp
             else:  # 这里是实际结果，不需要任何处理的
-                temp.append(self.while_split_data(envir, data))
+                temp.append(self.circular_processing_data(envir, data))
                 return temp
         elif isinstance(data,dict):
             result = self.brackets_dict_data(data, envir)
@@ -140,7 +140,7 @@ class New_Tool_A(object):
         '''
         data = json.loads(data)  # 函数是将字符串转化为json格式字典
         for key, value in data.items():
-            data[key] = self.while_split_data(envir, value)
+            data[key] = self.circular_processing_data(envir, value)
         return data
 
     def brackets_dict_data(self,data, envir):
@@ -151,7 +151,7 @@ class New_Tool_A(object):
         :return:
         '''
         for key, value in data.items():
-            data[key] = self.while_split_data(envir, value)
+            data[key] = self.circular_processing_data(envir, value)
         return data
 
     def format_data(self,envir,data):
@@ -169,7 +169,7 @@ class New_Tool_A(object):
         resutl = split_str[0].format(var_1)        # 重组sql
         return resutl
 
-    def while_split_data(self,envir,data):
+    def circular_processing_data(self,envir,data):
         '''
         循环处理数据中的变量
         :param envir:

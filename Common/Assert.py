@@ -118,3 +118,4 @@ class Assertions:
         assert self.assert_in_text(res_body, res_expect)
         assert self.assert_time(res_time, 1500)
 
+

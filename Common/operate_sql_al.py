@@ -43,7 +43,7 @@ class OperateSqlAl(object):
             split_str = var_str.split('format')
             var_1 = re.findall(p1, split_str[1])
             #这里会对list中每个值进行判断
-            var_1 = self.ut.while_split_data(var_1)
+            var_1 = self.ut.circular_processing_data(var_1)
             # 注意这里只传递了第一个格式化值进来
             sql_resutl = split_str[0].format(*var_1)
             return sql_resutl

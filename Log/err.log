@@ -141,3 +141,28 @@ where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_d
 [ERROR 2020-08-18 17:06:10]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
 [ERROR 2020-08-18 17:06:10]get param fail
 [ERROR 2020-08-18 17:06:11]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-08-25 14:48:08]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-08-25 14:48:09]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-08-25 14:48:09]get param fail
+[ERROR 2020-08-25 14:48:09]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-08-25 15:34:12]Response body Does not contain expected_msg, expected_msg is code": 1
+[ERROR 2020-08-25 16:35:10]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-08-25 16:36:38]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-08-25 17:27:28]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-08-26 09:26:57]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-08-26 09:26:58]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-08-26 09:26:58]get param fail
+[ERROR 2020-08-26 09:26:59]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-08-26 09:28:13]statusCode error, expected_code is 200, statusCode is 504 
+[ERROR 2020-08-26 09:37:34]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-08-26 09:37:35]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-08-26 09:37:35]get param fail
+[ERROR 2020-08-26 09:37:35]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-08-26 09:42:04]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-08-26 09:42:05]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-08-26 09:42:05]get param fail
+[ERROR 2020-08-26 09:42:05]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-08-26 09:52:44]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-08-26 09:52:45]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-08-26 09:52:45]get param fail
+[ERROR 2020-08-26 09:52:45]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
