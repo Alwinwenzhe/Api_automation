@@ -17,6 +17,18 @@ class New_Tool_A(object):
         self.reqe = req_reload.ReqReload()
         self.test = Assert.Assertions()
 
+    def choose_envir(self,envir):
+        '''
+        运行环境判断
+        :param envir:
+        :return: 请求url域名
+        '''
+        if envir =='ysy_test':
+            req_url = self.conf.host_debug
+        elif envir == 'yhz_test':
+            req_url = self.conf.yhz_host
+        return req_url
+
     def param_get_deal(self,case):
         '''
         case参数获取并进行相关处理
@@ -31,11 +43,8 @@ class New_Tool_A(object):
         urls = case['case_url']
         global_var = case['case_global_var']
         if preset_data:
-            self.multiple_data(envir, preset_data)
-        if envir =='ysy_test':
-            req_url = self.conf.host_debug
-        elif envir == 'yhz_test':
-            req_url = self.conf.yhz_host
+            self.multiple_data(envir, preset_data)  #返回值都写进json了
+        req_url = self.choose_envir(envir)
         api_url = req_url + urls
         api_url = self.multiple_data(envir, api_url)[0]
         # api_url = self.multiple_data(envir, api_url)[0]  # 这里返回的url不该是list
@@ -102,6 +111,37 @@ class New_Tool_A(object):
             result = self.brackets_dict_data(data, envir)
             return result
 
+    # def single_sql_data_deal(self,format_data):
+    #     '''
+    #     首先判断'$$'，其次判断'formate',最后判断干净sql
+    #     :param data:
+    #     :param envir:
+    #     :return:
+    #     '''
+    #     def inner(envir,data):
+    #         oper_s = operate_sql_al.OperateSqlAl(envir)
+    #         if '$$' in data and 'format' in data:
+    #             # 将$$识别为即将执行sql并写入json
+    #             symbol_data = data.split('$$')
+    #             sql_str = format_data(envir,symbol_data[1])
+    #             val = oper_s.execute_sql(sql_str)
+    #             self.oper_j.write_json_value(symbol_data[0], val)
+    #             return None
+    #         elif "$$" in data and 'format' not in data:
+    #             symbol_data = data.split('$$')
+    #             sql_str = self.while_data(envir,symbol_data[1])
+    #             val = oper_s.execute_sql(sql_str)
+    #             self.oper_j.write_json_value(symbol_data[0], val)
+    #             return None
+    #         elif 'format' in data:
+    #             val = format_data(envir,data)
+    #             val = oper_s.execute_sql(val)
+    #             return val
+    #         else:
+    #             val = oper_s.execute_sql(data)
+    #             return val
+    #     return inner
+
     def single_sql_data_deal(self,envir,data):
         '''
         首先判断'$$'，其次判断'formate',最后判断干净sql
@@ -116,13 +156,13 @@ class New_Tool_A(object):
             sql_str = self.format_data(envir,symbol_data[1])
             val = oper_s.execute_sql(sql_str)
             self.oper_j.write_json_value(symbol_data[0], val)
-            return None
+            # return None
         elif "$$" in data and 'format' not in data:
             symbol_data = data.split('$$')
             sql_str = self.while_data(envir,symbol_data[1])
             val = oper_s.execute_sql(sql_str)
             self.oper_j.write_json_value(symbol_data[0], val)
-            return None
+            # return None
         elif 'format' in data:
             val = self.format_data(envir,data)
             val = oper_s.execute_sql(val)
@@ -154,6 +194,7 @@ class New_Tool_A(object):
             data[key] = self.circular_processing_data(envir, value)
         return data
 
+    # @single_sql_data_deal
     def format_data(self,envir,data):
         '''
         处理数据中包含formate的待处理数据
@@ -234,12 +275,12 @@ class New_Tool_A(object):
         else:
             return data
 
-    def split_dollar(self,envir,data):
-        '''
-        处理data中包含$分隔符，比如URL中包含：/api/v1/area/repair/favoriteAndTypes?userId=j::userId&biotopeId=j::biotopeId
-        :param data:
-        :return:
-        '''
+    # def split_dollar(self,envir,data):
+    #     '''
+    #     处理data中包含$分隔符，比如URL中包含：/api/v1/area/repair/favoriteAndTypes?userId=j::userId&biotopeId=j::biotopeId
+    #     :param data:
+    #     :return:
+    #     '''
         # if '&' in data:
         #     data = data.split("&")
         #     result = []
