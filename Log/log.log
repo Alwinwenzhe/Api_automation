@@ -1102,3 +1102,7 @@ where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_d
 [ERROR 2020-09-10 17:16:20]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
 [ERROR 2020-09-10 17:16:20]get param fail
 [ERROR 2020-09-10 17:16:20]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-16 10:15:43]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-16 10:15:43]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-16 10:15:44]get param fail
+[ERROR 2020-09-16 10:15:44]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
