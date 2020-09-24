@@ -59,8 +59,8 @@ class Config:
         self.log = Log.MyLog()
         self.conf_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config.ini')
         # print(self.conf_path)
-        self.xml_report_path = Config.path_dir+'/Report/xml'
-        self.html_report_path = Config.path_dir+'/Report/html'
+        self.xml_report_path = Config.path_dir+'/allure-results'
+        self.html_report_path = Config.path_dir+'/Report'
 
         if not os.path.exists(self.conf_path):
             raise FileNotFoundError("请确保配置文件存在！")

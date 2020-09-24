@@ -1106,3 +1106,190 @@ where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_d
 [ERROR 2020-09-16 10:15:43]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
 [ERROR 2020-09-16 10:15:44]get param fail
 [ERROR 2020-09-16 10:15:44]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[INFO 2020-09-16 10:38:02]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-16 10:38:05]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-16 10:38:05]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-16 10:38:05]get param fail
+[ERROR 2020-09-16 10:38:05]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[INFO 2020-09-16 10:43:49]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-16 10:43:54]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-16 10:43:54]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-16 10:43:55]get param fail
+[ERROR 2020-09-16 10:43:55]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[INFO 2020-09-16 11:19:23]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-16 11:19:35]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-16 11:19:35]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-16 11:19:35]get param fail
+[ERROR 2020-09-16 11:19:35]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-16 11:28:29]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-16 11:28:29]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-16 11:28:30]get param fail
+[ERROR 2020-09-16 11:28:30]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-16 11:37:05]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-16 11:37:06]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-16 11:37:06]get param fail
+[ERROR 2020-09-16 11:37:06]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-16 11:38:04]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-16 11:38:04]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-16 11:38:05]get param fail
+[ERROR 2020-09-16 11:38:05]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[INFO 2020-09-16 11:42:40]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-16 11:42:42]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-16 11:42:42]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-16 11:42:42]get param fail
+[ERROR 2020-09-16 11:42:42]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[INFO 2020-09-16 17:03:07]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-16 17:03:16]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-16 17:03:16]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-16 17:03:16]get param fail
+[ERROR 2020-09-16 17:03:16]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[INFO 2020-09-16 17:06:43]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-16 17:06:45]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-16 17:06:46]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-16 17:06:46]get param fail
+[ERROR 2020-09-16 17:06:46]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-16 17:06:58]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-09-16 17:06:59]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-09-16 17:07:00]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[INFO 2020-09-16 17:09:06]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-16 17:09:09]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-16 17:09:09]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-16 17:09:09]get param fail
+[ERROR 2020-09-16 17:09:09]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-17 10:40:30]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-17 10:40:30]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-17 10:40:30]get param fail
+[ERROR 2020-09-17 10:40:30]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-17 10:52:01]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-17 10:52:02]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-17 10:52:02]get param fail
+[ERROR 2020-09-17 10:52:03]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-17 11:16:01]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-17 11:16:01]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-17 11:16:01]get param fail
+[ERROR 2020-09-17 11:16:02]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-17 13:59:46]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-17 13:59:47]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-17 13:59:47]get param fail
+[ERROR 2020-09-17 13:59:47]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-17 14:13:30]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-17 14:13:30]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-17 14:13:30]get param fail
+[ERROR 2020-09-17 14:13:30]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-17 15:00:23]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-17 15:00:23]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-17 15:00:23]get param fail
+[ERROR 2020-09-17 15:00:24]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-17 17:03:55]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-17 17:03:56]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-17 17:03:56]get param fail
+[ERROR 2020-09-17 17:03:56]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-17 17:23:51]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-17 17:23:51]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-17 17:23:51]get param fail
+[ERROR 2020-09-17 17:23:52]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-17 17:37:03]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-17 17:37:03]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-17 17:37:03]get param fail
+[ERROR 2020-09-17 17:37:03]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-18 09:31:19]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-18 09:31:19]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-18 09:31:20]get param fail
+[ERROR 2020-09-18 09:31:20]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-18 13:41:09]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-18 13:41:09]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-18 13:41:09]get param fail
+[ERROR 2020-09-18 13:41:10]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-18 13:43:46]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-18 13:43:46]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-18 13:43:47]get param fail
+[ERROR 2020-09-18 13:43:47]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-18 15:50:38]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-18 15:50:38]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-18 15:50:39]get param fail
+[ERROR 2020-09-18 15:50:39]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-18 15:57:21]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-18 15:57:21]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-18 15:57:22]get param fail
+[ERROR 2020-09-18 15:57:22]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-18 16:00:02]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-18 16:00:02]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-18 16:00:02]get param fail
+[ERROR 2020-09-18 16:00:03]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-18 16:01:16]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-18 16:01:16]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-18 16:01:16]get param fail
+[ERROR 2020-09-18 16:01:17]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-18 16:04:00]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-18 16:04:00]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-18 16:04:00]get param fail
+[ERROR 2020-09-18 16:04:00]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-18 16:07:20]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-18 16:07:21]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-18 16:07:21]get param fail
+[ERROR 2020-09-18 16:07:21]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-18 16:09:06]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-18 16:09:07]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-18 16:09:07]get param fail
+[ERROR 2020-09-18 16:09:07]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-18 16:12:06]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-18 16:12:06]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-18 16:12:06]get param fail
+[ERROR 2020-09-18 16:12:06]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-09-18 16:24:51]Response body Does not contain expected_msg, expected_msg is 请求参数错误
+[ERROR 2020-09-18 16:24:52]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-18 16:24:52]get param fail
+[ERROR 2020-09-18 16:24:52]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[INFO 2020-09-18 16:57:27]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-18 17:18:08]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-18 17:24:45]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-18 17:35:01]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-21 12:36:05]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-22 09:36:09]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-22 16:04:03]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-22 16:07:31]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-23 09:37:00]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-23 17:43:31]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-24 09:36:09]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-24 10:55:14]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-24 11:19:26]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-24 11:19:28]Response body Does not contain expected_msg, expected_msg is bannerUrl
+[ERROR 2020-09-24 11:19:28]Response body Does not contain expected_msg, expected_msg is bannerUrl
+[ERROR 2020-09-24 11:19:28]Response body Does not contain expected_msg, expected_msg is bannerUrl
+[INFO 2020-09-24 11:20:38]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-24 11:20:40]Response body Does not contain expected_msg, expected_msg is bannerUrl
+[ERROR 2020-09-24 11:20:41]Response body Does not contain expected_msg, expected_msg is bannerUrl
+[ERROR 2020-09-24 11:20:41]Response body Does not contain expected_msg, expected_msg is bannerUrl
+[INFO 2020-09-24 11:21:43]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-24 11:24:45]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-24 11:25:30]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-24 11:30:43]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-24 11:30:45]Response body Does not contain expected_msg, expected_msg is bannerUrl
+[INFO 2020-09-24 11:32:33]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-24 13:32:18]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-24 13:32:22]Response body Does not contain expected_msg, expected_msg is data': [
+[INFO 2020-09-24 13:33:31]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-24 13:33:34]Response body Does not contain expected_msg, expected_msg is data': [
+[INFO 2020-09-24 13:34:24]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-24 13:35:51]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-24 13:35:54]Response body Does not contain expected_msg, expected_msg is data': [
+[INFO 2020-09-24 13:36:15]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-24 13:39:01]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-24 16:47:09]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-24 16:50:22]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-24 16:51:41]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-24 17:04:28]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-24 17:04:29]Response body Does not contain expected_msg, expected_msg is 用户ID不能为空
+[ERROR 2020-09-24 17:04:30]Response body Does not contain expected_msg, expected_msg is 用户ID不能为空
+[INFO 2020-09-24 17:04:56]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-24 17:04:58]Response body Does not contain expected_msg, expected_msg is 用户ID不能为空
+[ERROR 2020-09-24 17:04:59]Response body Does not contain expected_msg, expected_msg is 用户ID不能为空
+[INFO 2020-09-24 17:06:24]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-24 17:06:25]Response body Does not contain expected_msg, expected_msg is 用户ID参数为空
+[INFO 2020-09-24 17:08:52]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-24 17:10:19]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-24 17:11:36]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-24 17:12:53]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-24 17:13:19]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-24 17:13:36]Response body Does not contain expected_msg, expected_msg is data': [
+[INFO 2020-09-24 17:15:21]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
