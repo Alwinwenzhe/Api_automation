@@ -13,24 +13,30 @@ class OperateSqlAl(object):
     con = Config.Config()
 
     def __init__(self,envir):
-        if 'ysy_test' == envir:
+        if 'ysy_test' == envir:         # 一生约测试
             self.dbhost = self.con.db_host_ysy_debug
             self.dbport = int(self.con.db_port_ysy_debug)
             self.dbname = self.con.db_name_ysy_debug
             self.db_user = self.con.db_user_ysy_debug
             self.pwd = self.con.db_pwd_ysy_debug
-        elif 'ysy_relase' == envir:
+        elif 'ysy_relase' == envir:     # 一生约正式
             self.dbhost = self.con.db_host_ysy_release
             self.dbport = int(self.con.db_port_ysy_release)
             self.dbname = self.con.db_name_ysy_release
             self.db_user = self.con.db_user_ysy_release
             self.pwd = self.con.db_user_ysy_release
-        elif 'yhz_test' == envir:
+        elif 'yhz_test' == envir:       # 雨花测试环境
             self.dbhost = self.con.yhz_host
             self.dbport = int(self.con.db_port_ysy_release)
             self.dbname = self.con.db_name_ysy_release
             self.db_user = self.con.db_user_ysy_release
             self.pwd = self.con.db_user_ysy_release
+        elif 'tysy_o2o' == envir:       # 小猪测试环境
+            self.dbhost = self.con.db_host_ysy_debug
+            self.dbport = int(self.con.db_port_ysy_debug)
+            self.dbname = self.con.db_name_o2o_debug
+            self.db_user = self.con.db_user_ysy_debug
+            self.pwd = self.con.db_pwd_ysy_debug
 
     def re_sql(self,var_str):
         """

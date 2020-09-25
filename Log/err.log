@@ -351,3 +351,17 @@ where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_d
 [ERROR 2020-09-24 17:04:59]Response body Does not contain expected_msg, expected_msg is 用户ID不能为空
 [ERROR 2020-09-24 17:06:25]Response body Does not contain expected_msg, expected_msg is 用户ID参数为空
 [ERROR 2020-09-24 17:13:36]Response body Does not contain expected_msg, expected_msg is data': [
+[ERROR 2020-09-25 10:59:47]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-09-25 10:59:47]Response body Does not contain expected_msg, expected_msg is 验证码不能为空
+[ERROR 2020-09-25 10:59:48]Response body Does not contain expected_msg, expected_msg is 验证码不正确
+[ERROR 2020-09-25 10:59:48]get param fail
+[ERROR 2020-09-25 11:03:22]Response body Does not contain expected_msg, expected_msg is SELECT IFNULL(t.topic_title,'query data is error') FROM topic t WHERE t.is_valid = 'Y' ORDER BY t.create_time DESC LIMIT 1
+[ERROR 2020-09-25 11:03:23]Response body Does not contain expected_msg, expected_msg is SELECT IFNULL(t.topic_title,'query data is error') FROM topic t WHERE t.is_valid = 'Y' ORDER BY t.create_time DESC LIMIT 1
+[ERROR 2020-09-25 11:06:09]Response body Does not contain expected_msg, expected_msg is SELECT IFNULL(t.topic_title,'query data is error') FROM topic t WHERE t.is_valid = 'Y' ORDER BY t.create_time DESC LIMIT 1
+[ERROR 2020-09-25 11:06:09]Response body Does not contain expected_msg, expected_msg is SELECT IFNULL(t.topic_title,'query data is error') FROM topic t WHERE t.is_valid = 'Y' ORDER BY t.create_time DESC LIMIT 1
+[ERROR 2020-09-25 17:18:28]Response body Does not contain expected_msg, expected_msg is cart_count": 0
+[ERROR 2020-09-25 17:19:10]Response body Does not contain expected_msg, expected_msg is cart_count": 0
+[ERROR 2020-09-25 17:23:40]Response body Does not contain expected_msg, expected_msg is cart_count": 0
+[ERROR 2020-09-25 17:23:40]Response body Does not contain expected_msg, expected_msg is cart_count": 0
+[ERROR 2020-09-25 17:30:02]Response body Does not contain expected_msg, expected_msg is cart_count": 0
+[ERROR 2020-09-25 20:10:52]Response body Does not contain expected_msg, expected_msg is 158

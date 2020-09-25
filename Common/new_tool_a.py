@@ -6,6 +6,7 @@ from Common import operate_sql_al
 from Common import ExcelHandler
 from Common import req_reload
 from Common import Assert
+from Common import Consts
 
 class New_Tool_A(object):
 
@@ -27,6 +28,8 @@ class New_Tool_A(object):
             req_url = self.conf.host_debug
         elif envir == 'yhz_test':
             req_url = self.conf.yhz_host
+        elif envir =='tysy_o2o':
+            req_url = self.conf.tysyo2o_host
         return req_url
 
     def param_get_deal(self,case):
@@ -48,8 +51,11 @@ class New_Tool_A(object):
         api_url = req_url + urls
         api_url = self.multiple_data(envir, api_url)[0]
         # api_url = self.multiple_data(envir, api_url)[0]  # 这里返回的url不该是list
-        headers = json.loads(case['case_header'])
-        headers = self.multiple_data(envir,headers)
+        if case['case_header']:  # 判断header是否为空
+            headers = json.loads(case['case_header'])
+            headers = self.multiple_data(envir,headers)
+        else:
+            headers = None
         params = case['case_params']
         params = self.multiple_data(envir, params)  # params格式有问题
         return expect[0], api_url, headers, params, global_var          # 只验证第一个expect值即可
@@ -310,6 +316,20 @@ class New_Tool_A(object):
             temp_con_var = var
         return temp_con_var
 
+    def test_case_method(self,case,request_method):
+        '''
+        所有测试用例调用该方法
+        :param case:
+        :param request_method:
+        :return:
+        '''
+        expect, api_url, headers, params, global_var = self.param_get_deal(case)
+        response = self.reqe.req(request_method, api_url, params, headers, global_var)
+        if global_var:
+            self.response_write_to_json(global_var, response['text'])
+        self.test.assert_common(response['code'], response['body'], expect, response['time_consuming'])
+        Consts.RESULT_LIST.append('True')
+        print('运行case为：{0}，验证：{1}，预期结果为：{2}'.format(case['module'], case['case_description'], expect))
 
 if __name__ == '__main__':
     ut = New_Tool_A()
