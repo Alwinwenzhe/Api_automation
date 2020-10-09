@@ -365,3 +365,183 @@ where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_d
 [ERROR 2020-09-25 17:23:40]Response body Does not contain expected_msg, expected_msg is cart_count": 0
 [ERROR 2020-09-25 17:30:02]Response body Does not contain expected_msg, expected_msg is cart_count": 0
 [ERROR 2020-09-25 20:10:52]Response body Does not contain expected_msg, expected_msg is 158
+[ERROR 2020-09-25 21:25:08]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-09-25 21:28:27]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-09-27 09:42:17]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-09-27 09:42:18]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-09-27 09:42:22]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-09-27 10:40:25]Response body Does not contain expected_msg, expected_msg is 用户ID参数为空
+[ERROR 2020-09-27 10:46:59]Response body Does not contain expected_msg, expected_msg is 用户ID参数为空
+[ERROR 2020-09-28 15:49:21]Response body Does not contain expected_msg, expected_msg is 15008499838
+[ERROR 2020-09-28 15:50:25]Response body Does not contain expected_msg, expected_msg is code': 0
+[ERROR 2020-09-28 16:58:52]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-09-28 17:00:27]Response body Does not contain expected_msg, expected_msg is 商城
+[ERROR 2020-10-04 17:42:00]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-04 17:42:00]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-04 17:42:01]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-04 17:42:04]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-04 17:42:05]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-04 17:42:07]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-04 17:42:10]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-04 17:42:10]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-05 09:17:00]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-05 09:17:01]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-05 09:17:01]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-05 09:17:05]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-05 09:17:06]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-05 09:17:08]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-05 09:17:13]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-05 09:17:13]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-06 09:16:58]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-06 09:16:59]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-06 09:17:00]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-06 09:17:03]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-06 09:17:04]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-06 09:17:07]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-06 09:17:10]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-06 09:17:10]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 09:16:36]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-09 09:16:38]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-09 09:16:39]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 09:16:43]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-09 09:16:44]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 09:16:46]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 09:16:48]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 09:16:48]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 09:19:23]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-09 09:19:24]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-09 09:19:24]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 09:19:28]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-09 09:19:28]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 09:19:31]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 09:19:33]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 09:19:34]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 12:35:31]get param fail
+[ERROR 2020-10-09 14:39:14]Response body Does not contain expected_msg, expected_msg is e8543fcb5045f487127fb38d4c26f694
+[ERROR 2020-10-09 15:14:13]get param fail
+[ERROR 2020-10-09 15:14:14]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-09 15:14:15]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-09 15:14:16]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:14:16]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:14:19]Response body Does not contain expected_msg, expected_msg is e8543fcb5045f487127fb38d4c26f694
+[ERROR 2020-10-09 15:14:21]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-09 15:14:25]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:14:28]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 15:14:29]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 15:14:31]Response body Does not contain expected_msg, expected_msg is 游客02496364
+[ERROR 2020-10-09 15:26:43]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:44]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:44]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:45]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:45]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:45]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:46]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:46]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:46]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:46]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:47]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:47]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:47]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:47]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:48]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:48]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:49]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:49]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:49]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:50]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:50]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:51]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:51]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:51]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:51]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:52]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:52]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:52]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:53]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:53]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:53]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:30]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:31]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:31]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:31]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:31]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:32]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:32]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:32]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:32]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:32]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:33]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:33]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:34]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:34]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:34]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:35]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:35]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:36]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:36]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:36]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:37]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:37]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:37]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:37]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:38]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:38]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:38]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:39]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:39]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:40]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:40]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:40]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:40]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:40]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:41]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:41]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:42]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:42]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:42]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:42]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:42]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:44]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:44]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:44]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:46]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:46]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:47]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:29:35]Response body Does not contain expected_msg, expected_msg is release_user
+[ERROR 2020-10-09 15:29:36]Response body Does not contain expected_msg, expected_msg is release_user
+[ERROR 2020-10-09 15:29:37]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:29:37]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:29:40]Response body Does not contain expected_msg, expected_msg is e8543fcb5045f487127fb38d4c26f694
+[ERROR 2020-10-09 15:29:42]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-09 15:29:46]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:29:49]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 15:29:50]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 15:29:52]Response body Does not contain expected_msg, expected_msg is 游客02496364
+[ERROR 2020-10-09 15:30:52]Response body Does not contain expected_msg, expected_msg is release_user
+[ERROR 2020-10-09 15:30:53]Response body Does not contain expected_msg, expected_msg is release_user
+[ERROR 2020-10-09 15:30:53]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:30:54]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:30:57]Response body Does not contain expected_msg, expected_msg is e8543fcb5045f487127fb38d4c26f694
+[ERROR 2020-10-09 15:30:59]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-09 15:31:03]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:31:04]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 15:31:05]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 15:31:07]Response body Does not contain expected_msg, expected_msg is 游客02496364
+[ERROR 2020-10-09 15:34:40]Response body Does not contain expected_msg, expected_msg is release_user
+[ERROR 2020-10-09 15:34:41]Response body Does not contain expected_msg, expected_msg is release_user
+[ERROR 2020-10-09 15:34:42]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:34:42]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:34:45]Response body Does not contain expected_msg, expected_msg is e8543fcb5045f487127fb38d4c26f694
+[ERROR 2020-10-09 15:34:47]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-09 15:34:51]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:34:53]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 15:34:53]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 15:34:55]Response body Does not contain expected_msg, expected_msg is 游客02496364
+[ERROR 2020-10-09 15:48:24]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-09 15:54:16]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-09 15:57:25]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-09 15:57:50]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-09 16:02:05]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-09 16:27:29]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-09 16:44:07]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-09 16:49:55]Response body Does not contain expected_msg, expected_msg is isSupport": "Y

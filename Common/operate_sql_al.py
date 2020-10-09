@@ -19,16 +19,16 @@ class OperateSqlAl(object):
             self.dbname = self.con.db_name_ysy_debug
             self.db_user = self.con.db_user_ysy_debug
             self.pwd = self.con.db_pwd_ysy_debug
-        elif 'ysy_relase' == envir:     # 一生约正式
+        elif 'ysy_release' == envir:     # 一生约正式
             self.dbhost = self.con.db_host_ysy_release
             self.dbport = int(self.con.db_port_ysy_release)
             self.dbname = self.con.db_name_ysy_release
             self.db_user = self.con.db_user_ysy_release
-            self.pwd = self.con.db_user_ysy_release
+            self.pwd = self.con.db_pwd_ysy_release
         elif 'yhz_test' == envir:       # 雨花测试环境
-            self.dbhost = self.con.yhz_host
+            self.dbhost = self.con.yhz_host_debug
             self.dbport = int(self.con.db_port_ysy_release)
-            self.dbname = self.con.db_name_ysy_release
+            self.dbname = self.con.yhz_db_name
             self.db_user = self.con.db_user_ysy_release
             self.pwd = self.con.db_user_ysy_release
         elif 'tysy_o2o' == envir:       # 小猪测试环境
@@ -66,7 +66,7 @@ class OperateSqlAl(object):
             data = self.bytes_to_str(data[0])
             return data
         except Exception:
-            print("sql执行异常，请检查")
+            print('\033[1;33m"sql执行异常，请检查"\033[3;31m')
         finally:
             cursor.close()
             db.close()  # 关闭数据库

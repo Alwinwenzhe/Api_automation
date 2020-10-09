@@ -1355,3 +1355,304 @@ where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_d
 [INFO 2020-09-25 20:13:36]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
 [INFO 2020-09-25 20:24:03]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
 [INFO 2020-09-25 20:26:10]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-25 21:02:27]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-25 21:19:46]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-25 21:21:13]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-25 21:21:32]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-25 21:21:50]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-25 21:22:19]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-25 21:23:02]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-25 21:24:42]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-25 21:25:08]Response body Does not contain expected_msg, expected_msg is code": 0
+[INFO 2020-09-25 21:28:01]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-25 21:28:27]Response body Does not contain expected_msg, expected_msg is code": 0
+[INFO 2020-09-25 21:28:59]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-27 09:41:59]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-27 09:42:17]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-09-27 09:42:18]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-09-27 09:42:22]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[INFO 2020-09-27 09:43:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-27 09:46:13]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-27 09:53:45]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-27 10:40:19]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-27 10:40:25]Response body Does not contain expected_msg, expected_msg is 用户ID参数为空
+[INFO 2020-09-27 10:46:55]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-27 10:46:59]Response body Does not contain expected_msg, expected_msg is 用户ID参数为空
+[INFO 2020-09-27 10:49:31]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-27 10:51:19]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-27 16:36:20]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-27 16:41:38]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-27 16:49:28]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-27 16:52:34]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-27 16:53:49]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-27 17:27:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 09:36:58]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 15:08:57]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 15:31:30]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 15:33:23]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 15:34:35]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 15:35:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 15:36:51]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 15:37:25]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 15:38:35]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 15:39:08]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 15:40:19]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 15:40:44]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 15:44:42]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 15:47:19]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 15:49:17]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-28 15:49:21]Response body Does not contain expected_msg, expected_msg is 15008499838
+[INFO 2020-09-28 15:50:22]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-28 15:50:25]Response body Does not contain expected_msg, expected_msg is code': 0
+[INFO 2020-09-28 15:50:55]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 16:20:08]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 16:21:07]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 16:57:56]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 16:58:50]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-28 16:58:52]statusCode error, expected_code is 200, statusCode is 404 
+[INFO 2020-09-28 16:59:20]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 17:00:24]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-09-28 17:00:27]Response body Does not contain expected_msg, expected_msg is 商城
+[INFO 2020-09-28 17:04:22]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 17:08:43]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 17:09:43]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 17:10:28]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 17:26:44]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 17:27:52]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-28 17:29:34]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-29 09:16:51]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-09-30 09:16:04]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-01 09:16:04]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-02 09:16:01]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-02 09:16:52]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-02 09:23:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-03 17:29:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-04 17:12:52]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-04 17:34:19]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-04 17:36:13]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-04 17:38:37]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-04 17:39:11]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-04 17:39:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-04 17:41:14]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-04 17:41:54]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-04 17:42:00]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-04 17:42:00]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-04 17:42:01]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-04 17:42:04]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-04 17:42:05]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-04 17:42:07]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-04 17:42:10]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-04 17:42:10]Response body Does not contain expected_msg, expected_msg is 成都
+[INFO 2020-10-05 09:16:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-05 09:17:00]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-05 09:17:01]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-05 09:17:01]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-05 09:17:05]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-05 09:17:06]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-05 09:17:08]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-05 09:17:13]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-05 09:17:13]Response body Does not contain expected_msg, expected_msg is 成都
+[INFO 2020-10-06 09:16:45]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-06 09:16:58]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-06 09:16:59]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-06 09:17:00]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-06 09:17:03]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-06 09:17:04]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-06 09:17:07]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-06 09:17:10]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-06 09:17:10]Response body Does not contain expected_msg, expected_msg is 成都
+[INFO 2020-10-09 09:16:22]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 09:16:36]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-09 09:16:38]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-09 09:16:39]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 09:16:43]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-09 09:16:44]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 09:16:46]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 09:16:48]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 09:16:48]Response body Does not contain expected_msg, expected_msg is 成都
+[INFO 2020-10-09 09:19:18]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 09:19:23]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-09 09:19:24]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-09 09:19:24]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 09:19:28]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-09 09:19:28]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 09:19:31]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 09:19:33]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 09:19:34]Response body Does not contain expected_msg, expected_msg is 成都
+[INFO 2020-10-09 11:42:18]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 11:43:30]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 12:26:02]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 12:31:36]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 12:34:55]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 12:35:31]get param fail
+[INFO 2020-10-09 14:32:54]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 14:33:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 14:34:49]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 14:35:14]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 14:38:47]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 14:39:14]Response body Does not contain expected_msg, expected_msg is e8543fcb5045f487127fb38d4c26f694
+[INFO 2020-10-09 14:40:07]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 14:41:23]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 15:14:10]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 15:14:13]get param fail
+[ERROR 2020-10-09 15:14:14]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-09 15:14:15]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-09 15:14:16]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:14:16]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:14:19]Response body Does not contain expected_msg, expected_msg is e8543fcb5045f487127fb38d4c26f694
+[ERROR 2020-10-09 15:14:21]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-09 15:14:25]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:14:28]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 15:14:29]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 15:14:31]Response body Does not contain expected_msg, expected_msg is 游客02496364
+[INFO 2020-10-09 15:25:37]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 15:26:41]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 15:26:43]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:44]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:44]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:45]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:45]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:45]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:46]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:46]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:46]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:46]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:47]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:47]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:47]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:47]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:48]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:48]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:49]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:49]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:49]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:50]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:50]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:51]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:51]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:51]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:51]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:52]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:52]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:52]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:53]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:53]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:26:53]statusCode error, expected_code is 200, statusCode is 404 
+[INFO 2020-10-09 15:27:28]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 15:27:30]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:31]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:31]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:31]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:31]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:32]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:32]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:32]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:32]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:32]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:33]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:33]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:34]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:34]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:34]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:35]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:35]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:36]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:36]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:36]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:37]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:37]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:37]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:37]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:38]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:38]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:38]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:39]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:39]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:40]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:40]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:40]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:40]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:40]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:41]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:41]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:42]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:42]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:42]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:42]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:42]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:44]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:44]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:44]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:46]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:46]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-10-09 15:27:47]statusCode error, expected_code is 200, statusCode is 404 
+[INFO 2020-10-09 15:29:32]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 15:29:35]Response body Does not contain expected_msg, expected_msg is release_user
+[ERROR 2020-10-09 15:29:36]Response body Does not contain expected_msg, expected_msg is release_user
+[ERROR 2020-10-09 15:29:37]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:29:37]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:29:40]Response body Does not contain expected_msg, expected_msg is e8543fcb5045f487127fb38d4c26f694
+[ERROR 2020-10-09 15:29:42]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-09 15:29:46]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:29:49]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 15:29:50]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 15:29:52]Response body Does not contain expected_msg, expected_msg is 游客02496364
+[INFO 2020-10-09 15:30:49]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 15:30:52]Response body Does not contain expected_msg, expected_msg is release_user
+[ERROR 2020-10-09 15:30:53]Response body Does not contain expected_msg, expected_msg is release_user
+[ERROR 2020-10-09 15:30:53]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:30:54]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:30:57]Response body Does not contain expected_msg, expected_msg is e8543fcb5045f487127fb38d4c26f694
+[ERROR 2020-10-09 15:30:59]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-09 15:31:03]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:31:04]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 15:31:05]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 15:31:07]Response body Does not contain expected_msg, expected_msg is 游客02496364
+[INFO 2020-10-09 15:34:37]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 15:34:40]Response body Does not contain expected_msg, expected_msg is release_user
+[ERROR 2020-10-09 15:34:41]Response body Does not contain expected_msg, expected_msg is release_user
+[ERROR 2020-10-09 15:34:42]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:34:42]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:34:45]Response body Does not contain expected_msg, expected_msg is e8543fcb5045f487127fb38d4c26f694
+[ERROR 2020-10-09 15:34:47]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-09 15:34:51]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-09 15:34:53]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 15:34:53]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-09 15:34:55]Response body Does not contain expected_msg, expected_msg is 游客02496364
+[INFO 2020-10-09 15:36:36]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 15:37:42]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 15:38:45]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 15:44:17]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 15:48:05]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 15:48:24]Response body Does not contain expected_msg, expected_msg is 15828022852
+[INFO 2020-10-09 15:48:57]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 15:50:09]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 15:54:13]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 15:54:16]Response body Does not contain expected_msg, expected_msg is 15828022852
+[INFO 2020-10-09 15:54:28]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 15:56:03]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 15:57:23]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 15:57:25]Response body Does not contain expected_msg, expected_msg is 15828022852
+[INFO 2020-10-09 15:57:36]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 15:57:40]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 15:57:50]Response body Does not contain expected_msg, expected_msg is 15828022852
+[INFO 2020-10-09 15:58:07]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 15:59:42]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 16:01:56]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 16:02:05]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[INFO 2020-10-09 16:27:26]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 16:27:29]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[INFO 2020-10-09 16:43:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 16:44:05]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 16:44:07]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[INFO 2020-10-09 16:44:38]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 16:49:20]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 16:49:52]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-09 16:49:55]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[INFO 2020-10-09 16:56:35]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 16:57:50]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 16:59:45]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 17:00:01]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 17:00:38]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 17:02:15]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-09 17:15:21]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini

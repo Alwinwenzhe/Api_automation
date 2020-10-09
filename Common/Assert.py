@@ -118,4 +118,12 @@ class Assertions:
         assert self.assert_in_text(res_body, res_expect)
         assert self.assert_time(res_time, 1500)
 
+    def assert_php(self,res_code,res_time):
+        '''
+        判断响应状态及响应时间
+        :return:
+        '''
+        assert self.assert_code(res_code, 200)
+        assert self.assert_time(res_time, 1500)
+
 

@@ -1,10 +1,6 @@
 import allure, pytest
-from Common import Consts
 from Common import new_tool_a
 from Common import ExcelHandler
-from Common import req_reload
-from Common import Assert
-
 
 class TestYsy004Health:
     '''

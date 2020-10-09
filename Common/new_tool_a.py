@@ -1,4 +1,4 @@
-import json, re
+import json, re, time, hashlib, random
 from Common import Log
 from Common import operate_json
 from Conf import Config
@@ -26,10 +26,12 @@ class New_Tool_A(object):
         '''
         if envir =='ysy_test':
             req_url = self.conf.host_debug
+        elif envir =='ysy_release':
+            req_url = self.conf.host_release
         elif envir == 'yhz_test':
-            req_url = self.conf.yhz_host
+            req_url = self.conf.yhz_host_debug
         elif envir =='tysy_o2o':
-            req_url = self.conf.tysyo2o_host
+            req_url = self.conf.tysyo2o_host_debug
         return req_url
 
     def param_get_deal(self,case):
@@ -300,6 +302,11 @@ class New_Tool_A(object):
         #     return data
 
     def con_var(self,var):
+        '''
+        从config.py文件中找到对应的值
+        :param var:
+        :return:
+        '''
         if var == 'tester_debug':
             temp_con_var = self.conf.tester_debug
         elif var == 'environment_debug':
@@ -307,11 +314,17 @@ class New_Tool_A(object):
         elif var == 'host_debug':
             temp_con_var = self.conf.host_debug
         elif var == 'tester_release':
-            temp_con_var = self.conf.tester_release
+            temp_con_var = self.conf.release_user
         elif var == 'environment_release':
             temp_con_var = self.conf.environment_release
         elif var == 'host_release':
             temp_con_var = self.conf.host_release
+        elif var == 'release_user':
+            temp_con_var = self.conf.release_user
+        elif var == 'releaser_accesstoken':
+            temp_con_var = self.conf.releaser_accesstoken
+        elif var == 'releaser_userId':
+            temp_con_var = self.conf.releaser_userId
         else:
             temp_con_var = var
         return temp_con_var
@@ -327,9 +340,52 @@ class New_Tool_A(object):
         response = self.reqe.req(request_method, api_url, params, headers, global_var)
         if global_var:
             self.response_write_to_json(global_var, response['text'])
-        self.test.assert_common(response['code'], response['body'], expect, response['time_consuming'])
+        if response['body']:
+            self.test.assert_common(response['code'], response['body'], expect, response['time_consuming'])
+        else:       #处理PHP返回的页面请求
+            self.test.assert_php(response['code'],response['time_consuming'])
+
         Consts.RESULT_LIST.append('True')
         print('运行case为：{0}，验证：{1}，预期结果为：{2}'.format(case['module'], case['case_description'], expect))
+
+    def get_current_timestamp(self):
+        '''
+        当前时间的时间戳获取,
+        :return:
+        '''
+        time_stru = int(time.time())  # 强制将得到的浮点数进行转化
+        return time_stru
+
+    def write_data_to_json(self):
+        '''
+        将当前时间戳写入json
+        将随机8位数戳写入json
+        将登录标记写入json
+        :return:
+        '''
+        self.oper_j.write_json_value('curTime',self.get_current_timestamp())
+        self.oper_j.write_json_value('nonce', self.randint_8())
+        self.oper_j.write_json_value('sign', self.login_sign())
+
+    def login_sign(self):
+        '''
+        一生约正式环境登录接口的签名规则
+        现在加密算法和java的MD5值不匹配
+        :return:
+        '''
+        key = 'MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBALe39vUUq6T1NBMg4QoEyl96WKYdHrGUvYIMRDIIaHZbu1eLeYEiesV/XNMwLyzXVZwmy9WpyNBTdDpQ'
+        str_sum = str(self.randint_8()) + key + str(self.get_current_timestamp())
+        m = hashlib.md5(str_sum.encode())
+        n = hashlib.md5(m.hexdigest().encode())
+        return n.hexdigest()
+
+    def randint_8(self):
+        '''
+        8位随机数
+        :return:
+        '''
+        int_8 = random.randint(0,99999999)
+        return int_8
 
 if __name__ == '__main__':
     ut = New_Tool_A()

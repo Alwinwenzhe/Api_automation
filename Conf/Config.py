@@ -35,6 +35,8 @@ class Config:
 
     # [release] 下列数据中对应的值是没有的
     YSY_REALSER = "releaser"
+    YSY_REALSER_USERID = "releaser_userId"
+    YSY_REALSER_ACCESSTOKEN = "releaser_accessToken"
     YSY_REALSE_ENVIRONMENT = "release_environment"
     YSY_REALSE_HOST = "release_host"
     YSY_REALSE_DB_HOST = "release_sql_dbhost"
@@ -77,14 +79,15 @@ class Config:
         self.db_name_ysy_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TEST_DB_NAME)
         self.db_user_ysy_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TEST_DB_USER)
         self.db_pwd_ysy_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TEST_DB_PWD)
-        self.yhz_host = self.get_conf(Config.TITLE_DEBUG,Config.YHZ_HOST)
 
         # 雨花斋测试库
+        self.yhz_host_debug = self.get_conf(Config.TITLE_DEBUG, Config.YHZ_HOST)
         self.yhz_db_name = self.get_conf(Config.TITLE_DEBUG,Config.YHZ_DB_NAME)
 
-
         # 一生约正式库
-        self.tester_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSER)
+        self.release_user = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSER)
+        self.releaser_userId = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSER_USERID)
+        self.releaser_accesstoken = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSER_ACCESSTOKEN)
         self.environment_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_ENVIRONMENT)
         self.host_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_HOST)
         self.db_host_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_DB_HOST)
@@ -94,9 +97,8 @@ class Config:
         self.db_pwd_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_DB_PWD)
 
         # 小猪数据库
-        self.tysyo2o_host = self.get_conf(Config.TITLE_DEBUG, Config.TO2O_HOST)
+        self.tysyo2o_host_debug = self.get_conf(Config.TITLE_DEBUG, Config.TO2O_HOST)
         self.db_name_o2o_debug = self.get_conf(Config.TITLE_DEBUG,Config.TO2O_DB_NAME)
-
 
         self.smtpserver = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_SMTP_SERVER)
         self.sender = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_SENDER)
