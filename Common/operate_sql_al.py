@@ -37,6 +37,12 @@ class OperateSqlAl(object):
             self.dbname = self.con.db_name_o2o_debug
             self.db_user = self.con.db_user_ysy_debug
             self.pwd = self.con.db_pwd_ysy_debug
+        elif 'ysy_o2o' == envir:       # 小猪测试环境
+            self.dbhost = self.con.db_host_ysy_release
+            self.dbport = int(self.con.db_port_ysy_release)
+            self.dbname = self.con.db_name_o2o_release
+            self.db_user = self.con.db_user_ysy_release
+            self.pwd = self.con.db_pwd_ysy_release
 
     def re_sql(self,var_str):
         """

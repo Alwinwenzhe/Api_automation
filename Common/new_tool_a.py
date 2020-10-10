@@ -32,6 +32,8 @@ class New_Tool_A(object):
             req_url = self.conf.yhz_host_debug
         elif envir =='tysy_o2o':
             req_url = self.conf.tysyo2o_host_debug
+        elif envir =='ysy_o2o':
+            req_url = self.conf.ysyo2o_host_release
         return req_url
 
     def param_get_deal(self,case):
@@ -331,7 +333,7 @@ class New_Tool_A(object):
 
     def test_case_method(self,case,request_method):
         '''
-        所有测试用例调用该方法
+        所有api测试用例调用该方法
         :param case:
         :param request_method:
         :return:
@@ -342,9 +344,8 @@ class New_Tool_A(object):
             self.response_write_to_json(global_var, response['text'])
         if response['body']:
             self.test.assert_common(response['code'], response['body'], expect, response['time_consuming'])
-        else:       #处理PHP返回的页面请求
+        else:                       #处理PHP返回的页面请求
             self.test.assert_php(response['code'],response['time_consuming'])
-
         Consts.RESULT_LIST.append('True')
         print('运行case为：{0}，验证：{1}，预期结果为：{2}'.format(case['module'], case['case_description'], expect))
 

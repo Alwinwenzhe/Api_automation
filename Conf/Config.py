@@ -45,6 +45,9 @@ class Config:
     YSY_REALSE_DB_USER = "release_sql_user"
     YSY_REALSE_DB_PWD = "release_sql_pwd"
 
+    O2O_HOST = "ysyo2o_host"
+    O2O_DB_NAME = 'ysyo2o_db'
+
     # [mail]
     VALUE_SMTP_SERVER = "smtpserver"
     VALUE_SENDER = "sender"
@@ -96,9 +99,14 @@ class Config:
         self.db_user_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_DB_USER)
         self.db_pwd_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_DB_PWD)
 
-        # 小猪数据库
+        # 小猪
+        # 测试数据库
         self.tysyo2o_host_debug = self.get_conf(Config.TITLE_DEBUG, Config.TO2O_HOST)
         self.db_name_o2o_debug = self.get_conf(Config.TITLE_DEBUG,Config.TO2O_DB_NAME)
+
+        # 正式数据库
+        self.ysyo2o_host_release = self.get_conf(Config.TITLE_RELEASE, Config.O2O_HOST)
+        self.db_name_o2o_release = self.get_conf(Config.TITLE_RELEASE, Config.O2O_DB_NAME)
 
         self.smtpserver = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_SMTP_SERVER)
         self.sender = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_SENDER)

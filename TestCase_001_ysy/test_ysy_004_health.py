@@ -2,7 +2,9 @@ import allure, pytest
 from Common import new_tool_a
 from Common import ExcelHandler
 
-class TestYsy004Health:
+@allure.feature('健康')  # @allure.feature 用于定义被测试的功能，被测产品的需求点
+@allure.severity('critical')  # allure.story  用于定义被测功能的用例等级，blocker--测试主流程 blocker级别；
+class TestYsy004Health(object):
     '''
     # BLOCKER = 'blocker'　　阻塞缺陷
     # CRITICAL = 'critical'　严重缺陷
@@ -14,9 +16,7 @@ class TestYsy004Health:
     excel = ExcelHandler.ExcelHandler()
     new = new_tool_a.New_Tool_A()
 
-    @allure.feature('ysy_health')  # @allure.feature 用于定义被测试的功能，被测产品的需求点
-    @allure.severity('critical')  # allure.story  用于定义被测功能的用例等级，blocker--测试主流程 blocker级别；
-    @allure.story('health')  # allure.story  用于定义被测功能的用户场景，即子功能点
+    @allure.story('添加成員步數')  # allure.story  用于定义被测功能的用户场景，即子功能点
     @pytest.mark.parametrize('case', excel.get_excel_data('health_001_addMenberStep'))
     def test_invitation_001_addMenberStep(self,case):
         """

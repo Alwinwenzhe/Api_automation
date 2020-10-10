@@ -1656,3 +1656,16 @@ where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_d
 [INFO 2020-10-09 17:00:38]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
 [INFO 2020-10-09 17:02:15]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
 [INFO 2020-10-09 17:15:21]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-10 08:21:03]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-10 08:22:24]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-10 15:33:05]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-10 16:52:24]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-10 16:53:13]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-10 17:00:47]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-10 17:02:15]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-10 17:02:46]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-10-10 17:02:52]Response body Does not contain expected_msg, expected_msg is 我不帅
+[INFO 2020-10-10 17:07:04]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-10 17:07:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-10 17:09:20]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-10-10 17:14:18]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini

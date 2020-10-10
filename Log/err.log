@@ -545,3 +545,4 @@ where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_d
 [ERROR 2020-10-09 16:27:29]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
 [ERROR 2020-10-09 16:44:07]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
 [ERROR 2020-10-09 16:49:55]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-10 17:02:52]Response body Does not contain expected_msg, expected_msg is 我不帅
