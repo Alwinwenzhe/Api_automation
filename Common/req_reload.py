@@ -12,9 +12,7 @@ import os, json
 import random
 import requests
 import Common.Consts
-from Common import Session
 from requests_toolbelt import MultipartEncoder
-from Common import new_tool_a
 
 
 class ReqReload(object):
@@ -37,6 +35,8 @@ class ReqReload(object):
         :param headers:
         :return:
         '''
+        # s = requests.sessions
+        # s.keep_alive = False  # 关闭多余连接
         if 'get' == api_method:
             res = self.get_request(api_url, params, headers)
         elif 'post' == api_method:
@@ -66,7 +66,7 @@ class ReqReload(object):
         #     else:
         #         response = requests.get(url=url, params=data, headers=header, cookies=self.get_session)
         try:
-            response = requests.get(url, params=data, headers=header)
+            response = requests.get(url, params=data, headers=header,verify=False)
         except requests.RequestException as e:
             print('%s%s' % ('RequestException url: ', url))
             print(e)
@@ -110,7 +110,8 @@ class ReqReload(object):
         #     print(url)
 
         try:
-                response = requests.post(url=url, data=json.dumps(data), headers=header)
+            response = requests.post(url=url, data=json.dumps(data), headers=header,verify=False)
+                # response = requests.post(url=url, data=data, headers=header)
         # try:
         #     if data is '':
         #         response = requests.post(url=url, headers=header, cookies=self.get_session)
@@ -120,12 +121,12 @@ class ReqReload(object):
         except requests.RequestException as e:
             print('%s%s' % ('RequestException url: ', url))
             print(e)
-            return ()
+            return None
 
         except Exception as e:
             print('%s%s' % ('Exception url: ', url))
             print(e)
-            return ()
+            return None
 
         # time_consuming为响应时间，单位为毫秒
         time_consuming = response.elapsed.microseconds/1000
@@ -164,7 +165,7 @@ class ReqReload(object):
             print(url)
         try:
             if data is None:
-                response = requests.post(url=url, headers=header, cookies=self.get_session)
+                response = requests.post(url=url, headers=header, cookies=self.get_session,verify=False)
             else:
                 data[file_parm] = os.path.basename(file), open(file, 'rb'), f_type
 
@@ -222,9 +223,9 @@ class ReqReload(object):
 
         try:
             if data is None:
-                response = requests.put(url=url, headers=header, cookies=self.get_session)
+                response = requests.put(url=url, headers=header, cookies=self.get_session,verify=False)
             else:
-                response = requests.put(url=url, params=data, headers=header, cookies=self.get_session)
+                response = requests.put(url=url, params=data, headers=header, cookies=self.get_session,verify=False)
 
         except requests.RequestException as e:
             print('%s%s' % ('RequestException url: ', url))

@@ -20,33 +20,45 @@ class Config:
 
     # values:
     # [debug]
-    YSY_TESTER = "tester"
-    YSY_TEST_ENVIRONMENT = "environment"
-    YSY_TEST_HOST = "ysy_host"
-    YSY_TEST_DB_HOST = "sql_dbhost"
-    YSY_TEST_DB_PORT = "sql_dbport"
-    YSY_TEST_DB_NAME = "sql_dbname"
-    YSY_TEST_DB_USER = "sql_user"
-    YSY_TEST_DB_PWD = "sql_pwd"
+    # 一生约测试环境信息
+    YSY_USER = "tester"
+    YSY_ENVIRONMENT = "environment"
+    YSY_HOST = "ysy_host"
+    # 一生约测试环境数据库信息
+    YSY_DB_HOST = "ysy_sql_dbhost"
+    YSY_DB_PORT = "ysy_sql_dbport"
+    YSY_DB_NAME = "ysy_sql_dbname"
+    YSY_DB_USER = "ysy_sql_user"
+    YSY_DB_PWD = "ysy_sql_pwd"
+    # 雨花斋测试环境信息
     YHZ_HOST = "yhz_host"
-    TO2O_HOST = "tysyo2o_host"
-    TO2O_DB_NAME = 'tysyo2o_db'
-    YHZ_DB_NAME = "yhz_dbname"
+    YHZ_DB_NAME = "yhz_db_name"
+    YHZ_DB_USER = "yhz_sql_user"
+    YHZ_DB_PWD = "yhz_sql_pwd"
+
+    # 商城测试环境
+    O2O_HOST = "ysyo2o_host"
+    O2O_DB_NAME = 'ysyo2o_db_name'
 
     # [release] 下列数据中对应的值是没有的
-    YSY_REALSER = "releaser"
-    YSY_REALSER_USERID = "releaser_userId"
-    YSY_REALSER_ACCESSTOKEN = "releaser_accessToken"
-    YSY_REALSE_ENVIRONMENT = "release_environment"
-    YSY_REALSE_HOST = "release_host"
-    YSY_REALSE_DB_HOST = "release_sql_dbhost"
-    YSY_REALSE_DB_PORT = "release_sql_dbport"
-    YSY_REALSE_DB_NAME = "release_sql_dbname"
-    YSY_REALSE_DB_USER = "release_sql_user"
-    YSY_REALSE_DB_PWD = "release_sql_pwd"
-
+    # 一生约正式环境信息
+    YSY_USER = "ysy_user"
+    YSY_USERID = "releaser_userId"
+    YSY_ACCESSTOKEN = "releaser_accessToken"
+    YSY_ENVIRONMENT = "environment"
+    YSY_HOST = "ysy_host"
+    # 一生约正式环境数据库信息
+    YSY_DB_HOST = "ysy_sql_dbhost"
+    YSY_DB_PORT = "ysy_sql_dbport"
+    YSY_DB_NAME = "ysy_sql_dbname"
+    YSY_DB_USER = "ysy_sql_user"
+    YSY_DB_PWD = "ysy_sql_pwd"
+    # 一生约物业正式环境信息
+    YSY_PRO_USER = "ysy_pro_user"
+    YSY_PRO_HOST = "ysy_pro_host"
+    # 商城正式环境
     O2O_HOST = "ysyo2o_host"
-    O2O_DB_NAME = 'ysyo2o_db'
+    O2O_DB_NAME = 'ysyo2o_db_name'
 
     # [mail]
     VALUE_SMTP_SERVER = "smtpserver"
@@ -73,46 +85,56 @@ class Config:
             raise FileNotFoundError("请确保配置文件存在！")
         self.config.read(self.conf_path, encoding='utf-8')
 
-        # 一生约测试库
-        self.tester_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TESTER)
-        self.environment_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TEST_ENVIRONMENT)
-        self.host_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TEST_HOST)
-        self.db_host_ysy_debug = self.get_conf(Config.TITLE_DEBUG,Config.YSY_TEST_DB_HOST)
-        self.db_port_ysy_debug = self.get_conf(Config.TITLE_DEBUG,Config.YSY_TEST_DB_PORT)
-        self.db_name_ysy_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TEST_DB_NAME)
-        self.db_user_ysy_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TEST_DB_USER)
-        self.db_pwd_ysy_debug = self.get_conf(Config.TITLE_DEBUG, Config.YSY_TEST_DB_PWD)
+        # 一生约测试环境信息
+        self.tysy_user = self.get_conf(Config.TITLE_DEBUG, Config.YSY_USER)
+        self.tysy_environment = self.get_conf(Config.TITLE_DEBUG, Config.YSY_ENVIRONMENT)
+        self.tysy_host = self.get_conf(Config.TITLE_DEBUG, Config.YSY_HOST)
+        # 一生约正式环境信息
+        self.ysy_user = self.get_conf(Config.TITLE_RELEASE, Config.YSY_USER)
+        self.ysy_userId = self.get_conf(Config.TITLE_RELEASE, Config.YSY_USERID)
+        self.ysy_accesstoken = self.get_conf(Config.TITLE_RELEASE, Config.YSY_ACCESSTOKEN)
+        self.ysy_environment = self.get_conf(Config.TITLE_RELEASE, Config.YSY_ENVIRONMENT)
+        self.ysy_host = self.get_conf(Config.TITLE_RELEASE, Config.YSY_HOST)
 
-        # 雨花斋测试库
-        self.yhz_host_debug = self.get_conf(Config.TITLE_DEBUG, Config.YHZ_HOST)
-        self.yhz_db_name = self.get_conf(Config.TITLE_DEBUG,Config.YHZ_DB_NAME)
+        # 一生约测试环境数据库
+        self.tysy_db_host = self.get_conf(Config.TITLE_DEBUG,Config.YSY_DB_HOST)
+        self.tysy_db_port = self.get_conf(Config.TITLE_DEBUG,Config.YSY_DB_PORT)
+        self.tysy_db_name = self.get_conf(Config.TITLE_DEBUG, Config.YSY_DB_NAME)
+        self.tysy_db_user = self.get_conf(Config.TITLE_DEBUG, Config.YSY_DB_USER)
+        self.tysy_db_pwd = self.get_conf(Config.TITLE_DEBUG, Config.YSY_DB_PWD)
+        # 一生约正式环境数据库
+        self.ysy_db_host = self.get_conf(Config.TITLE_RELEASE, Config.YSY_DB_HOST)
+        self.ysy_db_port = self.get_conf(Config.TITLE_RELEASE, Config.YSY_DB_PORT)
+        self.ysy_db_name = self.get_conf(Config.TITLE_RELEASE, Config.YSY_DB_NAME)
+        self.ysy_db_user = self.get_conf(Config.TITLE_RELEASE, Config.YSY_DB_USER)
+        self.ysy_db_pwd = self.get_conf(Config.TITLE_RELEASE, Config.YSY_DB_PWD)
 
-        # 一生约正式库
-        self.release_user = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSER)
-        self.releaser_userId = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSER_USERID)
-        self.releaser_accesstoken = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSER_ACCESSTOKEN)
-        self.environment_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_ENVIRONMENT)
-        self.host_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_HOST)
-        self.db_host_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_DB_HOST)
-        self.db_port_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_DB_PORT)
-        self.db_name_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_DB_NAME)
-        self.db_user_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_DB_USER)
-        self.db_pwd_ysy_release = self.get_conf(Config.TITLE_RELEASE, Config.YSY_REALSE_DB_PWD)
+        # 雨花斋测试库信息，user和pwd和一生约测试一致
+        self.tyhz_host = self.get_conf(Config.TITLE_DEBUG, Config.YHZ_HOST)
+        self.tyhz_db_name = self.get_conf(Config.TITLE_DEBUG,Config.YHZ_DB_NAME)
 
-        # 小猪
-        # 测试数据库
-        self.tysyo2o_host_debug = self.get_conf(Config.TITLE_DEBUG, Config.TO2O_HOST)
-        self.db_name_o2o_debug = self.get_conf(Config.TITLE_DEBUG,Config.TO2O_DB_NAME)
+        # 雨花斋正式库信息
+        self.yhz_host = self.get_conf(Config.TITLE_RELEASE, Config.YHZ_HOST)
+        self.yhz_db_name = self.get_conf(Config.TITLE_RELEASE, Config.YHZ_DB_NAME)
 
-        # 正式数据库
-        self.ysyo2o_host_release = self.get_conf(Config.TITLE_RELEASE, Config.O2O_HOST)
-        self.db_name_o2o_release = self.get_conf(Config.TITLE_RELEASE, Config.O2O_DB_NAME)
+        # 一生约测试环境物业app
+        self.tysy_pro_host = self.get_conf(Config.TITLE_DEBUG, Config.YSY_PRO_HOST)
+        # 一生约正式环境物业app
+        self.ysy_pro_user = self.get_conf(Config.TITLE_RELEASE,Config.YSY_PRO_USER)
+        self.ysy_pro_host = self.get_conf(Config.TITLE_RELEASE,Config.YSY_PRO_HOST)
 
-        self.smtpserver = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_SMTP_SERVER)
-        self.sender = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_SENDER)
-        self.receiver = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_RECEIVER)
-        self.username = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_USERNAME)
-        self.password = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_PASSWORD)
+        # 小猪测试数据库
+        self.tysyo2o_host = self.get_conf(Config.TITLE_DEBUG, Config.O2O_HOST)
+        self.tdb_name_o2o = self.get_conf(Config.TITLE_DEBUG,Config.O2O_DB_NAME)
+        # 小猪正式数据库
+        self.ysyo2o_host = self.get_conf(Config.TITLE_RELEASE, Config.O2O_HOST)
+        self.db_name_o2o = self.get_conf(Config.TITLE_RELEASE, Config.O2O_DB_NAME)
+
+        # self.smtpserver = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_SMTP_SERVER)
+        # self.sender = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_SENDER)
+        # self.receiver = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_RECEIVER)
+        # self.username = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_USERNAME)
+        # self.password = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_PASSWORD)
 
     def get_conf(self, title, value):
         """

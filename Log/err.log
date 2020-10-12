@@ -546,3 +546,16 @@ where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_d
 [ERROR 2020-10-09 16:44:07]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
 [ERROR 2020-10-09 16:49:55]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
 [ERROR 2020-10-10 17:02:52]Response body Does not contain expected_msg, expected_msg is 我不帅
+[ERROR 2020-10-12 13:49:49]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-12 13:54:03]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-12 15:15:34]get param fail
+[ERROR 2020-10-12 15:15:35]get param fail
+[ERROR 2020-10-12 15:50:07]Response body Does not contain expected_msg, expected_msg is 用户ID不能为空
+[ERROR 2020-10-12 16:09:00]Response body Does not contain expected_msg, expected_msg is 用户ID不能为空
+[ERROR 2020-10-12 16:17:05]Response body Does not contain expected_msg, expected_msg is 用户ID不能为空
+[ERROR 2020-10-12 16:18:49]Response body Does not contain expected_msg, expected_msg is 用户ID不能为空
+[ERROR 2020-10-12 16:53:00]Response body Does not contain expected_msg, expected_msg is isReceive": "Y
+[ERROR 2020-10-12 16:53:00]Response body Does not contain expected_msg, expected_msg is isReceive": "Y
+[ERROR 2020-10-12 16:53:00]Response body Does not contain expected_msg, expected_msg is isReceive": "Y
+[ERROR 2020-10-12 17:28:22]Response body Does not contain expected_msg, expected_msg is isReceive": "Y
+[ERROR 2020-10-12 17:28:28]Response body Does not contain expected_msg, expected_msg is isReceive": "Y

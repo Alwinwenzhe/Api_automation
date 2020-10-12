@@ -14,35 +14,29 @@ class OperateSqlAl(object):
 
     def __init__(self,envir):
         if 'ysy_test' == envir:         # 一生约测试
-            self.dbhost = self.con.db_host_ysy_debug
-            self.dbport = int(self.con.db_port_ysy_debug)
-            self.dbname = self.con.db_name_ysy_debug
-            self.db_user = self.con.db_user_ysy_debug
-            self.pwd = self.con.db_pwd_ysy_debug
-        elif 'ysy_release' == envir:     # 一生约正式
-            self.dbhost = self.con.db_host_ysy_release
-            self.dbport = int(self.con.db_port_ysy_release)
-            self.dbname = self.con.db_name_ysy_release
-            self.db_user = self.con.db_user_ysy_release
-            self.pwd = self.con.db_pwd_ysy_release
+            self.dbhost = self.con.tysy_db_host
+            self.dbport = int(self.con.tysy_db_port)
+            self.dbname = self.con.tysy_db_name
+            self.db_user = self.con.tysy_db_user
+            self.pwd = self.con.tysy_db_pwd
+        elif 'ysy_release' == envir or 'ysy_pro_release' == envir:     # 一生约正式
+            self.dbhost = self.con.ysy_db_host
+            self.dbport = int(self.con.ysy_db_port)
+            self.dbname = self.con.ysy_db_name
+            self.db_user = self.con.ysy_db_user
+            self.pwd = self.con.ysy_db_pwd
         elif 'yhz_test' == envir:       # 雨花测试环境
-            self.dbhost = self.con.yhz_host_debug
-            self.dbport = int(self.con.db_port_ysy_release)
-            self.dbname = self.con.yhz_db_name
-            self.db_user = self.con.db_user_ysy_release
-            self.pwd = self.con.db_user_ysy_release
-        elif 'tysy_o2o' == envir:       # 小猪测试环境
-            self.dbhost = self.con.db_host_ysy_debug
-            self.dbport = int(self.con.db_port_ysy_debug)
-            self.dbname = self.con.db_name_o2o_debug
-            self.db_user = self.con.db_user_ysy_debug
-            self.pwd = self.con.db_pwd_ysy_debug
-        elif 'ysy_o2o' == envir:       # 小猪测试环境
-            self.dbhost = self.con.db_host_ysy_release
-            self.dbport = int(self.con.db_port_ysy_release)
-            self.dbname = self.con.db_name_o2o_release
-            self.db_user = self.con.db_user_ysy_release
-            self.pwd = self.con.db_pwd_ysy_release
+            self.dbhost = self.con.ysy_db_host
+            self.dbport = int(self.con.ysy_db_port)
+            self.dbname = self.con.tysy_db_name
+            self.db_user = self.con.tysy_db_user
+            self.pwd = self.con.tysy_db_pwd
+        elif 'ysy_o2o' == envir:       # 小猪正式环境--很多都和一生约正式相同
+            self.dbhost = self.con.ysy_db_host
+            self.dbport = int(self.con.ysy_db_port)
+            self.dbname = self.con.db_name_o2o
+            self.db_user = self.con.ysy_db_user
+            self.pwd = self.con.tysy_db_pwd
 
     def re_sql(self,var_str):
         """

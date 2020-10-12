@@ -25,15 +25,17 @@ class New_Tool_A(object):
         :return: 请求url域名
         '''
         if envir =='ysy_test':
-            req_url = self.conf.host_debug
+            req_url = self.conf.tysy_host
         elif envir =='ysy_release':
-            req_url = self.conf.host_release
+            req_url = self.conf.ysy_host
         elif envir == 'yhz_test':
-            req_url = self.conf.yhz_host_debug
+            req_url = self.conf.tyhz_host
         elif envir =='tysy_o2o':
-            req_url = self.conf.tysyo2o_host_debug
+            req_url = self.conf.tysyo2o_host
         elif envir =='ysy_o2o':
-            req_url = self.conf.ysyo2o_host_release
+            req_url = self.conf.ysyo2o_host
+        elif envir == 'ysy_pro_release':
+            req_url = self.conf.ysy_pro_host
         return req_url
 
     def param_get_deal(self,case):
@@ -306,27 +308,30 @@ class New_Tool_A(object):
     def con_var(self,var):
         '''
         从config.py文件中找到对应的值
+        最好的就是通过变量名调用function
         :param var:
         :return:
         '''
-        if var == 'tester_debug':
-            temp_con_var = self.conf.tester_debug
-        elif var == 'environment_debug':
-            temp_con_var = self.conf.environment_debug
-        elif var == 'host_debug':
-            temp_con_var = self.conf.host_debug
-        elif var == 'tester_release':
-            temp_con_var = self.conf.release_user
-        elif var == 'environment_release':
-            temp_con_var = self.conf.environment_release
-        elif var == 'host_release':
-            temp_con_var = self.conf.host_release
-        elif var == 'release_user':
-            temp_con_var = self.conf.release_user
-        elif var == 'releaser_accesstoken':
-            temp_con_var = self.conf.releaser_accesstoken
-        elif var == 'releaser_userId':
-            temp_con_var = self.conf.releaser_userId
+        if var == 'tysy_user':
+            temp_con_var = self.conf.tysy_user
+        elif var == 'ysy_user':
+            temp_con_var = self.conf.ysy_user
+        elif var == 'ysy_environment':
+            temp_con_var = self.conf.ysy_environment
+        elif var == 'ysy_host':
+            temp_con_var = self.conf.ysy_host
+        elif var == 'yhz_host':
+            temp_con_var = self.conf.yhz_host
+        elif var == 'yhz_db_name':
+            temp_con_var = self.conf.yhz_db_name
+        elif var == 'ysy_pro_host':
+            temp_con_var = self.conf.ysy_pro_host
+        elif var == 'ysyo2o_host':
+            temp_con_var = self.conf.ysyo2o_host
+        elif var == 'ysy_pro_user':
+            temp_con_var = self.conf.ysy_pro_user
+        elif var == 'ysy_pro_user':
+            temp_con_var = self.conf.ysy_pro_user
         else:
             temp_con_var = var
         return temp_con_var
