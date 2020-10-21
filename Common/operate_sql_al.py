@@ -36,7 +36,7 @@ class OperateSqlAl(object):
             self.dbport = int(self.con.ysy_db_port)
             self.dbname = self.con.db_name_o2o
             self.db_user = self.con.ysy_db_user
-            self.pwd = self.con.tysy_db_pwd
+            self.pwd = self.con.ysy_db_pwd
 
     def re_sql(self,var_str):
         """
@@ -66,7 +66,7 @@ class OperateSqlAl(object):
             data = self.bytes_to_str(data[0])
             return data
         except Exception:
-            print('\033[1;33m"sql执行异常，请检查"\033[3;31m')
+            print('\033[1;33m"sql执行异常，请检查\n"\033[3;31m')
         finally:
             cursor.close()
             db.close()  # 关闭数据库

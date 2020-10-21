@@ -79,7 +79,7 @@ class New_Tool_A(object):
                     else:
                         res_value = res_value[list[i]]
             except Exception as e:
-                self.log.error('get param fail')
+                self.log.error('error log：get param fail')
                 raise
             self.oper_j.write_json_value(list_last, res_value)
 
@@ -268,8 +268,8 @@ class New_Tool_A(object):
         while 'j::' in data or 'c::' in data or 's::' in data:
             if 'j::' in data:
                 symbol_data = data.split('j::')     # 这里有可能是body中的某个值传入，如：'j::verifyCode'
-                con_data = self.oper_j.get_json_value(symbol_data[1])
-                data = symbol_data[0] + con_data
+                con_data = str(self.oper_j.get_json_value(symbol_data[1]))
+                data = symbol_data[0] + con_data  # 拼接前需做type统一
                 return data
             elif 'c::' in data:
                 symbol_data = data.split('c::')
@@ -314,6 +314,10 @@ class New_Tool_A(object):
         '''
         if var == 'tysy_user':
             temp_con_var = self.conf.tysy_user
+        elif var == 'yhz_user':
+            temp_con_var = self.conf.yhz_user
+        elif var == 'ysy_userId':
+            temp_con_var = self.conf.ysy_userId
         elif var == 'ysy_user':
             temp_con_var = self.conf.ysy_user
         elif var == 'ysy_environment':
@@ -345,21 +349,22 @@ class New_Tool_A(object):
         '''
         expect, api_url, headers, params, global_var = self.param_get_deal(case)
         response = self.reqe.req(request_method, api_url, params, headers, global_var)
-        if global_var:
-            self.response_write_to_json(global_var, response['text'])
         if response['body']:
             self.test.assert_common(response['code'], response['body'], expect, response['time_consuming'])
         else:                       #处理PHP返回的页面请求
             self.test.assert_php(response['code'],response['time_consuming'])
         Consts.RESULT_LIST.append('True')
+        if global_var:
+            self.response_write_to_json(global_var, response['text'])
         print('运行case为：{0}，验证：{1}，预期结果为：{2}'.format(case['module'], case['case_description'], expect))
+        time.sleep(1)
 
     def get_current_timestamp(self):
         '''
         当前时间的时间戳获取,
         :return:
         '''
-        time_stru = int(time.time())  # 强制将得到的浮点数进行转化
+        time_stru = int(time.time() * 1000)  # 强制将得到的浮点数进行转化
         return time_stru
 
     def write_data_to_json(self):
@@ -369,21 +374,30 @@ class New_Tool_A(object):
         将登录标记写入json
         :return:
         '''
-        self.oper_j.write_json_value('curTime',self.get_current_timestamp())
-        self.oper_j.write_json_value('nonce', self.randint_8())
-        self.oper_j.write_json_value('sign', self.login_sign())
+        rand8,cur_ti,sign = self.sign_md5()     # 不能单独调用，否则时间戳等会不同
+        self.oper_j.write_json_value('curTime',cur_ti)
+        self.oper_j.write_json_value('nonce', rand8)
+        self.oper_j.write_json_value('sign', sign)
 
-    def login_sign(self):
+    def sign_md5(self):
         '''
         一生约正式环境登录接口的签名规则
         现在加密算法和java的MD5值不匹配
         :return:
         '''
         key = 'MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBALe39vUUq6T1NBMg4QoEyl96WKYdHrGUvYIMRDIIaHZbu1eLeYEiesV/XNMwLyzXVZwmy9WpyNBTdDpQ'
-        str_sum = str(self.randint_8()) + key + str(self.get_current_timestamp())
-        m = hashlib.md5(str_sum.encode())
-        n = hashlib.md5(m.hexdigest().encode())
-        return n.hexdigest()
+        rand8 = self.randint_8()
+        cur_ti = self.get_current_timestamp()
+        str_sum = str(rand8) + key + str(cur_ti)
+        str_re = str_sum.encode(encoding='utf-8')
+        m = hashlib.md5()
+        m.update(str_re)  # 和java端切换为一致的编码格式，也不一样
+        n = hashlib.md5()  # 再次定义一个hash对象，因为重复调用update(arg)方法，是会将传入的arg参数进行拼接，而不是覆盖
+        str_rb = m.hexdigest().encode(encoding='utf-8')
+        n.update(str_rb)
+        k = n.hexdigest()
+        print('k is: ',k)
+        return rand8,cur_ti,k
 
     def randint_8(self):
         '''

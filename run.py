@@ -34,7 +34,6 @@ if __name__ == '__main__':
     xml_report_path = conf.xml_report_path
     html_report_path = conf.html_report_path
 
-
     # 定义测试集
     args = ['-v','-s', '-q', '--alluredir', xml_report_path]
     pytest.main(args)

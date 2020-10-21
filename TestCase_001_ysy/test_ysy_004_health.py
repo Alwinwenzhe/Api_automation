@@ -2,7 +2,7 @@ import allure, pytest
 from Common import new_tool_a
 from Common import ExcelHandler
 
-@allure.feature('健康')  # @allure.feature 用于定义被测试的功能，被测产品的需求点
+@allure.feature('一生约--健康')  # @allure.feature 用于定义被测试的功能，被测产品的需求点
 @allure.severity('critical')  # allure.story  用于定义被测功能的用例等级，blocker--测试主流程 blocker级别；
 class TestYsy004Health(object):
     '''

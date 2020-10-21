@@ -559,3 +559,145 @@ where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_d
 [ERROR 2020-10-12 16:53:00]Response body Does not contain expected_msg, expected_msg is isReceive": "Y
 [ERROR 2020-10-12 17:28:22]Response body Does not contain expected_msg, expected_msg is isReceive": "Y
 [ERROR 2020-10-12 17:28:28]Response body Does not contain expected_msg, expected_msg is isReceive": "Y
+[ERROR 2020-10-12 18:50:11]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-12 18:50:12]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-12 18:50:12]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-12 18:50:13]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-12 18:50:16]Response body Does not contain expected_msg, expected_msg is e8543fcb5045f487127fb38d4c26f694
+[ERROR 2020-10-12 18:50:22]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-12 18:50:23]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-12 18:50:24]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-12 18:50:25]Response body Does not contain expected_msg, expected_msg is 我不帅
+[ERROR 2020-10-12 18:50:26]Response body Does not contain expected_msg, expected_msg is 我不帅
+[ERROR 2020-10-12 18:50:28]Response body Does not contain expected_msg, expected_msg is 我不帅
+[ERROR 2020-10-12 23:22:19]Response body Does not contain expected_msg, expected_msg is 睿健Smarto显齿蛇葡萄叶固体饮料 
+[ERROR 2020-10-12 23:23:18]Response body Does not contain expected_msg, expected_msg is 睿健Smarto显齿蛇葡萄叶固体饮料 
+[ERROR 2020-10-12 23:27:36]Response body Does not contain expected_msg, expected_msg is cart_count": 0
+[ERROR 2020-10-12 23:28:34]Response body Does not contain expected_msg, expected_msg is cart_count": 0
+[ERROR 2020-10-12 23:35:23]Response body Does not contain expected_msg, expected_msg is cart_count": 0
+[ERROR 2020-10-13 08:51:27]Response body Does not contain expected_msg, expected_msg is cart_count": 0
+[ERROR 2020-10-13 16:27:26]Response body Does not contain expected_msg, expected_msg is cart_count": 0
+[ERROR 2020-10-13 16:55:10]Response body Does not contain expected_msg, expected_msg is status": 200
+[ERROR 2020-10-14 15:50:40]Response body Does not contain expected_msg, expected_msg is 获取成功
+[ERROR 2020-10-14 17:12:19]Response body Does not contain expected_msg, expected_msg is 获取成功
+[ERROR 2020-10-14 17:16:23]get param fail
+[ERROR 2020-10-14 17:17:57]get param fail
+[ERROR 2020-10-14 17:21:23]get param fail
+[ERROR 2020-10-19 14:54:40]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 15:03:23]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 15:03:59]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 15:06:02]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 15:10:36]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 15:11:28]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 15:26:37]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 16:12:50]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-10-19 16:19:58]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 16:58:23]get param fail
+[ERROR 2020-10-19 16:58:23]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-10-19 16:58:24]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 16:58:25]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-10-19 16:58:33]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-19 18:40:39]get param fail
+[ERROR 2020-10-19 18:40:40]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-10-19 18:40:40]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 18:40:40]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-10-19 18:40:41]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-10-19 18:40:43]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-19 18:40:44]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-19 18:40:44]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 18:40:45]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 18:40:47]Response body Does not contain expected_msg, expected_msg is e8543fcb5045f487127fb38d4c26f694
+[ERROR 2020-10-19 18:40:49]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-19 18:40:50]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-19 18:40:54]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 18:40:56]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-19 18:40:56]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-19 18:41:05]Response body Does not contain expected_msg, expected_msg is cart_count": 0
+[ERROR 2020-10-19 18:41:06]Response body Does not contain expected_msg, expected_msg is 我不帅
+[ERROR 2020-10-19 18:45:30]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 18:45:30]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-10-19 18:45:31]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-10-19 18:45:32]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-19 18:45:33]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-19 18:45:34]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 18:45:34]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 18:45:37]Response body Does not contain expected_msg, expected_msg is e8543fcb5045f487127fb38d4c26f694
+[ERROR 2020-10-19 18:45:39]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-19 18:45:39]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-19 18:45:44]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 18:45:45]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-19 18:45:46]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-19 18:45:53]Response body Does not contain expected_msg, expected_msg is cart_count": 0
+[ERROR 2020-10-19 18:45:54]Response body Does not contain expected_msg, expected_msg is 我不帅
+[ERROR 2020-10-19 18:47:02]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-19 18:47:02]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-10-19 18:47:03]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-10-19 18:47:05]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-19 18:47:05]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-19 18:49:41]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-10-20 08:50:06]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-20 08:50:06]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-10-20 08:50:09]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-10-20 08:50:12]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-20 08:50:15]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-20 08:50:17]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-20 08:50:23]Response body Does not contain expected_msg, expected_msg is e8543fcb5045f487127fb38d4c26f694
+[ERROR 2020-10-20 08:50:26]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-20 08:50:27]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-20 08:51:00]Response body Does not contain expected_msg, expected_msg is cart_count": 0
+[ERROR 2020-10-20 08:51:01]Response body Does not contain expected_msg, expected_msg is 我不帅
+[ERROR 2020-10-20 09:15:33]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-20 09:15:33]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-10-20 09:15:37]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-10-20 09:15:42]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-20 09:15:46]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-10-20 09:15:47]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-20 09:15:48]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-20 09:15:57]Response body Does not contain expected_msg, expected_msg is e8543fcb5045f487127fb38d4c26f694
+[ERROR 2020-10-20 09:16:03]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-20 09:16:03]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-20 09:16:21]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-20 09:16:26]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-20 09:16:28]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-10-20 09:16:52]Response body Does not contain expected_msg, expected_msg is cart_count": 0
+[ERROR 2020-10-20 09:16:54]Response body Does not contain expected_msg, expected_msg is 我不帅
+[ERROR 2020-10-20 09:50:51]Response body Does not contain expected_msg, expected_msg is 18180734223
+[ERROR 2020-10-20 09:51:18]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-20 09:51:18]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-20 09:52:05]Response body Does not contain expected_msg, expected_msg is 陈幺妹
+[ERROR 2020-10-20 09:52:10]Response body Does not contain expected_msg, expected_msg is 陈幺妹
+[ERROR 2020-10-20 09:52:32]Response body Does not contain expected_msg, expected_msg is cart_count": 0
+[ERROR 2020-10-20 15:03:31]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-20 15:03:32]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-20 15:04:24]Response body Does not contain expected_msg, expected_msg is cart_count": 0
+[ERROR 2020-10-20 17:24:30]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-10-20 17:31:45]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-10-20 17:33:16]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-10-20 17:47:28]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-20 17:48:18]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-20 18:50:52]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-20 18:51:46]Response body Does not contain expected_msg, expected_msg is cart_count": 0
+[ERROR 2020-10-21 10:24:33]Response body Does not contain expected_msg, expected_msg is score_count": 0
+[ERROR 2020-10-21 10:29:04]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-10-21 16:21:56]Response body Does not contain expected_msg, expected_msg is 报修ID为空
+[ERROR 2020-10-21 16:21:57]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-21 16:36:38]Response body Does not contain expected_msg, expected_msg is 报修ID为空
+[ERROR 2020-10-21 16:36:38]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-21 16:42:19]Response body Does not contain expected_msg, expected_msg is 报修ID为空
+[ERROR 2020-10-21 16:42:19]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-21 16:45:24]Response body Does not contain expected_msg, expected_msg is 报修ID为空
+[ERROR 2020-10-21 16:45:24]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-21 16:55:04]Response body Does not contain expected_msg, expected_msg is 报修ID为空
+[ERROR 2020-10-21 16:55:05]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-21 16:55:48]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-21 17:14:48]Response body Does not contain expected_msg, expected_msg is 报修ID为空
+[ERROR 2020-10-21 17:14:48]Response body Does not contain expected_msg, expected_msg is 用户ID参数为空
+[ERROR 2020-10-21 17:14:48]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-21 17:15:12]Response body Does not contain expected_msg, expected_msg is 报修ID为空
+[ERROR 2020-10-21 17:15:14]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-21 17:16:49]Response body Does not contain expected_msg, expected_msg is 报修ID为空
+[ERROR 2020-10-21 17:16:50]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-21 17:22:49]Response body Does not contain expected_msg, expected_msg is 报修ID为空
+[ERROR 2020-10-21 17:22:50]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-10-21 17:29:38]Response body Does not contain expected_msg, expected_msg is 当前状态，不能取消工单
+[ERROR 2020-10-21 17:29:39]Response body Does not contain expected_msg, expected_msg is code": 0

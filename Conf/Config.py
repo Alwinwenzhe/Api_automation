@@ -35,6 +35,7 @@ class Config:
     YHZ_DB_NAME = "yhz_db_name"
     YHZ_DB_USER = "yhz_sql_user"
     YHZ_DB_PWD = "yhz_sql_pwd"
+    YHZ_USER = 'yhz_user'
 
     # 商城测试环境
     O2O_HOST = "ysyo2o_host"
@@ -59,6 +60,8 @@ class Config:
     # 商城正式环境
     O2O_HOST = "ysyo2o_host"
     O2O_DB_NAME = 'ysyo2o_db_name'
+    # 雨花斋正式环境
+    YHZ_USER = 'yhz_user'
 
     # [mail]
     VALUE_SMTP_SERVER = "smtpserver"
@@ -110,10 +113,11 @@ class Config:
         self.ysy_db_pwd = self.get_conf(Config.TITLE_RELEASE, Config.YSY_DB_PWD)
 
         # 雨花斋测试库信息，user和pwd和一生约测试一致
+        self.yhz_user = self.get_conf(Config.TITLE_DEBUG, Config.YHZ_USER)
         self.tyhz_host = self.get_conf(Config.TITLE_DEBUG, Config.YHZ_HOST)
         self.tyhz_db_name = self.get_conf(Config.TITLE_DEBUG,Config.YHZ_DB_NAME)
-
         # 雨花斋正式库信息
+        self.yhz_user = self.get_conf(Config.TITLE_RELEASE,Config.YHZ_USER)
         self.yhz_host = self.get_conf(Config.TITLE_RELEASE, Config.YHZ_HOST)
         self.yhz_db_name = self.get_conf(Config.TITLE_RELEASE, Config.YHZ_DB_NAME)
 
