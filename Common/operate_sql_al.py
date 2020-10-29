@@ -66,7 +66,7 @@ class OperateSqlAl(object):
             data = self.bytes_to_str(data[0])
             return data
         except Exception:
-            print('\033[1;33m"sql执行异常，请检查\n"\033[3;31m')
+            print('\033[1;33m"sql执行异常，请检查"\033[3;31m')
         finally:
             cursor.close()
             db.close()  # 关闭数据库

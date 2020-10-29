@@ -49,6 +49,9 @@ class New_Tool_A(object):
         if expect:
             expect = self.multiple_data(envir,expect)
         preset_data = case['case_preset']
+        # postposition_data = case['case_postposition']
+        # if postposition_data:
+        #     self.multiple_data(envir,postposition_data)
         urls = case['case_url']
         global_var = case['case_global_var']
         if preset_data:
@@ -74,7 +77,7 @@ class New_Tool_A(object):
             res_value = json.loads(res, encoding='utf-8')
             try:
                 for i in range(len(list)):
-                    if str(list[i]).isdigit():
+                    if str(list[i]).isdigit():      # 如果是数字
                         res_value = res_value[int(list[i])]
                     else:
                         res_value = res_value[list[i]]
@@ -357,7 +360,7 @@ class New_Tool_A(object):
         if global_var:
             self.response_write_to_json(global_var, response['text'])
         print('运行case为：{0}，验证：{1}，预期结果为：{2}'.format(case['module'], case['case_description'], expect))
-        time.sleep(1)
+        time.sleep(2)
 
     def get_current_timestamp(self):
         '''
@@ -396,7 +399,6 @@ class New_Tool_A(object):
         str_rb = m.hexdigest().encode(encoding='utf-8')
         n.update(str_rb)
         k = n.hexdigest()
-        print('k is: ',k)
         return rand8,cur_ti,k
 
     def randint_8(self):
