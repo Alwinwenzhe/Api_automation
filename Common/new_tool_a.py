@@ -221,8 +221,12 @@ class New_Tool_A(object):
         var_1 = re.findall(p1, split_str[1])    # 利用正则：去掉括号
         # 这里会对list中每个值进行判断
         # var_1 = self.while_split_data(envir, var_1)  #这里怎么会传入list？
-        var_1 = self.while_data(envir, var_1[0])        #这里存在format多数据暂未处理
-        resutl = split_str[0].format(var_1)        # 重组sql
+        list_var = var_1[0].split(',')
+        result_forma_data = []
+        for i in list_var:
+            result_forma_data.append(self.while_data(envir, i))
+        resutl = split_str[0].format(result_forma_data)        # 这format函数会自动将参数转换成一个元组，所以如果你本来想传入一个元组参数到format函数中的话，实际上参数为长度为1的元组中嵌套你传的元组。
+                                                                # 所以前面的{0}，{1}，{2}…要改成 {0[0]} {0[1]}…
         return resutl
 
     def circular_processing_data(self,envir,data):
