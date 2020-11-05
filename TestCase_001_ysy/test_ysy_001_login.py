@@ -10,7 +10,7 @@ from Common import ExcelHandler
 
 @allure.feature('一生约--登录')
 @allure.severity('blocker')
-@allure.story('Log in')
+@allure.story('登录')
 class TestYsy001Login(object):
     '''
     # BLOCKER = 'blocker'　　阻塞缺陷
