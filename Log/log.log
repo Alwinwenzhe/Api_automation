@@ -2603,3 +2603,96 @@ where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_d
 [ERROR 2020-11-05 17:01:45]statusCode error, expected_code is 200, statusCode is 404 
 [INFO 2020-11-05 17:03:07]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
 [INFO 2020-11-05 17:29:53]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-05 18:50:08]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-06 08:50:08]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-06 08:50:17]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[INFO 2020-11-06 09:43:36]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-06 09:48:07]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-06 13:59:17]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-06 16:31:20]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-06 16:34:44]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-06 16:35:28]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-06 16:35:43]Response body Does not contain expected_msg, expected_msg is 系统异常
+[INFO 2020-11-06 16:37:29]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-06 16:37:37]Response body Does not contain expected_msg, expected_msg is 系统异常
+[INFO 2020-11-06 16:39:39]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-06 16:40:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-06 18:50:03]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-06 18:55:16]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-06 18:55:53]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[INFO 2020-11-07 08:50:02]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-07 08:55:17]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-07 08:55:54]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[INFO 2020-11-07 18:50:04]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-07 18:55:20]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-07 18:55:57]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[INFO 2020-11-08 08:50:05]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-08 08:55:21]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-08 08:55:58]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[INFO 2020-11-08 18:50:06]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-08 18:55:23]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-08 18:56:00]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[INFO 2020-11-09 08:50:05]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-09 08:50:12]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-11-09 08:55:18]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-09 08:55:55]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[INFO 2020-11-09 18:50:06]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-09 18:55:25]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-09 18:56:02]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[INFO 2020-11-10 08:50:06]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-10 08:55:22]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 08:55:58]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[INFO 2020-11-10 13:41:25]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 14:01:42]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 14:03:51]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 14:10:27]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 14:12:55]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 14:16:41]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 14:18:25]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 14:43:58]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 14:48:02]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 14:49:44]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 14:56:01]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 15:01:18]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 15:02:26]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 15:04:18]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 15:10:30]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 15:17:41]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-10 15:17:52]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 15:17:52]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[INFO 2020-11-10 15:18:25]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 15:20:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-10 15:20:59]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 15:21:00]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[INFO 2020-11-10 15:21:39]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-10 15:21:52]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-11-10 15:21:55]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-11-10 15:26:58]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 15:27:35]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[INFO 2020-11-10 15:33:21]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-10 15:38:45]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 15:39:22]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[INFO 2020-11-10 16:09:08]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-10 16:09:27]error log：get param fail
+[ERROR 2020-11-10 16:09:28]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 16:09:28]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[INFO 2020-11-10 16:11:02]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-10 16:11:17]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 16:11:17]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[INFO 2020-11-10 16:14:26]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 16:19:40]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 16:20:28]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-10 16:22:45]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 16:22:51]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[INFO 2020-11-10 16:23:53]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-10 16:24:21]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[INFO 2020-11-10 16:24:42]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 16:26:48]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 16:29:34]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 16:30:44]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 16:33:12]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 16:40:15]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-10 16:40:30]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[INFO 2020-11-10 16:41:43]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[ERROR 2020-11-10 16:41:57]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[INFO 2020-11-10 16:49:49]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini

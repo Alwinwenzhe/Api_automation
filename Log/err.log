@@ -1055,3 +1055,43 @@ where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_d
 [ERROR 2020-11-05 17:01:44]statusCode error, expected_code is 200, statusCode is 404 
 [ERROR 2020-11-05 17:01:44]statusCode error, expected_code is 200, statusCode is 404 
 [ERROR 2020-11-05 17:01:45]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2020-11-06 08:50:17]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-11-06 16:35:43]Response body Does not contain expected_msg, expected_msg is 系统异常
+[ERROR 2020-11-06 16:37:37]Response body Does not contain expected_msg, expected_msg is 系统异常
+[ERROR 2020-11-06 18:55:16]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-06 18:55:53]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[ERROR 2020-11-07 08:55:17]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-07 08:55:54]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[ERROR 2020-11-07 18:55:20]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-07 18:55:57]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[ERROR 2020-11-08 08:55:21]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-08 08:55:58]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[ERROR 2020-11-08 18:55:23]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-08 18:56:00]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[ERROR 2020-11-09 08:50:12]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-11-09 08:55:18]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-09 08:55:55]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[ERROR 2020-11-09 18:55:25]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-09 18:56:02]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[ERROR 2020-11-10 08:55:22]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 08:55:58]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[ERROR 2020-11-10 15:17:52]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 15:17:52]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 15:20:59]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 15:21:00]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 15:21:52]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-11-10 15:21:55]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-11-10 15:26:58]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 15:27:35]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[ERROR 2020-11-10 15:38:45]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 15:39:22]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[ERROR 2020-11-10 16:09:27]error log：get param fail
+[ERROR 2020-11-10 16:09:28]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 16:09:28]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[ERROR 2020-11-10 16:11:17]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 16:11:17]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[ERROR 2020-11-10 16:22:45]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 16:22:51]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[ERROR 2020-11-10 16:24:21]Response body Does not contain expected_msg, expected_msg is totalCount": 0
+[ERROR 2020-11-10 16:40:30]Response body Does not contain expected_msg, expected_msg is totalCount": 1
+[ERROR 2020-11-10 16:41:57]Response body Does not contain expected_msg, expected_msg is totalCount": 1

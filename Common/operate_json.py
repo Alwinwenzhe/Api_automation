@@ -30,7 +30,8 @@ class OperateJson(object):
         :param id:
         :return:
         """
-        return self.read_json()[id]
+        data = self.read_json()[id]
+        return data
 
     def write_json_value(self, key, value):
         """

@@ -216,9 +216,9 @@ class New_Tool_A(object):
         :param data:
         :return:
         '''
-        p1 = re.compile(r"[(](.*?)[')]", re.S)  # 非贪心匹配
+        p1 = re.compile(r"[(](.*?)[)]", re.S)  # 非贪心匹配
         split_str = data.split('format')
-        var_1 = re.findall(p1, split_str[1])    # 利用正则：去掉括号
+        var_1 = re.findall(p1, split_str[1])    # 利用正则：去掉括号，找出所有匹配结果
         # 这里会对list中每个值进行判断
         # var_1 = self.while_split_data(envir, var_1)  #这里怎么会传入list？
         list_var = var_1[0].split(',')
