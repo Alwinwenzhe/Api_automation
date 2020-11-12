@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a56e6a0-e9b7-4504-ab07-8128346c4873" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Common/Email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/operate_sql_al.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/req_reload.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/new_tool_a.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/new_tool_a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/operate_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/operate_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conf/temp_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Conf/temp_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conf/接口示例.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Conf/接口示例.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/err.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/err.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase_004_ysy_property/test_ysy_pro_003_my_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase_004_ysy_property/test_ysy_pro_003_my_task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/一生约APP接口自动化实现统计.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/一生约APP接口自动化实现统计.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/Common/Assert.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
             </state>
           </provider>
         </entry>
@@ -613,7 +603,7 @@
       <workItem from="1604538802373" duration="4670000" />
       <workItem from="1604625358013" duration="4489000" />
       <workItem from="1604970244613" duration="8016000" />
-      <workItem from="1604995684863" duration="3675000" />
+      <workItem from="1604995684863" duration="5127000" />
     </task>
     <task id="LOCAL-00001" summary="增加了期望值中的sql处理&#10;增加了访客邀请的到访户号接口用例">
       <created>1594347544082</created>
@@ -755,7 +745,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604569055580</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="调整了一生约物业公专区报修的sql异常">
+      <created>1605000811168</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1605000811168</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -791,7 +788,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="718060000" />
+    <option name="totallyTimeSpent" value="719512000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -804,7 +801,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="457" y="0" width="1595" height="1118" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49590835" visible="true" weight="0.18607678" />
       <window_info id="Structure" order="1" sideWeight="0.5040917" side_tool="true" weight="0.21714285" />
@@ -873,7 +869,8 @@
     <MESSAGE value="增加了一生约物业首页三个接口" />
     <MESSAGE value="提交最新的测试用例文件" />
     <MESSAGE value="调整了接口示例中sql的format格式，由{0}修改为{0[0]}" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整了接口示例中sql的format格式，由{0}修改为{0[0]}" />
+    <MESSAGE value="调整了一生约物业公专区报修的sql异常" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整了一生约物业公专区报修的sql异常" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1417,7 +1414,7 @@
     <entry file="file://$PROJECT_DIR$/Common/Assert.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
         </state>
       </provider>
     </entry>

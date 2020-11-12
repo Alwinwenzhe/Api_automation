@@ -2696,3 +2696,7 @@ where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_d
 [INFO 2020-11-10 16:41:43]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
 [ERROR 2020-11-10 16:41:57]Response body Does not contain expected_msg, expected_msg is totalCount": 1
 [INFO 2020-11-10 16:49:49]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-10 18:50:08]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-11 08:50:10]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-11 18:50:11]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-12 08:50:12]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
