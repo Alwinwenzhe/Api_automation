@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a56e6a0-e9b7-4504-ab07-8128346c4873" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TestCase_001_ysy/test_ysy_010_home_door.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/new_tool_a.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/new_tool_a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/operate_sql_al.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/operate_sql_al.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conf/Config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Conf/Config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conf/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Conf/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conf/temp_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Conf/temp_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conf/接口示例.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Conf/接口示例.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/err.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/err.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Params/Param/Collections.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Params/Param/Collections.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Params/Param/Get_Verifycode.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Params/Param/Get_Verifycode.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Params/Param/Personal.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Params/Param/Personal.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,31 +25,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Api_automation$pytest_for_test_ysy_001_login_TestYsy001Login_test_login_005_get_User_Privacy_Policy.coverage" NAME="pytest for test_ysy_001_login.TestYsy001Login.test_login_005_get_User_Privacy_Policy Coverage Results" MODIFIED="1598347377479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
-    <SUITE FILE_PATH="coverage/Api_automation$Session.coverage" NAME="Session Coverage Results" MODIFIED="1590053426176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/Api_automation$pytest_for_test_basic_TestBasic.coverage" NAME="pytest for test_basic.TestBasic Coverage Results" MODIFIED="1591694027407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/Api_automation$debug2__1_.coverage" NAME="debug2 (1) Coverage Results" MODIFIED="1604990587585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase_debug" />
+    <SUITE FILE_PATH="coverage/Api_automation$tools.coverage" NAME="tools Coverage Results" MODIFIED="1589875151952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Params" />
+    <SUITE FILE_PATH="coverage/Pytest_Api_automation$pytest_for_test_ysy_010_home_door_TestYsy010HomeDoor.coverage" NAME="pytest for test_ysy_010_home_door.TestYsy010HomeDoor Coverage Results" MODIFIED="1606371810602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase_001_ysy" />
+    <SUITE FILE_PATH="coverage/Api_automation$debug_demo.coverage" NAME="debug_demo Coverage Results" MODIFIED="1596176335117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/Api_automation$Operate_sql.coverage" NAME="Operate_sql Coverage Results" MODIFIED="1591691034376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/Api_automation$pytest_for_test_login_Test_Login_test_login_get_verify_code.coverage" NAME="pytest for test_login.Test_Login.test_login_get_verify_code Coverage Results" MODIFIED="1590052534476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Api_automation$pytest_for_test_login_TestLogin_test_login_get_verify_code.coverage" NAME="pytest for test_login.TestLogin.test_login_get_verify_code Coverage Results" MODIFIED="1590052904558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/Api_automation$Session.coverage" NAME="Session Coverage Results" MODIFIED="1590053426176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/Api_automation$Operate_sql_py.coverage" NAME="Operate_sql_py Coverage Results" MODIFIED="1591691040781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/Api_automation$pytest_for_test_basic_TestBasic.coverage" NAME="pytest for test_basic.TestBasic Coverage Results" MODIFIED="1591694027407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Api_automation$debug2.coverage" NAME="debug2 Coverage Results" MODIFIED="1598344501564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
-    <SUITE FILE_PATH="coverage/Api_automation$pytest_in_test_login_py.coverage" NAME="pytest in test_login.py Coverage Results" MODIFIED="1590052802407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
-    <SUITE FILE_PATH="coverage/Api_automation$pytest_for_test_yhz_001_login_TestLog.coverage" NAME="pytest for test_yhz_001_login.TestLog Coverage Results" MODIFIED="1597284413205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
-    <SUITE FILE_PATH="coverage/Api_automation$pytest_for_test_basic_TestBasic_test_login_02_log_in.coverage" NAME="pytest for test_basic.TestBasic.test_login_02_log_in Coverage Results" MODIFIED="1591783269567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
-    <SUITE FILE_PATH="coverage/Api_automation$ExcelHandler.coverage" NAME="ExcelHandler Coverage Results" MODIFIED="1592210238777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/Api_automation$Assert.coverage" NAME="Assert Coverage Results" MODIFIED="1589787671797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/Api_automation$debug2__1_.coverage" NAME="debug2 (1) Coverage Results" MODIFIED="1604990587585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase_debug" />
-    <SUITE FILE_PATH="coverage/Api_automation$debug_demo.coverage" NAME="debug_demo Coverage Results" MODIFIED="1596176335117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
-    <SUITE FILE_PATH="coverage/Api_automation$Util.coverage" NAME="Util Coverage Results" MODIFIED="1591341950743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/Api_automation$tools.coverage" NAME="tools Coverage Results" MODIFIED="1589875151952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Params" />
+    <SUITE FILE_PATH="coverage/Api_automation$Operate_sql_b.coverage" NAME="Operate_sql_b Coverage Results" MODIFIED="1591690415582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/Api_automation$Config.coverage" NAME="Config Coverage Results" MODIFIED="1591757406110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Conf" />
+    <SUITE FILE_PATH="coverage/Pytest_Api_automation$run.coverage" NAME="run Coverage Results" MODIFIED="1606371854293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Api_automation$pytest_for_test_login_Test_Login.coverage" NAME="pytest for test_login.Test_Login Coverage Results" MODIFIED="1590052309385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/Api_automation$pytest_for_test_yhz_001_login_TestLog.coverage" NAME="pytest for test_yhz_001_login.TestLog Coverage Results" MODIFIED="1597284413205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/Api_automation$Util.coverage" NAME="Util Coverage Results" MODIFIED="1591341950743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/Api_automation$ExcelHandler.coverage" NAME="ExcelHandler Coverage Results" MODIFIED="1592210238777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/Api_automation$pytest_for_test_ysy_001_login_TestYsy001Login_test_login_005_get_User_Privacy_Policy.coverage" NAME="pytest for test_ysy_001_login.TestYsy001Login.test_login_005_get_User_Privacy_Policy Coverage Results" MODIFIED="1598347377479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/Api_automation$Operate_json.coverage" NAME="Operate_json Coverage Results" MODIFIED="1590048401713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/Api_automation$Log.coverage" NAME="Log Coverage Results" MODIFIED="1591840395762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/Api_automation$pytest_for_test_basic_TestBasic_test_login_01_get_verifycode.coverage" NAME="pytest for test_basic.TestBasic.test_login_01_get_verifycode Coverage Results" MODIFIED="1591785960362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
-    <SUITE FILE_PATH="coverage/Api_automation$Operate_sql_b.coverage" NAME="Operate_sql_b Coverage Results" MODIFIED="1591690415582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/Api_automation$Operate_sql_py.coverage" NAME="Operate_sql_py Coverage Results" MODIFIED="1591691040781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/Api_automation$Config.coverage" NAME="Config Coverage Results" MODIFIED="1591757406110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Conf" />
-    <SUITE FILE_PATH="coverage/Api_automation$Operate_json.coverage" NAME="Operate_json Coverage Results" MODIFIED="1590048401713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/Api_automation$Operate_sql.coverage" NAME="Operate_sql Coverage Results" MODIFIED="1591691034376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/Api_automation$run.coverage" NAME="run Coverage Results" MODIFIED="1604998189531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Api_automation$run.coverage" NAME="run Coverage Results" MODIFIED="1606727611951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Api_automation$pytest_for_test_basic_TestBasic_test_login_02_log_in.coverage" NAME="pytest for test_basic.TestBasic.test_login_02_log_in Coverage Results" MODIFIED="1591783269567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/Api_automation$Assert.coverage" NAME="Assert Coverage Results" MODIFIED="1589787671797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/Api_automation$new_tool_a.coverage" NAME="new_tool_a Coverage Results" MODIFIED="1603683294495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/Api_automation$pytest_in_test_login_py.coverage" NAME="pytest in test_login.py Coverage Results" MODIFIED="1590052802407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -55,10 +70,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#1167#1203#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/operate_json.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/new_tool_a.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="359" selection-start-line="359" selection-end-line="359" />
+            <state relative-caret-position="159">
+              <caret line="359" column="86" selection-start-line="359" selection-start-column="86" selection-end-line="359" selection-end-column="86" />
               <folding>
                 <element signature="e#1488#1535#0" />
               </folding>
@@ -66,13 +102,39 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Conf/demo.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Conf/Config.py">
+        <entry file="file://$PROJECT_DIR$/Common/Assert.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="126" column="25" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="25" />
+            <state relative-caret-position="498">
+              <caret line="117" column="43" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
               <folding>
-                <element signature="e#101#138#0" expanded="true" />
+                <element signature="e#122#144#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/req_reload.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase_001_ysy/test_ysy_010_home_door.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="60" column="45" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,74 +143,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conf/config.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="48" column="26" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Common/Assert.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="119" selection-start-line="119" selection-end-line="119" />
+            <state relative-caret-position="210">
+              <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/req_reload.py">
+        <entry file="file://$PROJECT_DIR$/TestCase_001_ysy/test_ysy_001_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="131" selection-start-line="131" selection-end-line="131" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Conf/temp_data.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="179" selection-start-column="179" selection-end-column="179" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/operate_json.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../python37/Lib/site-packages/allure_commons/_allure.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="156" selection-start-line="156" selection-end-line="156" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCase_004_ysy_property/test_ysy_pro_003_my_task.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="266">
+              <caret line="34" column="53" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="53" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#104#134#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -164,11 +172,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>oper_s</find>
-      <find>oper_j</find>
-      <find>while_split_data</find>
-      <find>test_login_005</find>
-      <find>format_data</find>
       <find>tysyo2o</find>
       <find>member_list</find>
       <find>release_sql_pwd</find>
@@ -176,14 +179,12 @@
       <find>online_release</find>
       <find>o2o</find>
       <find>TO2O_HOST</find>
-      <find>ysy_release</find>
       <find>tester_debug</find>
       <find>envi</find>
       <find>ysy_pro_release</find>
       <find>dbhost</find>
       <find>curTime</find>
       <find>repair_001_favorite_And_Types</find>
-      <find>sql执行异常，请检查</find>
       <find>k is</find>
       <find>invitation_001_bind_house</find>
       <find>login_02_log_in</find>
@@ -194,6 +195,13 @@
       <find>'biotopeId'</find>
       <find>userId</find>
       <find>user</find>
+      <find>sql执行异常，请检查</find>
+      <find>ysy_release</find>
+      <find>ysy_user</find>
+      <find>yhz_</find>
+      <find>yhz_test</find>
+      <find>utf</find>
+      <find>write</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Job\python\Script\Api_automation\Report\xml</dir>
@@ -206,8 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TestCase/debug_demo.py" />
-        <option value="$PROJECT_DIR$/TestCase/conftest.py" />
         <option value="$PROJECT_DIR$/TestCase/test_001_log.py" />
         <option value="$PROJECT_DIR$/TestCase/.pytest_cache/test_004_health.py" />
         <option value="$PROJECT_DIR$/TestCase/test_ysy_001_log.py" />
@@ -228,9 +234,6 @@
         <option value="$PROJECT_DIR$/TestCase_001_ysy/test_ysy_006_biotope_serve.py" />
         <option value="$PROJECT_DIR$/TestCase_001_ysy/test_ysy_003_biotope_repair.py" />
         <option value="$PROJECT_DIR$/TestCase_001_ysy/test_ysy_006_o2o.py" />
-        <option value="$PROJECT_DIR$/Common/Assert.py" />
-        <option value="$PROJECT_DIR$/Common/req_reload.py" />
-        <option value="$PROJECT_DIR$/Conf/Config.py" />
         <option value="$PROJECT_DIR$/TestCase_002_yhz/test_yhz_001_login.py" />
         <option value="$PROJECT_DIR$/TestCase_002_yhz/test_yhz_002_old_register.py" />
         <option value="$PROJECT_DIR$/TestCase_002_yhz_old_regitster/test_yhz_001_login.py" />
@@ -241,29 +244,35 @@
         <option value="$PROJECT_DIR$/TestCase_001_ysy/test_ysy_006_mall.py" />
         <option value="$PROJECT_DIR$/TestCase_001_ysy/test_ysy_005_home.py" />
         <option value="$PROJECT_DIR$/TestCase_001_ysy/test_ysy_004_health.py" />
-        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/TestCase_001_ysy/test_ysy_008_repair.py" />
-        <option value="$PROJECT_DIR$/Common/operate_sql_al.py" />
         <option value="$PROJECT_DIR$/TestCase_001_ysy/test_ysy_002_invitation.py" />
         <option value="$PROJECT_DIR$/TestCase_001_ysy/test_ysy_003_biotope_serve.py" />
         <option value="$PROJECT_DIR$/TestCase_001_ysy/test_ysy_009_fee.py" />
         <option value="$PROJECT_DIR$/TestCase_001_ysy/test_ysy_009_biotope_fee.py" />
-        <option value="$PROJECT_DIR$/Conf/config.ini" />
         <option value="$PROJECT_DIR$/TestCase_004_ysy_property/test_ysy_pro_002_home.py" />
         <option value="$PROJECT_DIR$/TestCase_004_ysy_property/test_ysy_pro_001_login.py" />
         <option value="$PROJECT_DIR$/TestCase_001_ysy/test_ysy_001_login.py" />
-        <option value="$PROJECT_DIR$/TestCase_004_ysy_property/test_ysy_pro_003_my_task.py" />
         <option value="$PROJECT_DIR$/TestCase_debug/debug2.py" />
-        <option value="$PROJECT_DIR$/Common/new_tool_a.py" />
         <option value="$PROJECT_DIR$/Common/operate_json.py" />
+        <option value="$PROJECT_DIR$/TestCase_004_ysy_property/test_ysy_pro_003_my_task.py" />
+        <option value="$PROJECT_DIR$/allure-results/environment.properties" />
+        <option value="$PROJECT_DIR$/Conf/Config.py" />
+        <option value="$PROJECT_DIR$/Common/new_tool_a.py" />
+        <option value="$PROJECT_DIR$/Common/operate_sql_al.py" />
+        <option value="$PROJECT_DIR$/Conf/config.ini" />
+        <option value="$PROJECT_DIR$/Common/req_reload.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/Common/Assert.py" />
         <option value="$PROJECT_DIR$/Conf/temp_data.json" />
+        <option value="$PROJECT_DIR$/TestCase_001_ysy/test_ysy_010_home_door.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="571" />
-    <option name="width" value="1994" />
-    <option name="height" value="1398" />
+    <option name="x" value="393" />
+    <option name="y" value="76" />
+    <option name="width" value="1793" />
+    <option name="height" value="1242" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -288,17 +297,7 @@
             <path>
               <item name="Api_automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Api_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCase_004_ysy_property" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Api_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Api_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCase_debug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Api_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Api_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="流程图" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCase_001_ysy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,6 +308,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../app_demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -322,19 +322,19 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Job\python\Script\Api_automation\TestCase_003_o2o" />
-      <recent name="D:\Job\python\Script\Api_automation\allure-results" />
-      <recent name="D:\Job\python\Script\Api_automation\test_report" />
-      <recent name="D:\Job\python\Script\Api_automation\Params\Param" />
-      <recent name="D:\Job\python\Script\Api_automation\Common" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Job\python\Script\Api_automation\TestCase_debug" />
       <recent name="D:\Job\python\Script\Api_automation\TestCase2" />
       <recent name="D:\Job\python\Script\Api_automation\TestCase" />
       <recent name="D:\Job\python\Script\Api_automation\Common" />
       <recent name="D:\Job\python\Script\Api_automation\Conf" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Job\python\Script\Api_automation\TestCase_003_o2o" />
+      <recent name="D:\Job\python\Script\Api_automation\allure-results" />
+      <recent name="D:\Job\python\Script\Api_automation\test_report" />
+      <recent name="D:\Job\python\Script\Api_automation\Params\Param" />
+      <recent name="D:\Job\python\Script\Api_automation\Common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -364,28 +364,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCase_debug/debug2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="debug2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Api_automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCase/debug2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -454,13 +432,29 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_ysy_010_home_door.TestYsy010HomeDoor" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Api_automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase_001_ysy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_ysy_010_home_door.TestYsy010HomeDoor&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run" />
+        <item itemvalue="Python tests.pytest for test_ysy_010_home_door.TestYsy010HomeDoor" />
         <item itemvalue="Python.debug2 (1)" />
         <item itemvalue="Python.new_tool_a" />
         <item itemvalue="Python tests.pytest for TestCase_ysy.test_ysy_001_login.TestYsy001Login" />
-        <item itemvalue="Python.debug2" />
       </list>
     </recent_temporary>
   </component>
@@ -604,6 +598,28 @@
       <workItem from="1604625358013" duration="4489000" />
       <workItem from="1604970244613" duration="8016000" />
       <workItem from="1604995684863" duration="5127000" />
+      <workItem from="1605232947642" duration="4295000" />
+      <workItem from="1605252889606" duration="1319000" />
+      <workItem from="1605406652808" duration="93000" />
+      <workItem from="1605489768493" duration="2326000" />
+      <workItem from="1605524153003" duration="1642000" />
+      <workItem from="1605613399539" duration="793000" />
+      <workItem from="1605673342449" duration="1821000" />
+      <workItem from="1605799807571" duration="590000" />
+      <workItem from="1605838387240" duration="89000" />
+      <workItem from="1605857957637" duration="2766000" />
+      <workItem from="1605922645751" duration="27000" />
+      <workItem from="1605962691323" duration="1782000" />
+      <workItem from="1606058540690" duration="58000" />
+      <workItem from="1606290212099" duration="287000" />
+      <workItem from="1606357252319" duration="1942000" />
+      <workItem from="1606369564096" duration="3785000" />
+      <workItem from="1606443132739" duration="1421000" />
+      <workItem from="1606445068830" duration="281000" />
+      <workItem from="1606446858788" duration="5235000" />
+      <workItem from="1606494025776" duration="28000" />
+      <workItem from="1606620667078" duration="416000" />
+      <workItem from="1606700805743" duration="10640000" />
     </task>
     <task id="LOCAL-00001" summary="增加了期望值中的sql处理&#10;增加了访客邀请的到访户号接口用例">
       <created>1594347544082</created>
@@ -756,9 +772,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_ysy_001_login_TestYsy001Login_test_login_005_get_User_Privacy_Policy - 2020.08.25 at 16h 35m 10s.xml">
-      <configuration name="pytest for test_ysy_001_login.TestYsy001Login.test_login_005_get_User_Privacy_Policy" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_ysy_001_login_TestYsy001Login_test_login_005_get_User_Privacy_Policy - 2020.08.25 at 16h 36m 38s.xml">
       <configuration name="pytest for test_ysy_001_login.TestYsy001Login.test_login_005_get_User_Privacy_Policy" configurationId="tests" />
     </history-entry>
@@ -786,9 +799,12 @@
     <history-entry file="pytest_for_test_ysy_001_login_TestYsy001Login_test_login_005_get_User_Privacy_Policy - 2020.08.25 at 17h 22m 58s.xml">
       <configuration name="pytest for test_ysy_001_login.TestYsy001Login.test_login_005_get_User_Privacy_Policy" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_ysy_010_home_door_TestYsy010HomeDoor - 2020.11.26 at 14h 23m 35s.xml">
+      <configuration name="pytest for test_ysy_010_home_door.TestYsy010HomeDoor" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="719512000" />
+    <option name="totallyTimeSpent" value="761148000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -800,20 +816,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="457" y="0" width="1595" height="1118" extended-state="0" />
+    <frame x="315" y="61" width="1434" height="993" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49590835" visible="true" weight="0.18607678" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49590835" visible="true" weight="0.18895349" />
       <window_info id="Structure" order="1" sideWeight="0.5040917" side_tool="true" weight="0.21714285" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.28630707" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49910232" visible="true" weight="0.44594595" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49910232" weight="0.42099792" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2854251" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49910232" visible="true" weight="0.31591174" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49910232" weight="0.40998837" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32700422" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32696176" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959327" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32897383" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50089765" side_tool="true" weight="0.43055555" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32819074" />
@@ -825,20 +842,20 @@
       <window_info anchor="right" id="Database" order="4" weight="0.32920793" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49590835" visible="true" weight="0.25469387" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49590835" visible="true" weight="0.12974052" />
       <window_info id="Structure" order="1" sideWeight="0.5040917" side_tool="true" weight="0.21714285" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.28856826" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34406215" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34850165" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2854251" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49910232" weight="0.27364185" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49910232" visible="true" weight="0.41046277" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32819074" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32696176" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959327" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32897383" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50089765" side_tool="true" weight="0.43055555" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32819074" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32959327" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -852,6 +869,9 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="D:/" />
+    </ignored-roots>
     <MESSAGE value="增加了期望值中的sql处理&#10;增加了访客邀请的到访户号接口用例" />
     <MESSAGE value="调整了数据处理的多个函数&#10;调试通过了访客邀请-二维码邀请功能" />
     <MESSAGE value="梳理了数据流处理逻辑，优化了冗余代码" />
@@ -882,17 +902,17 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Common/operate_sql_al.py</url>
-          <line>86</line>
+          <line>92</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Common/new_tool_a.py</url>
-          <line>98</line>
+          <line>100</line>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Common/new_tool_a.py</url>
-          <line>303</line>
+          <line>305</line>
           <option name="timeStamp" value="150" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -912,12 +932,12 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Common/new_tool_a.py</url>
-          <line>136</line>
+          <line>138</line>
           <option name="timeStamp" value="200" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Common/new_tool_a.py</url>
-          <line>150</line>
+          <line>152</line>
           <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -927,7 +947,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Common/new_tool_a.py</url>
-          <line>37</line>
+          <line>39</line>
           <option name="timeStamp" value="255" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -937,17 +957,12 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Common/operate_sql_al.py</url>
-          <line>60</line>
+          <line>66</line>
           <option name="timeStamp" value="269" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Common/new_tool_a.py</url>
-          <line>166</line>
-          <option name="timeStamp" value="270" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Common/new_tool_a.py</url>
-          <line>324</line>
+          <line>326</line>
           <option name="timeStamp" value="278" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -956,49 +971,39 @@
           <option name="timeStamp" value="284" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Common/new_tool_a.py</url>
-          <line>68</line>
-          <option name="timeStamp" value="322" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Common/new_tool_a.py</url>
-          <line>49</line>
-          <option name="timeStamp" value="327" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Common/operate_sql_al.py</url>
-          <line>64</line>
+          <line>70</line>
           <option name="timeStamp" value="328" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Common/operate_sql_al.py</url>
-          <line>48</line>
+          <line>54</line>
           <option name="timeStamp" value="331" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Common/new_tool_a.py</url>
-          <line>219</line>
-          <option name="timeStamp" value="346" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Common/new_tool_a.py</url>
-          <line>226</line>
-          <option name="timeStamp" value="347" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Common/operate_json.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="349" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/TestCase_004_ysy_property/test_ysy_pro_003_my_task.py</url>
           <line>26</line>
           <option name="timeStamp" value="351" />
         </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Common/new_tool_a.py</url>
+          <line>228</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Common/new_tool_a.py</url>
+          <line>169</line>
+          <option name="timeStamp" value="361" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Common/new_tool_a.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Common/new_tool_a.py</url>
-          <line>358</line>
-          <option name="timeStamp" value="354" />
+          <line>359</line>
+          <option name="timeStamp" value="365" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1029,122 +1034,14 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1281304601/_md5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="26" column="69" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/index.html" />
-    <entry file="file://$PROJECT_DIR$/Common/ExcelHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../python37/Lib/site-packages/pymysql/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1714">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase_001_ysy/test_ysy_006_biotope_serve.py" />
-    <entry file="file://$PROJECT_DIR$/TestCase_001_ysy/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../python37/Lib/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="173" column="33" lean-forward="true" selection-start-line="173" selection-start-column="33" selection-end-line="173" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../python37/Lib/site-packages/pluggy/callers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="186" selection-start-line="186" selection-end-line="186" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase_003_o2o/test_o2o_001_myself.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../python37/Lib/encodings/utf_16.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="30" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../python37/Lib/collections/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="907" selection-start-line="907" selection-end-line="907" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../python37/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1611">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../python37/Lib/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="111" column="59" selection-start-line="110" selection-start-column="18" selection-end-line="111" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../python37/Lib/configparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14858">
-          <caret line="790" selection-start-line="790" selection-end-line="790" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../python37/Lib/hashlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase_001_ysy/test_ysy_005_home.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1281304601/time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="163" column="4" selection-start-line="163" selection-start-column="4" selection-end-line="163" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase_debug/debug_demo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://E:/python37/Lib/encodings/utf_16.py" />
+    <entry file="file://E:/python37/Lib/collections/__init__.py" />
+    <entry file="file://E:/python37/Lib/codecs.py" />
+    <entry file="file://E:/python37/Lib/site-packages/requests/api.py" />
+    <entry file="file://E:/python37/Lib/configparser.py" />
+    <entry file="file://E:/python37/Lib/hashlib.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1281304601/time.py" />
+    <entry file="file://$PROJECT_DIR$/TestCase_debug/debug_demo.py" />
     <entry file="file://$PROJECT_DIR$/TestCase_001_ysy/test_ysy_007_myself.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1155,37 +1052,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Report/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="38" column="211166" selection-start-line="38" selection-start-column="211166" selection-end-line="38" selection-end-column="211166" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../python37/Lib/site-packages/pluggy/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../python37/Lib/xml/etree/ElementTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22990">
-          <caret line="1218" selection-start-line="1218" selection-end-line="1218" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase_001_ysy/test_ysy_008_repair.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="18" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Report/app.js" />
+    <entry file="file://E:/python37/Lib/site-packages/pluggy/manager.py" />
+    <entry file="file://E:/python37/Lib/xml/etree/ElementTree.py" />
     <entry file="file://$PROJECT_DIR$/TestCase_001_ysy/test_ysy_002_invitation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -1236,23 +1105,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/operate_sql_al.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-          <folding>
-            <element signature="e#2788#2814#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../python37/Lib/site-packages/_pytest/logging.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/python37/Lib/site-packages/_pytest/logging.py" />
     <entry file="file://$PROJECT_DIR$/TestCase_002_yhz_old_regitster/test_yhz_001_login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
@@ -1264,16 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase_001_ysy/test_ysy_001_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="e#104#134#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1294,34 +1137,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../python37/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="292" selection-start-line="292" selection-end-line="292" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase_debug/debug2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../python37/Lib/json/decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6403">
-          <caret line="339" selection-start-line="339" selection-end-line="339" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../python37/Lib/site-packages/_pytest/python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2337">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/python37/Lib/json/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/TestCase_debug/debug2.py" />
+    <entry file="file://E:/python37/Lib/json/decoder.py" />
+    <entry file="file://E:/python37/Lib/site-packages/_pytest/python.py" />
     <entry file="file://$PROJECT_DIR$/TestCase_004_ysy_property/test_ysy_pro_001_login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1332,91 +1151,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Report/index.html">
+    <entry file="file://E:/python37/Lib/site-packages/allure_commons/_allure.py" />
+    <entry file="file://$PROJECT_DIR$/allure-results/environment.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="38">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
+    <entry file="file://$PROJECT_DIR$/Report/index.html" />
+    <entry file="file://$PROJECT_DIR$/allure-report/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="988">
+          <caret line="38" column="187243" selection-start-line="38" selection-start-column="187243" selection-end-line="38" selection-end-column="187243" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/req_reload.py">
+    <entry file="file://$PROJECT_DIR$/TestCase_001_ysy/test_ysy_008_repair.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/operate_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../python37/Lib/site-packages/allure_commons/_allure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="156" selection-start-line="156" selection-end-line="156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase_004_ysy_property/test_ysy_pro_003_my_task.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="418">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="38" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase_004_ysy_property/test_ysy_pro_003_my_task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-report/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/48399057-3af4-4161-a27f-ecd49721ced6-result.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="66" selection-start-column="66" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Conf/Config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="126" column="25" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="25" />
+        <state relative-caret-position="177">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
           <folding>
             <element signature="e#101#138#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conf/config.ini">
+    <entry file="file://$PROJECT_DIR$/TestCase_001_ysy/test_ysy_005_home.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="48" column="26" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="26" />
+        <state relative-caret-position="114">
+          <caret line="8" column="14" selection-end-line="67" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/operate_sql_al.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+          <folding>
+            <element signature="e#2788#2814#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/686dcc8e-4fa3-473a-a14a-78f968a0dc4e-result.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1817" selection-start-column="1817" selection-end-column="1817" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/programs/python/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="116" column="7" lean-forward="true" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/req_reload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#1167#1203#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/c7e39ced-c5a4-4824-b5d3-ff001a202391-result.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="557" selection-start-column="557" selection-end-column="557" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/Assert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="117" column="43" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
+          <folding>
+            <element signature="e#122#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/operate_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conf/temp_data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="179" selection-start-column="179" selection-end-column="179" />
+          <caret column="914" selection-start-column="914" selection-end-column="914" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conf/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase_001_ysy/test_ysy_001_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="34" column="53" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="53" />
+          <folding>
+            <element signature="e#104#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase_001_ysy/test_ysy_010_home_door.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="60" column="45" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Common/new_tool_a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="359" selection-start-line="359" selection-end-line="359" />
+        <state relative-caret-position="159">
+          <caret line="359" column="86" selection-start-line="359" selection-start-column="86" selection-end-line="359" selection-end-column="86" />
           <folding>
             <element signature="e#1488#1535#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/Assert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Conf/demo.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

@@ -2700,3 +2700,129 @@ where u.mobile={0} AND mhr.is_default='Y' AND mhr.is_valid='Y'format(c::tester_d
 [INFO 2020-11-11 08:50:10]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
 [INFO 2020-11-11 18:50:11]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
 [INFO 2020-11-12 08:50:12]初始化配置文件, path=D:\Job\python\Script\Api_automation\Conf\config.ini
+[INFO 2020-11-13 10:46:39]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-13 10:48:42]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-13 10:49:57]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[ERROR 2020-11-13 10:50:01]Response body Does not contain expected_msg, expected_msg is 手机号不能为空
+[ERROR 2020-11-13 10:50:01]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-11-13 10:50:01]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-11-13 10:50:08]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-11-13 10:50:18]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-11-13 10:50:24]Response body Does not contain expected_msg, expected_msg is 15828022852
+[ERROR 2020-11-13 10:50:27]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-11-13 10:50:27]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-11-13 10:50:43]Response body Does not contain expected_msg, expected_msg is e8543fcb5045f487127fb38d4c26f694
+[ERROR 2020-11-13 10:50:55]Response body Does not contain expected_msg, expected_msg is isSupport": "Y
+[ERROR 2020-11-13 10:51:29]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-11-13 10:51:38]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-11-13 10:51:40]Response body Does not contain expected_msg, expected_msg is 成都
+[ERROR 2020-11-13 10:52:03]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-11-13 10:52:03]Response body Does not contain expected_msg, expected_msg is 您的报修系统已受理，请不要重复下单
+[ERROR 2020-11-13 10:52:16]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-11-13 10:52:18]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-11-13 10:53:07]Response body Does not contain expected_msg, expected_msg is 我不帅
+[ERROR 2020-11-13 10:53:09]error log：get param fail
+[INFO 2020-11-13 11:14:23]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-13 11:24:23]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-13 11:35:23]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-13 15:46:24]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-15 10:17:52]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-16 19:07:59]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[ERROR 2020-11-16 19:12:13]error log：get param fail
+[INFO 2020-11-17 19:44:10]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[ERROR 2020-11-17 19:44:21]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-11-17 19:48:13]error log：get param fail
+[INFO 2020-11-20 15:40:05]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-20 15:48:05]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-20 15:48:54]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-20 15:50:07]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-20 15:54:10]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-20 16:07:10]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[ERROR 2020-11-20 16:07:15]Response body Does not contain expected_msg, expected_msg is accessToken
+[INFO 2020-11-20 16:07:54]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-20 16:13:59]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-20 16:14:26]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-21 20:46:50]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-21 20:47:33]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-21 20:48:32]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-21 20:48:52]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-21 20:51:47]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-21 20:57:15]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-21 20:57:36]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[ERROR 2020-11-21 20:57:41]statusCode error, expected_code is 200, statusCode is 404 
+[INFO 2020-11-21 21:52:34]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[ERROR 2020-11-21 21:52:39]statusCode error, expected_code is 200, statusCode is 404 
+[INFO 2020-11-21 21:53:55]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-21 21:56:49]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-21 21:57:11]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[ERROR 2020-11-21 21:57:16]statusCode error, expected_code is 200, statusCode is 404 
+[INFO 2020-11-26 11:04:09]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-26 11:04:41]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-26 14:01:13]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-26 14:12:06]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[ERROR 2020-11-26 14:23:32]Response body Does not contain expected_msg, expected_msg is 用户ID不能为空
+[INFO 2020-11-26 14:23:46]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[ERROR 2020-11-26 14:23:52]Response body Does not contain expected_msg, expected_msg is 用户ID不能为空
+[INFO 2020-11-26 14:24:14]初始化配置文件, path=E:\Python_auto_test\Pytest_Api_automation\Conf\config.ini
+[INFO 2020-11-27 10:54:50]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[ERROR 2020-11-27 10:58:27]Response body Does not contain expected_msg, expected_msg is 36c8708280abd8bd901ba26a9a00d2c1
+[INFO 2020-11-27 11:18:03]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-27 13:28:03]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-27 13:28:32]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[ERROR 2020-11-27 13:30:08]Response body Does not contain expected_msg, expected_msg is 36c8708280abd8bd901ba26a9a00d2c1
+[INFO 2020-11-27 13:30:44]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-27 13:31:29]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-27 13:41:07]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-27 18:50:58]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-28 01:20:24]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-28 09:59:29]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-28 19:28:50]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-29 11:06:29]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-29 11:13:46]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[ERROR 2020-11-29 11:14:02]Response body Does not contain expected_msg, expected_msg is code": 0
+[ERROR 2020-11-29 11:14:03]Response body Does not contain expected_msg, expected_msg is 验证码一分钟内不能重复获取
+[ERROR 2020-11-29 11:14:10]Response body Does not contain expected_msg, expected_msg is accessToken
+[ERROR 2020-11-29 11:17:47]Response body Does not contain expected_msg, expected_msg is status": 200
+[ERROR 2020-11-29 11:17:47]Response body Does not contain expected_msg, expected_msg is 手机号必须填写
+[ERROR 2020-11-29 11:17:48]Response body Does not contain expected_msg, expected_msg is status": 200
+[ERROR 2020-11-29 11:17:48]Response body Does not contain expected_msg, expected_msg is status": 200
+[ERROR 2020-11-29 11:17:48]Response body Does not contain expected_msg, expected_msg is 验证码错误
+[ERROR 2020-11-29 11:17:49]Response body Does not contain expected_msg, expected_msg is 获取成功
+[ERROR 2020-11-29 11:17:49]Response body Does not contain expected_msg, expected_msg is 请登录
+[ERROR 2020-11-29 11:17:50]Response body Does not contain expected_msg, expected_msg is 获取成功
+[ERROR 2020-11-29 11:17:50]Response body Does not contain expected_msg, expected_msg is 请登录
+[ERROR 2020-11-29 11:17:50]Response body Does not contain expected_msg, expected_msg is 获取成功
+[ERROR 2020-11-29 11:17:51]Response body Does not contain expected_msg, expected_msg is 请登录
+[ERROR 2020-11-29 11:17:55]Response body Does not contain expected_msg, expected_msg is score_count": 0
+[INFO 2020-11-29 11:31:28]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[ERROR 2020-11-29 11:31:38]Response body Does not contain expected_msg, expected_msg is status": 200
+[ERROR 2020-11-29 11:31:39]Response body Does not contain expected_msg, expected_msg is 手机号必须填写
+[ERROR 2020-11-29 11:31:39]Response body Does not contain expected_msg, expected_msg is status": 200
+[INFO 2020-11-29 11:33:16]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-30 09:15:01]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[ERROR 2020-11-30 09:15:09]Response body Does not contain expected_msg, expected_msg is status": 200
+[ERROR 2020-11-30 09:15:09]Response body Does not contain expected_msg, expected_msg is status": 200
+[INFO 2020-11-30 10:14:30]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-30 11:05:01]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-30 11:24:51]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-30 11:26:24]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[ERROR 2020-11-30 11:27:18]Response body Does not contain expected_msg, expected_msg is status": 200
+[INFO 2020-11-30 11:31:59]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-30 14:31:10]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-30 15:10:45]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-30 15:13:23]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-30 15:14:31]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-30 15:16:34]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[ERROR 2020-11-30 15:16:53]Response body Does not contain expected_msg, expected_msg is 我不帅
+[INFO 2020-11-30 15:20:59]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-30 15:25:15]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-30 15:29:00]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[ERROR 2020-11-30 15:29:11]Response body Does not contain expected_msg, expected_msg is 158
+[INFO 2020-11-30 16:02:42]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[ERROR 2020-11-30 16:02:58]Response body Does not contain expected_msg, expected_msg is 158
+[INFO 2020-11-30 16:04:41]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-30 16:09:13]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-30 17:09:34]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-30 17:11:20]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-30 17:12:35]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini
+[INFO 2020-11-30 17:13:32]初始化配置文件, path=E:\python_code\Api_automation\Conf\config.ini

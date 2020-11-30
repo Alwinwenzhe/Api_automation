@@ -35,7 +35,7 @@ class Config:
     YHZ_DB_NAME = "yhz_db_name"
     YHZ_DB_USER = "yhz_sql_user"
     YHZ_DB_PWD = "yhz_sql_pwd"
-    YHZ_USER = 'yhz_user'
+    YHZ_USER = 'tyhz_user'
 
     # 商城测试环境
     O2O_HOST = "ysyo2o_host"
@@ -82,7 +82,7 @@ class Config:
         self.conf_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config.ini')
         # print(self.conf_path)
         self.xml_report_path = Config.path_dir+'/allure-results'
-        self.html_report_path = Config.path_dir+'/Report'
+        self.html_report_path = Config.path_dir+'/allure-report'
 
         if not os.path.exists(self.conf_path):
             raise FileNotFoundError("请确保配置文件存在！")
@@ -113,7 +113,7 @@ class Config:
         self.ysy_db_pwd = self.get_conf(Config.TITLE_RELEASE, Config.YSY_DB_PWD)
 
         # 雨花斋测试库信息，user和pwd和一生约测试一致
-        self.yhz_user = self.get_conf(Config.TITLE_DEBUG, Config.YHZ_USER)
+        self.tyhz_user = self.get_conf(Config.TITLE_DEBUG, Config.YHZ_USER)
         self.tyhz_host = self.get_conf(Config.TITLE_DEBUG, Config.YHZ_HOST)
         self.tyhz_db_name = self.get_conf(Config.TITLE_DEBUG,Config.YHZ_DB_NAME)
         # 雨花斋正式库信息

@@ -30,6 +30,8 @@ class New_Tool_A(object):
             req_url = self.conf.ysy_host
         elif envir == 'yhz_test':
             req_url = self.conf.tyhz_host
+        elif envir == 'yhz_release':
+            req_url = self.conf.yhz_host
         elif envir =='tysy_o2o':
             req_url = self.conf.tysyo2o_host
         elif envir =='ysy_o2o':

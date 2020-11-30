@@ -29,8 +29,14 @@ class OperateSqlAl(object):
             self.dbhost = self.con.ysy_db_host
             self.dbport = int(self.con.ysy_db_port)
             self.dbname = self.con.tysy_db_name
-            self.db_user = self.con.tysy_db_user
+            self.db_user = self.con.tyhz_user
             self.pwd = self.con.tysy_db_pwd
+        elif 'yhz_release' == envir:   # 雨花正式环境
+            self.dbhost = self.con.ysy_db_host
+            self.dbport = int(self.con.ysy_db_port)
+            self.dbname = self.con.yhz_db_name
+            self.db_user = self.con.ysy_db_user
+            self.pwd = self.con.ysy_db_pwd
         elif 'ysy_o2o' == envir:       # 小猪正式环境--很多都和一生约正式相同
             self.dbhost = self.con.ysy_db_host
             self.dbport = int(self.con.ysy_db_port)
@@ -66,7 +72,7 @@ class OperateSqlAl(object):
             data = self.bytes_to_str(data[0])
             return data
         except Exception:
-            print('\033[1;33m"sql执行异常，请检查"\033[3;31m')
+            print('\033[1;33m"sql执行异常，请检查"\033[0m \n')
         finally:
             cursor.close()
             db.close()  # 关闭数据库
